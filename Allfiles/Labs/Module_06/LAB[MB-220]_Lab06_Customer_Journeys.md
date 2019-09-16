@@ -186,7 +186,7 @@ Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
 
     - In the Expression 1 section, set the following:
 
-        1.  Field: Customer Journey ID
+        1.  Field: Customer Journey Iteration ID
 
         2.  Operator: =
 
@@ -198,7 +198,7 @@ Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
 
 5.  Add score for opening an email.
 
-    - From the Toolbox, drag a condition below Request a Quote Journey. Name
+    - From the Toolbox, drag a condition below Journey Completed. Name
         the condition Email Opened.
 
     - On the condition tile, select the arrow down button to expose the child
@@ -244,7 +244,7 @@ Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
 
     - In the Expression 1 box, set the following:
 
-        1.  Field: Page ID
+        1.  Field: Page Address
 
         2.  Operator: =
 
