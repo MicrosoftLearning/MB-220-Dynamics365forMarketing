@@ -66,17 +66,17 @@ page you created.
         Select the child segment and name it Contoso Southwest. In the segment
         field, search for the Contoso Southwest Excluding Competitors Segment
         you created in Lab 4.
-
-    - From the Toolbox select the scheduler tile and drag it to the right of
+	
+- From the Toolbox select the scheduler tile and drag it to the right of
         the segment tile. In the properties, set the following:
 
-        1.  Tile Name: One week
+    1. Tile Name: One week
 
-        2.  Scheduler type: Date and time
+    2.  Scheduler type: Date and time
 
-        3.  Date and Time: One week from your current date
+    3.  Date and Time: One week from your current date
 
-        4.  Permitted Times: Weekdays 8:00 AM – 5:00 PM (17:00)
+    4.  Permitted Times: Weekdays 8:00 AM – 5:00 PM (17:00)
 
 8.  Set up the email and marketing page for the journey.
 
