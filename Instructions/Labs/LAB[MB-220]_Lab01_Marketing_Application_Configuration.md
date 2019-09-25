@@ -1,7 +1,14 @@
+---
+lab:
+    title: 'Lab: Prepare Marketing environment'
+    module: 'Module 1: Marketing Application Configuration'
+---
+
+
 Module 1: Marketing Application Configuration
 ========
 
-## Practice Lab 1
+## Practice Lab 1: Prepare Marketing Environment 
 
 Lab Overview
 ============
