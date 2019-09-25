@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Create and launch a customer journey'
+    module: 'Module 6: Customer Journeys'
+---
+
+
 Module 6: Customer Journeys
 =====
 
