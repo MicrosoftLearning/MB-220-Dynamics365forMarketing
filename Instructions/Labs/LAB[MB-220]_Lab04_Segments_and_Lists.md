@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Work with segments'
+    module: 'Module 4: Segments and Lists'
+---
+
+
 Module 4: Segments and Lists
 ======
 
