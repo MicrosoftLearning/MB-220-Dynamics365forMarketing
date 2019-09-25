@@ -1,8 +1,15 @@
 
+---
+lab:
+    title: 'Lab: Lead scoring'
+    module: 'Module 2: Leads'
+---
+
+
 Module 2: Leads
 =======
 
-## Practice Lab 2
+## Practice Lab 2: Lead scoring
 
 Lab Overview
 ============
