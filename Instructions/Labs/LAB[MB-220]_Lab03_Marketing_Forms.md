@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Create marketing forms and pages'
+    module: 'Module 3: Marketing Forms, Marketing Pages and Internet Marketing'
+---
+
+
 Module 3: Marketing Forms, Marketing Pages and Internet Marketing 
 ======
 
