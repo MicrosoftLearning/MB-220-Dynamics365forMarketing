@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Create and distribute a marketing email'
+    module: 'Module 5: Marketing Emails'
+---
+
+
 Module 5: Marketing Emails
 =======
 
