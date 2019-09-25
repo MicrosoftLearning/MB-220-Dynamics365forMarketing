@@ -1,6 +1,5 @@
-
 ---
-lab: 
+lab:
     title: 'Lab: Lead scoring'
     module: 'Module 2: Leads'
 ---
