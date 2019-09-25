@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Manage product catalog'
+    module: 'Module 8: Events'
+---
+
+
 Module 8: Events
 =====
 
