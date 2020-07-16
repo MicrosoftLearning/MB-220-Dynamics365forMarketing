@@ -9,17 +9,6 @@ lab:
 ## Practice Lab 1: Prepare Marketing Environment 
 ----
 
-## Important notice re: tenants - temporary workaround
-
-As of January 23, 2020, WWL is unable to provide students with pre-provisioned Dynamics 365 access, and is working on a solution that should be available in the next 4-6 weeks. As a workaround, we are recommending using Dynamics 365 Trial accounts. Each student will be responsible for requesting these. To help students in getting the Dynamics 365 tenants (including Marketing), M365 tenants will be provided through the Authorized Lab Hosters. This is a short-term solution and we will keep all stakeholders including Learning Partners and MCTs updated as progress is made and advise as a more permanent solution timeline for pre-provisioning Dynamics 365 access for lab use is established. Please work with your Authorized Lab Hoster for provisioning of the M365 Tenants for the students and follow the instructions below to use the M365 tenant to secure a Dynamics 365 trial for your appropriate application.
- 
-1. Using your provided M365 credential, log into https://admin.microsoft.com/ and accept the terms.
-2. Once you’ve logged in successfully, access https://trials.dynamics.com/Dynamics365/marketing.
-3. Under “Work email,” enter the email address from the M365 tenant. Under “phone number,” enter your own phone number.
-4. Select Get Started.
-5. You will be prompted to enter your password for the on.microsoft.com account. Enter the password provided for the M365 tenant.
-6. If you are prompted to accept terms and conditions, accept them. Your environment may take a few minutes to provision.
-
 Lab Overview
 ============
 
@@ -27,12 +16,12 @@ Scenario
 --------
 
 Contoso is an insurance company that has outgrown their single-send marketing
-software and are looking to obtain a more holistic view of their marketing
+software and is looking to obtain a more holistic view of their marketing
 efforts to help facilitate sales.
 
-Contoso already has Dynamics 365 for Customer Engagement. Because of its
+Contoso already has Dynamics 365 customer engagement apps. Because of its
 seamless integration, the marketing department decides to move forward with
-Dynamics 365 for Marketing.
+Dynamics 365 Marketing.
 
 Contoso already has email templates they have been using in their previous
 software. They want to transfer their marketing assets along with their contact
@@ -47,15 +36,15 @@ This lab compromises of two exercises:
     pages and emails.
 
 2.  In the second exercise, you will import accounts and contacts to Dynamics
-    365 for Marketing from csv files.
+    365 Marketing from csv files.
 
  What you’ll need:
 ------------------
 
--   A computer with a Dynamics 365 for Marketing environment
+-   A computer or VM with a Dynamics 365 Marketing environment
 
 -   10 image files to be used in marketing content and 2 csv files containing
-    Contoso contact and account data:
+    Contoso contact and account data. These can be found in the AllFiles folder on GitHub, or may be distributed directly by your MCT.
 
     -   briefcase.png
 
@@ -90,7 +79,8 @@ will need to upload the marketing assets to Dynamics 365 for Marketing.
 1.  Download the image files from the resource documents. Extract the files to a
     folder on your desktop.
 
-2.  Log into Dynamics 365 for Marketing.
+2.  Navigate to admin.powerplatform.com and log in using your user credentials. Once authenticated, navigate to the **square grid** home button in the upper left corner (directly to the left of **Power Platform admin center**). Select **Dynamics 365** from the list of apps. 
+	- You may have to wait a few minutes while the app gets ready to launch. 
 
 3.  Navigate to Files in the Marketing Content section and click the + Upload
     button to open the upload files window. Add the 10 image files.
