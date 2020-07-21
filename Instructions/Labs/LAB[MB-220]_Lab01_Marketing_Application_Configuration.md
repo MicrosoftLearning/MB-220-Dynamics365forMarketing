@@ -79,10 +79,11 @@ will need to upload the marketing assets to Dynamics 365 for Marketing.
 1.  Download the image files from the resource documents. Extract the files to a
     folder on your desktop.
 
-2.  Navigate to admin.powerplatform.com and log in using your user credentials. Once authenticated, navigate to the **square grid** home button in the upper left corner (directly to the left of **Power Platform admin center**). Select **Dynamics 365** from the list of apps. 
-	- You may have to wait a few minutes while the app gets ready to launch. 
+2.  Navigate to home.dynamics.com and sign in with your user credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
 
-3.  Navigate to Files in the Marketing Content section and click the + Upload
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
+
+3.  From the list of the available apps, select **Marketing.** The Marketing app will open. In the left menu, navigate to **Files** in the Marketing Content section and click the + Upload
     button to open the upload files window. Add the 10 image files.
 
 4.  While the upload window is open, add the keywords “logo” and “contoso” to
@@ -112,21 +113,16 @@ them before importing.
 1.  Download the csv files from the resource documents. Extract the files to a
     folder on your desktop.
 
-2.  Log into Dynamics 365 for Marketing.
-
-3.  Since these are Accounts, you can upload them directly in the Accounts
-    section. However, for this exercise, we are going to import them from the
-    Settings area. Navigate to the Advanced Settings menu and the Import Data
+2.  Since these are Accounts, you can upload them directly in the Accounts
     section.
 
-4.  The import entity will be account and the file type is csv.
+3. Click the Gear icon in the upper right corner to access Advanced Settings. Select **Data Management** and then select **Imports.**
 
-5.  Select quotation mark for the delimiter settings.
+4.  Click **Import Data** and select the **Contoso Accounts** file. 
 
-6.  Map the column headings to the corresponding fields in Dynamics 365 for
-    Marketing:
+5.  Select quotation mark for the data delimiter settings. Select **Next**. When prompted with **Select Data Map**, hit **Next.**
 
-    -  Account Name = Company Name
+6.  Select **Account** for the entity and click **Next.** Select **Col1** for the Account Name field.
 
 7.  Finish the import.
 
@@ -134,13 +130,7 @@ them before importing.
         show both successes and errors. That is expected and you can continue
         onto the next step.
 
-8.  Contacts can be uploaded directly in the Contacts section. However, for this
-    exercise, we are going to import them from the Settings area. Navigate to
-    the Advanced Settings menu and the Import Data section.
-
-9.  The import entity will be contact and the file type is csv.
-
-10. Select quotation mark for the delimiter settings.
+8.  Repeat this process for the **Contoso Contacts** file, selecting the **Contact** entity as the target entity instead. All options will be the same until you reach the **Map Fields** window.
 
 11. Map the column headings to the corresponding fields in Dynamics 365 for
     Marketing:
@@ -151,12 +141,13 @@ them before importing.
     -  Email = Email
 
     -  First Name = First Name
+    
+    - Gender = Gender (Option Set)
 
     -  Marketing Contacts = Marketing Only (Two Options)
-
-        1.  Yes = Yes
-
-        2.  Click OK
+    	- Empty = Ignore
+	- Yes = Yes
+	- Press OK.
 
     -  State = Address 1: State/Province
 
