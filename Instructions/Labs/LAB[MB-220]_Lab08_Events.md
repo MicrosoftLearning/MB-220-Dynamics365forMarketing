@@ -44,7 +44,7 @@ This lab comprises of one exercise:
 What You’ll Need
 ----------------
 
--   A computer with a Dynamics 365 for Marketing environment
+-   A computer with a Dynamics 365 Marketing environment
 
 -   2 image files for upload:
 
