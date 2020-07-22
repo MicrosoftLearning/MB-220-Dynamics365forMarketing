@@ -274,3 +274,5 @@ Exercise 1. This is where you will direct leads to request a quote.
 
 35. After you submit, ensure your
     redirecting URL works based on the details you added in step 19.
+    
+36. Return to Dynamics 365 Marketing and select **Leads** from the **Lead management** group. You should see the **[my prefix] Stark** lead in the view. (It may take a few minutes to show up. Refresh the page after a few minutes if your lead is not showing.)
