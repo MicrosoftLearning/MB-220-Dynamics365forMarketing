@@ -31,17 +31,17 @@ This lab compromises of one exercise:
  What you’ll need:
 ------------------
 
--   A computer with a Dynamics 365 for Marketing environment
+-   A computer with a Dynamics 365 Marketing environment
 
 Exercise 1: Create an email from a template
 ===========================================
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to Marketing Emails and create a new email using the gairo
+2.  Navigate to **Marketing emails** in the **Marketing execution** group. Create a new email using the gairo
     template.
 
-3.  Name the email Contoso Request a Quote Email and type the following in the
+3.  In the upper right corner, select the dropdown carrot and name the email **[my prefifx] Contoso Request a Quote Email**. Type the following in the
     subject line: “Contoso offers your business protection when you need it”.
 
 4.  From the designer, change the text in the preheader at the top left from
@@ -65,11 +65,19 @@ Exercise 1: Create an email from a template
     paste, the formatting may change. You may want to type the new text instead
     of copy and paste.
 
-9.  Select the button, change the text to “Request a Quote”. In the properties,
-    change the background color to \#31459c, center align and change the width
-    to 220. In the link field, use the assist edit icon to select the Contoso
-    Request a Quote Page you created in Lab 3. Be sure to select the
-    msdyncrm_full_page_URL.
+9.  Select the button and change the text to “Request a Quote”. 
+
+    - In the properties, change the background color to #31459c, center align and change the width to 220. 
+    
+    - In the link field, select the </> icon and click **Static content** in the pop-up. 
+    
+    - Select **MarketingPage** as the entity. 
+    
+    - In the field, start typing your prefix. Select **[my prefix] Request a Quote Page.** 
+    
+    - Select **No relationship (select a field from MarketingPage)** and choose **msdyncrm_full_page_url.** 
+    
+    - Finally, press **Insert.**
 
 10. Remove the text below the button. This text was hard coded to the template
     instead of added using one of the standard toolbox elements. That means you
@@ -77,8 +85,9 @@ Exercise 1: Create an email from a template
     for “Or verify using this link”. When you find that in the code, start by
     selecting the open parentheses p (\<p\>) before it and drag to the close
     parentheses p after it (\</p\>) then hit delete. The full text you are
-    deleting is \<p class="verify"\>Or verify using this link: \<a
-    href="http://www.fabrikam.com"\>http://www.fabrikam.com\</a\> \</p\>
+    deleting is:
+    
+        <p class="verify">Or verify using this link: <a href="http://www.fabrikam.com"\>http://www.fabrikam.com\</a> \</p>
 
 11. Return to the designer tab and update the copyright to this year and change
     the company to Contoso.
@@ -86,10 +95,5 @@ Exercise 1: Create an email from a template
 12. Preview the email.
 
 13. Save and check for errors. Correct any if needed.
-
-14. Send yourself a test email. (You may need to check your junk folder to find
-    the email.)
-
-15. Make any final changes as needed.
 
 16. Go live.
