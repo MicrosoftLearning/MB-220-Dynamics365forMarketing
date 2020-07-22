@@ -37,7 +37,7 @@ This lab compromises of three exercises:
  What you’ll need:
 ------------------
 
--   A computer with a Dynamics 365 for Marketing environment
+-   A computer with a Dynamics 365 Marketing environment
 
 Exercise 1: Create a dynamic segment 
 =====================================
@@ -47,27 +47,31 @@ uploaded a list of contacts into the system. Now you need to create a segment
 pulling in specific contacts. The segment is what will be used in the customer
 journey to interact with your intended audience.
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to Segments and create a new segment.
+2.  Navigate to **Segments** in the left menu, in the **Customers** group. Select **+New** and choose **+New Dynamic Segment.**
 
-3.  Name the segment Contoso Southwest Segment. Ensure the type is dynamic.
+3.  When prompted to select a Segment Template, click **Skip.** 
 
-4.  Navigate to the Definition tab.
+4.  In the **Definition** tab, name the segment **[my prefix] Contoso Southwest Segment**. 
 
-5.  Add the following statements:
+5.  Select **Add Query Block.** A box will appear and the entity **Contact** should be selected. If it is not, change the query entity to Contact. Add the following statements:
 
-    - Contact Address 1: State/Province is California OR
+    - Address 1: State/Province **equals** California 
+    
+    - Click +Add and select **Add contion to Contact** using **OR**
 
-    - Contact Address 1: State/Province is Arizona OR
+    - Address 1: State/Province **equals** Arizona
+    
+    - Click +Add and select **Add contion to Contact** using **OR**
 
-    - Contact Address 1: State/Province is Texas
+    - Address 1: State/Province **equals** Texas
 
 6.  Save and check for errors. Correct any if needed.
 
 7.  Go live.
 
-8.  Give the system time, come back and ensure your members match the contacts
+8.  Give the system time and refresh if needed. After a few minutes, reopen the segment and navigate to the **Members** tab. Ensure your members match the contacts
     you uploaded.
 
 Exercise 2: Create a segment using union, exclude, or intersect logic
@@ -79,23 +83,23 @@ in anyone that comes from Relecloud. You then want to create a new segment using
 the exclude logic to make sure these contacts are not included in your customer
 journey.
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
 2.  Navigate to Segments and create a suppression segment for your competitors.
 
-    - Create a new segment.
+    - Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
+    
+    - When prompted to select a template, click **Skip.**
 
-    - Name the segment Relecloud Suppression Segment.
+    - Name the segment **[my prefix] Relecloud Suppression Segment.**
 
-    - Ensure type is dynamic.
+3. Generate a statement so that: Contact’s Account is Relecloud And Contacts All.
 
-    - Navigate to the Definition tab.
-
-    - Generate a statement so that: Contact’s Account is Relecloud And
-        Contacts All\*.
-
-        - Note: When choosing an account, begin typing the name and then
-            select it (instead of manually typing the entire name).
+    - Click **+New Query Block.**
+    
+    - **Contact** should be selected as the query entity.
+    
+    - Create the following condition: Account **equals** Relecloud.
 
     - Save and check for errors. Correct any if needed.
 
@@ -103,16 +107,17 @@ journey.
 
 3.  Create a segment for all your southwest contacts except your competitors.
 
-    - Create a new segment.
+    - Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
+    
+    - When prompted to select a template, click **Skip.**
 
-    - Name the segment Contoso Southwest Excluding Competitors Segment.
+    - Name the segment **[my prefix] Contoso Southwest Excluding Competitors Segment**.
 
-    - Change type to compound.
+    - Select **Add segment block.**
 
-    - Navigate to Definition tab.
+    - Start by typing your prefix into the Segment field. Select the **[my prefix] Contoso Southwest Segment** segment from Exercise 1.
 
-    - Select the Contoso Southwest Segment from Exercise 1, exclude the
-        Relecloud Suppression Segment you just created.
+    - Click **Add Segment Block** again. Change the modifier below to **but not**. Start typing your prefix into the field and select the **[my prefix] Relecloud Suppression Segment** segment.
 
     - Save and check for errors. Correct any if needed.
 
