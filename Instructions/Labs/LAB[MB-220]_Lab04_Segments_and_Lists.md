@@ -99,7 +99,7 @@ journey.
     
     - **Contact** should be selected as the query entity.
     
-    - Create the following condition: Account **equals** Relecloud.
+    - Create the following condition: Company Name **equals** Relecloud.
 
     - Save and check for errors. Correct any if needed.
 
@@ -130,37 +130,36 @@ Since Contoso is new to Dynamics 365 for Marketing, you will need to create a
 subscription center page for anyone to be able to opt out of communications from
 Contoso.
 
-1.  Log into Dynamics 365.
+1.  Open a new tab. Navigate to home.dynamics.com.
 
-2.  Navigate to Surveys from the app selector menu.
+2.  Select **Surveys.**
 
-3.  Under the Marketing work area, select Marketing Lists.
+3.  Under the **Customers** group in the left menu, select **Marketing Lists.**
 
-4.  Create a subscription list.
+4.  Select **+New subscription list.**
 
-    - Navigate to Marketing Lists and create a new list.
-
-    - Name the list Contoso Subscription List and set the Subscription to
-        True.
+    - Name the list **[my prefix] Contoso Subscription List**.
 
     - Save your changes.
 
 5.  Add the subscription list to a subscription form.
 
-    - Navigate to Marketing Forms and create a new form using the herakloin
+    - Return to the Marketing app.
+    
+    - Navigate to **Marketing Forms** under the **Internet marketing** group.  Create a new form using the herakloin
         template.
 
-    - Name the form Contoso Subscription Form. Ensure the type is subscription
+    - Click the **Summary** tab. Name the form **[my prefix] Contoso Subscription Form**. Ensure the type is subscription
         center and that only contacts are updated.
 
-    - Update the header to: “Please update your preferences below”. Center
-        align and change the font to Seqoe UI.
+    - Return to the **Designer** tab. Update the header to: “Please update your preferences below”. Center
+        align and change the font to Segoe UI.
 
-    - Update the font for First Name, Last Name, Phone, and Email to Seqoe UI.
+    - Update the font for First Name, Last Name, Phone, and Email to Segoe UI.
 
     - Make First Name, Last Name, and Email required.
 
-    - From the Toolbox, drag the Contoso Subscription List above Do not email.
+    - From the Toolbox, drag the **[my prefix]] Contoso Subscription List** above Do not email.
         Change the Label to Contoso Newsletter and select prefill.
 
     - Remove [Update subscriptions heading].
@@ -171,18 +170,17 @@ Contoso.
 
 6.  Create a new marketing page.
 
-    - Navigate to Marketing Pages and create a new page using the blank
-        template.
+    - Navigate to Marketing pages and click **+New**. When prompted to select a template, click **Skip.**
 
-    - Name the page Contoso Subscription Page with a type of subscription
-        center and enter the partial URL as subscription.
+    - Click the dropdown in the upper right corner. Name the page **[my prefix] Contoso Subscription Page** with a type of subscription
+        center and enter the partial URL as **[myprefix]subscription**. It should look like the following: **mollycsubscription.**
 
-    - Drag and drop an Image block. Add the Contoso logo and center align.
+    - Drag and drop an Image block. Add the Contoso logo and ensure that **Center** is selected for **Alignment**.
 
-    - Drag and drop a Form block below the image. Search for the Contoso
-        Subscription Form you just created. Input the following:
+    - Return to the **Toolbox** tab. Drag and drop a Form block below the image. Start by typing in your prefix into the search box and select the **[my prefix] Contoso
+        Subscription Form** you just created. Input the following:
 
-        1.  Confirmation message: Thank you. Your submission has been received.
+        1.  Success notification: Thank you. Your submission has been received.
 
         2.  Error message: Something went wrong. Please try again.
 
