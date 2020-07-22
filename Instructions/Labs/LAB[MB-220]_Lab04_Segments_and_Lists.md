@@ -190,24 +190,3 @@ Contoso.
 
     - Go live.
 
-7.  Update content settings.
-
-    - Navigate to Content Settings in the Templates section and select the
-        default content settings record. You will need to stop the entity record
-        before you can update. Add the following:
-
-        1.  Address main: 4567 Main St. Seattle, WA 98052
-
-        2.  LinkedIn URL: https://www.linkedin.com/company/contoso12345/about/
-
-        3.  Twitter URL: https://twitter.com/ContosoInc
-
-        4.  Facebook URL: https://www.facebook.com/Contoso-102137176602590/
-
-        5.  Subscription center: Use the edit assist option to select the
-            Contoso Subscription Page you just created. Be sure to select the
-            FullPageURL.
-
-    - Save and check for errors. Correct any if needed.
-
-    - Go live.
