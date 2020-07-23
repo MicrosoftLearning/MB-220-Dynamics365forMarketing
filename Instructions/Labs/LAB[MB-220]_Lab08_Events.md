@@ -17,8 +17,7 @@ Lab Overview
 Scenario
 --------
 
-Contoso is hosting an annual conference at the Minneapolis Convention Center.
-Below is the event invitation.
+Contoso is hosting an annual conference.
 
 You need to create an event record in Dynamics 365 Marketing and start
 filling out all the planning information regarding the event. The event is
