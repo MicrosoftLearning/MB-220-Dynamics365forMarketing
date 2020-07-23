@@ -20,13 +20,13 @@ Scenario
 Contoso is hosting an annual conference at the Minneapolis Convention Center.
 Below is the event invitation.
 
-You need to create an event record in Dynamics 365 for Marketing and start
+You need to create an event record in Dynamics 365 Marketing and start
 filling out all the planning information regarding the event. The event is
 happening on site only and has 150 seats available. The waitlist is allowed and
 for each available spot, 10 invitations will be sent out. When additional seats
 are available, you want waitlisted contacts to be registered automatically.
 
-There are two guest speakers as described in the invitation. This is a free
+There are two guest speakersn. This is a free
 event and guests will need to accommodate their own stays.
 
 The event registration will be done via the event portal. You want to add
@@ -103,7 +103,7 @@ Exercise 1: Create an in-person event
     - In the Venue constraints section, verify the capacity and update the
         waitlist for this event field to Yes.
 
-    - In the Waitlist section, update the number of invitations per slot as **2** and
+    - In the Waitlist section, update the number of invitations per slot as **10** and
         automatically register waitlisted contacts per the invite.
 
     - Save the event record.
@@ -122,7 +122,7 @@ Exercise 1: Create an in-person event
 
     - Create two new speaker engagements. When you create a new speaker
         engagement, you will need to name the record and then create a new
-        speaker using the names from the invite. Both speakers are external.
+        speaker. Both speakers are external. Create the speaker records using your prefix (for example, **[my prefix] Percy Bowman.**)
         Percy Bowman’s email is <pbowman@adatum.com> and Emma Lowton’s email is
         <elowton@adventure-works.com>. Percy will be speaking at the first
         session and Emma will be speaking at the second. Be sure to associate
