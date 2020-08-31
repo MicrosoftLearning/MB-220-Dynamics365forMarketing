@@ -38,7 +38,7 @@ This lab compromises of three exercises:
  What you’ll need:
 ------------------
 
--   A computer with a Dynamics 365 for Marketing environment
+-   A computer with a Dynamics 365 Marketing environment
 
 Exercise 1: Create an outbound customer journey
 ===============================================
@@ -48,17 +48,14 @@ will add a segment, which defines the audience that will be targeting by journey
 along with the marketing email that directs contacts to the marketing form and
 page you created.
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to Customer Journeys and create a new journey using a blank
-    template.
+2.  Navigate to **Customer Journeys** from the **Marketing execution** group. Click **+New**. When prompted to select a template, click **Skip.**
 
-3.  Name the journey Contoso Request a Quote Journey. Select today as a start
-    date and 1:00 PM as the time. Set recurring as yes.
+3.  Click the dorpdown carrot in the upper right corner. Name the journey **[my prefix] Contoso Request a Quote Journey**. Select today as a start
+    date and 4:00 PM as the time. Set recurring as yes.
 
-4.  Switch to the General tab. Ensure target is set to contact. In the content
-    settings field, notice the default content settings you updated in Lab 4 has
-    been automatically added. Set the recurrence count and recurrence interval
+4.  Switch to the General tab. Ensure target is set to contact. Set the recurrence count and recurrence interval
     both to 1.
 
 5.  Save your changes.
@@ -67,12 +64,12 @@ page you created.
 
 7.  Define the audience for the journey.
 
-   - Drag a segment time from the Toolbox onto the canvas. Switch to the
-        Properties tab and name the segment group Contoso Contacts. On the
-        segment, select the arrow down button to expose the child segment.
+   - Drag a segment tile from the Toolbox onto the canvas. Switch to the
+        Properties tab and name the tile Contoso Contacts. On the
+        segmen tilet, select the arrow down button to expose the child segment.
         Select the child segment and name it Contoso Southwest. In the segment
-        field, search for the Contoso Southwest Excluding Competitors Segment
-        you created in Lab 4.
+        field, search for the **[my prefix] Contoso Southwest Excluding Competitors Segment**
+        you created in Lab 4 by starting to type in your prefix.
 	
 - From the Toolbox select the scheduler tile and drag it to the right of
         the segment tile. In the properties, set the following:
@@ -83,7 +80,7 @@ page you created.
 
     3.  Date and Time: One week from your current date
 
-    4.  Permitted Times: Weekdays 8:00 AM – 5:00 PM (17:00)
+    4.  Permitted Times (need to expand): Weekdays 8:00 AM – 5:00 PM (17:00)
 
 8.  Set up the email and marketing page for the journey.
 
@@ -92,19 +89,18 @@ page you created.
 
     - In the properties, name the email tile Contoso Request a Quote Email.
 
-    - In the marketing email message field, search for the Contoso Request a
-        Quote Email you created in Lab 5.
+    - In the marketing email message field, search for your prefix and add the **[my prefix] Contoso Request a Quote Email** you created in Lab 5.
 
-    - From the Toolbox, select the marketing page tile and drag and drop it on
+    - From the Toolbox, select the marketing page tile and drag and drop it on top of the
         the email tile.
 
     - On the email tile, select the arrow down button to expose the marketing
         page tile.
 
-    - Select the marketing page sub tile and in the properties, name the tile
+    - Select the marketing page sub-tile and in the properties, name the tile
         Contoso Request a Quote Page.
 
-    - In the marketing page field, search for the Contoso Request a Quote Page
+    - In the marketing page field, search for your prefix and add the **[my prefix] Contoso Request a Quote Page**
         you created in Lab 3.
 
 9.  Add a trigger.
@@ -112,17 +108,17 @@ page you created.
     - From the Toolbox, select the trigger tile and drag it to the right of
         the email tile.
 
-    - In the properties, name the trigger Requested a quote?
+    - In the properties, name the trigger **Requested a quote?**
 
     - Set the timeout to 14 days.
 
-    - Add a new rule:
+    - Add a new rule by clicking **+New** next to **Set rules.**
 
         1.  Source: Contoso Request a Quote Page
 
-        2.  Condition: User Registered
+        2.  Condition: Trigger_Condition_UserRegistered
 
-			- Note: When you add a trigger tile, two paths will automatically appear – a positive path, denoted with a checkmark and a negative path, denoted with an x. This scenario will only use the positive path.
+	- **Note:** When you add a trigger tile, two paths will automatically appear – a positive path, denoted with a checkmark and a negative path, denoted with an x. This scenario will only use the positive path.
 
 10.  Add an activity.
 
@@ -137,7 +133,7 @@ page you created.
 
         1.  Name: Notify Owner
 
-        2.  Owner: Set to your personal user record
+        2.  Owner: your personal user account (should be default)
 
         3.  Subject: A quote has been requested
 
@@ -171,13 +167,13 @@ https://\<orgname\>.crm.dynamics.com/main.aspx?appid=6fd89d4b-06b5-e811-a972-00d
 
 Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to Lead Scoring Models and open the Contoso Southwest Outreach
-    Model you created in Lab 2.
+2.  Navigate to **Scoring Models** in the **Lead management** section of the left menu. Open the **[my prefix] Contoso Southwest Outreach
+    Model** you created in Lab 2.
 
 3.  Click stop from the command bar. Click OK in the pop up. Wait until the
-    status reason has changed to draft. This may take several minutes.
+    status reason has changed from Stopping to Draft. This may take several minutes. You can check the status by clicking the **Refresh** button in the command bar.
 
 4.  Add a score for completing the customer journey.
 
@@ -187,13 +183,13 @@ Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
     - On the condition tile, select the arrow down button to expose the child
         condition. Select the child condition and name it Journey Completed.
 
-    - In the entity field, select Create activity contact processed.
+    - In the entity field, select **Trigger workflow activity contact processed.**
 
     - Set the frequency to each and the date range of a lifetime.
 
     - In the Expression 1 section, set the following:
 
-        1.  Field: Customer Journey Iteration ID
+        1.  Field: Customer journey iteration ID
 
         2.  Operator: =
 
@@ -226,7 +222,7 @@ Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
         condition Email Clicked.
 
     - On the condition tile, select the arrow down button to expose the child
-        condition. Select the child condition and name it Email Clicked
+        condition. Select the child condition and name it Email Clicked.
 
     - In the entity field, select Email clicked.
 
@@ -271,11 +267,11 @@ Exercise 3: Go live with the customer journey
 Now that you have updated the lead scoring model, you are ready to kick off the
 customer journey.
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to the Customer Journeys section.
+2.  Navigate to **Customer journeys** in the **Marketing execution** section of the left menu.
 
-3.  Select the Contoso Request a Quote customer journey you created in Exercise
+3.  Select the **[my prefix] Contoso Request a Quote** customer journey you created in Exercise
     1.
 
 4.  Click go live from the command bar.

@@ -37,7 +37,7 @@ This lab compromises of three exercises:
  What you’ll need:
 ------------------
 
--   A computer with a Dynamics 365 for Marketing environment
+-   A computer with a Dynamics 365 Marketing environment
 
 Exercise 1: Create a dynamic segment 
 =====================================
@@ -47,27 +47,31 @@ uploaded a list of contacts into the system. Now you need to create a segment
 pulling in specific contacts. The segment is what will be used in the customer
 journey to interact with your intended audience.
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to Segments and create a new segment.
+2.  Navigate to **Segments** in the left menu, in the **Customers** group. Select **+New** and choose **+New Dynamic Segment.**
 
-3.  Name the segment Contoso Southwest Segment. Ensure the type is dynamic.
+3.  When prompted to select a Segment Template, click **Skip.** 
 
-4.  Navigate to the Definition tab.
+4.  In the **Definition** tab, name the segment **[my prefix] Contoso Southwest Segment**. 
 
-5.  Add the following statements:
+5.  Select **Add Query Block.** A box will appear and the entity **Contact** should be selected. If it is not, change the query entity to Contact. Add the following statements:
 
-    - Contact Address 1: State/Province is California OR
+    - Address 1: State/Province **equals** California 
+    
+    - Click +Add and select **Add contion to Contact** using **OR**
 
-    - Contact Address 1: State/Province is Arizona OR
+    - Address 1: State/Province **equals** Arizona
+    
+    - Click +Add and select **Add contion to Contact** using **OR**
 
-    - Contact Address 1: State/Province is Texas
+    - Address 1: State/Province **equals** Texas
 
 6.  Save and check for errors. Correct any if needed.
 
 7.  Go live.
 
-8.  Give the system time, come back and ensure your members match the contacts
+8.  Give the system time and refresh if needed. After a few minutes, reopen the segment and navigate to the **Members** tab. Ensure your members match the contacts
     you uploaded.
 
 Exercise 2: Create a segment using union, exclude, or intersect logic
@@ -79,23 +83,23 @@ in anyone that comes from Relecloud. You then want to create a new segment using
 the exclude logic to make sure these contacts are not included in your customer
 journey.
 
-1.  Log into Dynamics 365 for Marketing.
+1.  Log into Dynamics 365 Marketing.
 
 2.  Navigate to Segments and create a suppression segment for your competitors.
 
-    - Create a new segment.
+    - Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
+    
+    - When prompted to select a template, click **Skip.**
 
-    - Name the segment Relecloud Suppression Segment.
+    - Name the segment **[my prefix] Relecloud Suppression Segment.**
 
-    - Ensure type is dynamic.
+3. Generate a statement so that: Contact’s Account is Relecloud And Contacts All.
 
-    - Navigate to the Definition tab.
-
-    - Generate a statement so that: Contact’s Account is Relecloud And
-        Contacts All\*.
-
-        - Note: When choosing an account, begin typing the name and then
-            select it (instead of manually typing the entire name).
+    - Click **+New Query Block.**
+    
+    - **Contact** should be selected as the query entity.
+    
+    - Create the following condition: Company Name **equals** Relecloud.
 
     - Save and check for errors. Correct any if needed.
 
@@ -103,16 +107,17 @@ journey.
 
 3.  Create a segment for all your southwest contacts except your competitors.
 
-    - Create a new segment.
+    - Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
+    
+    - When prompted to select a template, click **Skip.**
 
-    - Name the segment Contoso Southwest Excluding Competitors Segment.
+    - Name the segment **[my prefix] Contoso Southwest Excluding Competitors Segment**.
 
-    - Change type to compound.
+    - Select **Add segment block.**
 
-    - Navigate to Definition tab.
+    - Start by typing your prefix into the Segment field. Select the **[my prefix] Contoso Southwest Segment** segment from Exercise 1.
 
-    - Select the Contoso Southwest Segment from Exercise 1, exclude the
-        Relecloud Suppression Segment you just created.
+    - Click **Add Segment Block** again. Change the modifier below to **but not**. Start typing your prefix into the field and select the **[my prefix] Relecloud Suppression Segment** segment.
 
     - Save and check for errors. Correct any if needed.
 
@@ -125,37 +130,36 @@ Since Contoso is new to Dynamics 365 for Marketing, you will need to create a
 subscription center page for anyone to be able to opt out of communications from
 Contoso.
 
-1.  Log into Dynamics 365.
+1.  Open a new tab. Navigate to home.dynamics.com.
 
-2.  Navigate to Surveys from the app selector menu.
+2.  Select **Surveys.**
 
-3.  Under the Marketing work area, select Marketing Lists.
+3.  Under the **Customers** group in the left menu, select **Marketing Lists.**
 
-4.  Create a subscription list.
+4.  Select **+New subscription list.**
 
-    - Navigate to Marketing Lists and create a new list.
-
-    - Name the list Contoso Subscription List and set the Subscription to
-        True.
+    - Name the list **[my prefix] Contoso Subscription List**.
 
     - Save your changes.
 
 5.  Add the subscription list to a subscription form.
 
-    - Navigate to Marketing Forms and create a new form using the herakloin
+    - Return to the Marketing app.
+    
+    - Navigate to **Marketing Forms** under the **Internet marketing** group.  Create a new form using the herakloin
         template.
 
-    - Name the form Contoso Subscription Form. Ensure the type is subscription
+    - Click the **Summary** tab. Name the form **[my prefix] Contoso Subscription Form**. Ensure the type is subscription
         center and that only contacts are updated.
 
-    - Update the header to: “Please update your preferences below”. Center
-        align and change the font to Seqoe UI.
+    - Return to the **Designer** tab. Update the header to: “Please update your preferences below”. Center
+        align and change the font to Segoe UI.
 
-    - Update the font for First Name, Last Name, Phone, and Email to Seqoe UI.
+    - Update the font for First Name, Last Name, Phone, and Email to Segoe UI.
 
     - Make First Name, Last Name, and Email required.
 
-    - From the Toolbox, drag the Contoso Subscription List above Do not email.
+    - From the Toolbox, drag the **[my prefix]] Contoso Subscription List** above Do not email.
         Change the Label to Contoso Newsletter and select prefill.
 
     - Remove [Update subscriptions heading].
@@ -166,18 +170,17 @@ Contoso.
 
 6.  Create a new marketing page.
 
-    - Navigate to Marketing Pages and create a new page using the blank
-        template.
+    - Navigate to Marketing pages and click **+New**. When prompted to select a template, click **Skip.**
 
-    - Name the page Contoso Subscription Page with a type of subscription
-        center and enter the partial URL as subscription.
+    - Click the dropdown in the upper right corner. Name the page **[my prefix] Contoso Subscription Page** with a type of subscription
+        center and enter the partial URL as **[myprefix]subscription**. It should look like the following: **mollycsubscription.**
 
-    - Drag and drop an Image block. Add the Contoso logo and center align.
+    - Drag and drop an Image block. Add the Contoso logo and ensure that **Center** is selected for **Alignment**.
 
-    - Drag and drop a Form block below the image. Search for the Contoso
-        Subscription Form you just created. Input the following:
+    - Return to the **Toolbox** tab. Drag and drop a Form block below the image. Start by typing in your prefix into the search box and select the **[my prefix] Contoso
+        Subscription Form** you just created. Input the following:
 
-        1.  Confirmation message: Thank you. Your submission has been received.
+        1.  Success notification: Thank you. Your submission has been received.
 
         2.  Error message: Something went wrong. Please try again.
 
