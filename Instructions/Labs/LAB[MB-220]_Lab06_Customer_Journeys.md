@@ -122,14 +122,14 @@ page you created.
 
 10.  Add an activity.
 
-    - From the Toolbox, select the activity tile and drag it to the positive
+   - From the Toolbox, select the activity tile and drag it to the positive
         path for the Request a quote trigger.
 
-    - In the properties, name the action Notify Owner.
+   - In the properties, name the action Notify Owner.
 
-    - Set the Activity type to task.
+   - Set the Activity type to task.
 
-    - In the Activity tile, select + New. On the pop out add the following:
+   - In the Activity tile, select + New. On the pop out add the following:
 
         1.  Name: Notify Owner
 
@@ -137,7 +137,7 @@ page you created.
 
         3.  Subject: A quote has been requested
 
-    - Save and close.
+   - Save and close.
 
 11.  Save the journey.
 
