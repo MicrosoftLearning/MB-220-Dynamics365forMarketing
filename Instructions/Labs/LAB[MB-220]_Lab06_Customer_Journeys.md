@@ -53,10 +53,9 @@ page you created.
 2.  Navigate to **Customer Journeys** from the **Marketing execution** group. Click **+New**. When prompted to select a template, click **Skip.**
 
 3.  Click the dorpdown carrot in the upper right corner. Name the journey **[my prefix] Contoso Request a Quote Journey**. Select today as a start
-    date and 4:00 PM as the time. Set recurring as yes.
+    date and 4:00 PM as the time. Set recurring as no. Set end date 4 weeks after start date.
 
-4.  Switch to the General tab. Ensure target is set to contact. Set the recurrence count and recurrence interval
-    both to 1.
+4.  Switch to the General tab. Ensure target is set to contact.
 
 5.  Save your changes.
 
@@ -141,13 +140,7 @@ page you created.
 
 11.  Save the journey.
 
-12.  Check for errors and correct any if needed. Note: You may get a warning
-    about the recurring journey is set to start in the past. The first iteration
-    will start immediately, but future iterations will run in relation to the
-    specified start date.
-
-13.  Copy the customer journey URL and paste in a text editor. You will need this
-    information in the next exercise.
+12.  Check for errors and correct any if needed. 
 
 Exercise 2: Update lead scoring model with interaction data
 ===========================================================
@@ -183,18 +176,11 @@ Example customer journey ID: 34e63989-683f-e911-a987-000d3af3d307
     - On the condition tile, select the arrow down button to expose the child
         condition. Select the child condition and name it Journey Completed.
 
-    - In the entity field, select **Trigger workflow activity contact processed.**
+    - In the entity field, select **Customer Journey.**
 
     - Set the frequency to each and the date range of a lifetime.
 
-    - In the Expression 1 section, set the following:
-
-        1.  Field: Customer journey iteration ID
-
-        2.  Operator: =
-
-        3.  Value: Copy and paste the ID of the customer journey you created in
-            Exercise 1 of this lab
+    - Use the lookup field to select the customer journey value.
 
     - From the Toolbox, drag an action to the right of the Journey Completed
         condition and increase the score to 100.
