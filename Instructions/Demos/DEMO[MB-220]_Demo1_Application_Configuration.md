@@ -1,12 +1,12 @@
 ---
 demo:
-    title: 'Demo: Prepare Marketing environment'
-    module: 'Module 1: Marketing Application Configuration'
+    title: 'Demo 1.1: Prepare Marketing environment'
+    module: 'Module 1: Configure Dynamics 365 Marketing'
 ---
 
 
-# Module 1: Marketing Application Configuration
-## Demo 1: Prepare Marketing Environment 
+# Module 1: Configure Dynamics 365 Marketing
+## Demo 1.1: Prepare Marketing Environment 
 ----
 
 Demo Overview
