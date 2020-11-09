@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab: Create and distribute a marketing email'
-    module: 'Module 5: Marketing Emails'
+    title: 'Lab 5.1: Create and distribute a marketing email'
+    module: 'Module 5: Manage marketing emails and customer journeys'
 ---
 
 
-Module 5: Marketing Emails
+Module 5: Manage marketing emails and customer journeys
 =======
 
-## Practice Lab 5
+## Practice Lab 5.1
 
 Lab Overview
 ============
