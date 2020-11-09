@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab: Create and launch a customer journey'
-    module: 'Module 6: Customer Journeys'
+    title: 'Lab 5.2: Create and launch a customer journey'
+    module: 'Module 5: Manage marketing emails and customer journeys'
 ---
 
 
-Module 6: Customer Journeys
+Module 5: Manage marketing emails and customer journeys
 =====
 
-## Practice Lab 6
+## Practice Lab 5.2
 
 Lab Overview
 ============
