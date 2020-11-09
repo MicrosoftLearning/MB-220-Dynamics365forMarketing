@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab: Lead scoring'
-    module: 'Module 2: Leads'
+    title: 'Lab 4.1: Lead scoring'
+    module: 'Module 4: Manage leads, accounts, and contacts'
 ---
 
 
-Module 2: Leads
+Module 4: Manage leads, accounts, and contacts
 =======
 
-## Practice Lab 2: Lead scoring
+## Practice Lab 4.1: Lead scoring
 
 Lab Overview
 ============
