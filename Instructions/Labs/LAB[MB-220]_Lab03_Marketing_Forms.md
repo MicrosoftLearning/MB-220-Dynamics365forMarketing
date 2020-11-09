@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab: Create marketing forms and pages'
-    module: 'Module 3: Marketing Forms, Marketing Pages and Internet Marketing'
+    title: 'Lab 3.1: Create marketing forms and pages'
+    module: 'Module 3: Manage marketing forms and pages'
 ---
 
 
-Module 3: Marketing Forms, Marketing Pages and Internet Marketing 
+Module 3: Manage marketing forms and pages
 ======
 
-## Practice Lab 3
+## Practice Lab 3.1 - Create marketing forms and pages
 
 Lab Overview
 ============
