@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab: Work with segments'
-    module: 'Module 4: Segments and Lists'
+    title: 'Lab 2.1: Work with segments'
+    module: 'Module 2: Manage segments and lists'
 ---
 
 
-Module 4: Segments and Lists
+Module 2: Manage segments and lists
 ======
 
-## Practice Lab 4
+## Practice Lab 2.1 - Work with segments
 
 Lab Overview
 ============
