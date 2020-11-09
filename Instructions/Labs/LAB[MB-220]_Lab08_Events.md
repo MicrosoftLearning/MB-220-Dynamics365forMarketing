@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Lab: Manage product catalog'
-    module: 'Module 8: Events'
+    title: 'Lab 6.1: Create an event'
+    module: 'Module 6: Manage events'
 ---
 
 
-Module 8: Events
+Module 6: Manage events
 =====
 
-## Practice Lab 8
+## Practice Lab 6.1
 
 
 Lab Overview
