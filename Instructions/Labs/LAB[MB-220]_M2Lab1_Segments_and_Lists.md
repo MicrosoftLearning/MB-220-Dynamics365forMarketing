@@ -24,8 +24,7 @@ Lab Overview
 
 This lab compromises of three exercises:
 
-1.  In exercise one, you will create a dynamic segment to pull in all contacts
-    from the southwest.
+1.  In exercise one, you will create a contact and create a dynamic segment that will pull those contacts.
 
 2.  In exercise two, you will create two segments – one of your competitors and
     another one to pull in all contacts from the southwest except your
@@ -49,6 +48,12 @@ journey to interact with your intended audience.
 
 1.  Log into Dynamics 365 Marketing.
 
+2. Navigate to **Contacts** in the left menu, in the **Customers** group. Click **+New.** For **First Name**, enter your alias. For **Last Name**, enter **Test.**
+
+3. In **Address 1: State/Province**, enter California, Arizona, or Texas. Fill in the other fields with fictional information (as many as you'd like). Do not enter any personally identifiable information.
+
+4. Click **Save and close.** You should be able to see your new contact record in the view.
+
 2.  Navigate to **Segments** in the left menu, in the **Customers** group. Select **+New** and choose **+New Dynamic Segment.**
 
 3.  When prompted to select a Segment Template, click **Skip.** 
@@ -71,8 +76,7 @@ journey to interact with your intended audience.
 
 7.  Go live.
 
-8.  Give the system time and refresh if needed. After a few minutes, reopen the segment and navigate to the **Members** tab. Ensure your members match the contacts
-    you uploaded.
+8.  Give the system time and refresh if needed. After a few minutes, reopen the segment and navigate to the **Members** tab. Ensure the contact you created earlier in the exercise is listed in the view. 
 
 Exercise 2: Create a segment using union, exclude, or intersect logic
 =====================================================================
@@ -83,9 +87,7 @@ in anyone that comes from Relecloud. You then want to create a new segment using
 the exclude logic to make sure these contacts are not included in your customer
 journey.
 
-1.  Log into Dynamics 365 Marketing.
-
-2.  Navigate to Segments and create a suppression segment for your competitors.
+2.  Click **Segments** in the left menu to return to the main segment view.
 
     - Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
     
@@ -93,9 +95,9 @@ journey.
 
     - Name the segment **[my prefix] Relecloud Suppression Segment.**
 
-3. Generate a statement so that: Contact’s Account is Relecloud And Contacts All.
+3. Generate a statement so that the Contact’s Account is Relecloud And Contacts All.
 
-    - Click **+New Query Block.**
+    - Click **Add Query Block.** (If a pop-up appears, close it.)
     
     - **Contact** should be selected as the query entity.
     
@@ -107,7 +109,7 @@ journey.
 
 3.  Create a segment for all your southwest contacts except your competitors.
 
-    - Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
+    - Return to the main segment view by clicking **Segments** in the left menu. Create a new segment by clicking **+New** and selecting **+New Dynamic Segment.**
     
     - When prompted to select a template, click **Skip.**
 
@@ -117,42 +119,36 @@ journey.
 
     - Start by typing your prefix into the Segment field. Select the **[my prefix] Contoso Southwest Segment** segment from Exercise 1.
 
-    - Click **Add Segment Block** again. Change the modifier below to **but not**. Start typing your prefix into the field and select the **[my prefix] Relecloud Suppression Segment** segment.
+    - Click **Add Segment Block** again. Change the modifier to **but not**. Start typing your prefix into the field and select the **[my prefix] Relecloud Suppression Segment** segment.
 
     - Save and check for errors. Correct any if needed.
 
-    - Go live.
+    - Click on the **Members** tab. You should see contacts from the selected states, but no members of the Relecloud company.
 
 Exercise 3: Create subscription center page and update system content settings
 ==============================================================================
 
-Since Contoso is new to Dynamics 365 for Marketing, you will need to create a
+Since Contoso is new to Dynamics 365 Marketing, you will need to create a
 subscription center page for anyone to be able to opt out of communications from
 Contoso.
 
-1.  Open a new tab. Navigate to home.dynamics.com.
-
-2.  Select **Surveys.**
-
-3.  Under the **Customers** group in the left menu, select **Marketing Lists.**
+1. From the left menu, select **Subscription lists** from the **Customers** group.
 
 4.  Select **+New subscription list.**
 
     - Name the list **[my prefix] Contoso Subscription List**.
 
-    - Save your changes.
+    - Click **Save.**
 
 5.  Add the subscription list to a subscription form.
-
-    - Return to the Marketing app.
     
-    - Navigate to **Marketing Forms** under the **Internet marketing** group.  Create a new form using the herakloin
+    - Navigate to **Marketing Forms** under the **Internet marketing** group.  Create a new form using the heraklion
         template.
 
-    - Click the **Summary** tab. Name the form **[my prefix] Contoso Subscription Form**. Ensure the type is subscription
+    - Click the **Summary** tab. Name the form **[my prefix] Contoso Subscription Form**. From the header, ensure the type is subscription
         center and that only contacts are updated.
 
-    - Return to the **Designer** tab. Update the header to: “Please update your preferences below”. Center
+    - Return to the **Designer** tab. Update the header to: “Please update your preferences below." Center
         align and change the font to Segoe UI.
 
     - Update the font for First Name, Last Name, Phone, and Email to Segoe UI.
@@ -160,7 +156,7 @@ Contoso.
     - Make First Name, Last Name, and Email required.
 
     - From the Toolbox, drag the **[my prefix]] Contoso Subscription List** above Do not email.
-        Change the Label to Contoso Newsletter and select prefill.
+        Change the Label to Contoso Newsletter and select prefill. Change the font of Contoso newsletter and do not email to Segoe UI.
 
     - Remove [Update subscriptions heading].
 
@@ -170,12 +166,12 @@ Contoso.
 
 6.  Create a new marketing page.
 
-    - Navigate to Marketing pages and click **+New**. When prompted to select a template, click **Skip.**
+    - Navigate to **Marketing pages** from the Internet marketing group. Click **+New**. When prompted to select a template, click **Skip.**
 
     - Click the dropdown in the upper right corner. Name the page **[my prefix] Contoso Subscription Page** with a type of subscription
         center and enter the partial URL as **[myprefix]subscription**. It should look like the following: **mollycsubscription.**
 
-    - Drag and drop an Image block. Add the Contoso logo and ensure that **Center** is selected for **Alignment**.
+    - Drag and drop an Image block. With the image block selected, click the magnifying glass icon under **Image source** in the Properties tab. Select **Contoso logo** and ensure that **Center** is selected for **Alignment**.
 
     - Return to the **Toolbox** tab. Drag and drop a Form block below the image. Start by typing in your prefix into the search box and select the **[my prefix] Contoso
         Subscription Form** you just created. Input the following:
@@ -188,11 +184,11 @@ Contoso.
 
     - Save and check for errors. Correct any if needed.
 
-    - Go live.
+    - Go live. (If you recieve a pop-up, click OK.)
 
 7.  Update content settings.
 
-    - Navigate to Content Settings in the Templates section and select the
+    - Navigate to **Content Settings** in the Templates group and select the
         default content settings record. You will need to stop the entity record
         before you can update. Add the following:
 
