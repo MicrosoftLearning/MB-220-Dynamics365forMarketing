@@ -74,17 +74,19 @@ Exercise 1: Upload marketing content
 =====================================
 
 Contoso wants to use the same images from their current system. To so do, you
-will need to upload the marketing assets to Dynamics 365 for Marketing.
+will need to upload the marketing assets to Dynamics 365 Marketing.
 
 1.  Download the image files from the resource documents. Extract the files to a
     folder on your desktop.
 
-2.  Navigate to home.dynamics.com and sign in with your user credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
+2.  Navigate to <office.com> and sign in with your **admin** credentials.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Discourage students from using any PII (personally identifiable information) when creating records. Ensure that they are also using their username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. they create.
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Discourage students from using any PII (personally identifiable information) when creating records. This exercise should **only be completed by the MCT using the admin credential.**
 
-3.  From the list of the available apps, select **Marketing.** The Marketing app will open. In the left menu, navigate to **Files** in the Marketing Content section and click the + Upload
-    button to open the upload files window. Add the 10 image files.
+3.  Expand the side menu and select **Dynamics 365.** From the list of available apps, select **Marketing** to open the Dynamics 365 Marketing app.
+
+5.  The Marketing app will open. In the left menu, navigate to **Files** in the Marketing Content section. Click the **+ Upload**
+    button to open the upload files window. Click **+ Add files**, locate the files on your local computer, and select them. 
 
 4.  While the upload window is open, add the keywords “logo” and “contoso” to
     the contosologo image file. Since this is a new system, keywords will need
