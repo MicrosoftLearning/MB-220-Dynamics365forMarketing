@@ -55,11 +55,11 @@ journey to interact with your intended audience.
 
 4.  In the **Definition** tab, name the segment **[my prefix] Contoso Southwest Segment**. 
 
-5.  Select **Add Query Block.** A box will appear and the entity **Contact** should be selected. If it is not, change the query entity to Contact. Add the following statements:
+5.  Select **Add Query Block.** (If a pop-up appears, close it.) In the first field, the entity **Contact** should be selected. If it is not, change the query entity to Contact. Add the following statements:
 
     - Address 1: State/Province **equals** California 
     
-    - Click +Add and select **Add contion to Contact** using **OR**
+    - Click +Add and select **Add condition to Contact** using **OR**
 
     - Address 1: State/Province **equals** Arizona
     
