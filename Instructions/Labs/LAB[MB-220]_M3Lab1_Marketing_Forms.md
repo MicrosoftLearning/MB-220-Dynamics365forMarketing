@@ -32,11 +32,9 @@ Lab Overview
 
 This lab compromises of three exercises:
 
-1.  In exercise one, you will use your segments from Module 2 to create a subscription center page.
+1. In exerise one, you will create a marketing form.
 
-2. In exerise two, you will create a marketing form.
-
-3.  In exercise two, you will create a marketing page and embed the marketing
+2.  In exercise two, you will create a marketing page and embed the marketing
     form on the page.
 
  What you’ll need:
@@ -44,114 +42,23 @@ This lab compromises of three exercises:
 
 -   A computer with a Dynamics 365 Marketing environment
 
-Exercise 1: Create subscription center page and update system content settings
-==============================================================================
-
-Since Contoso is new to Dynamics 365 Marketing, you will need to create a
-subscription center page for anyone to be able to opt out of communications from
-Contoso.
-
-1.  Open a new tab. Navigate to home.dynamics.com.
-
-2.  Select **Surveys.**
-
-3.  Under the **Customers** group in the left menu, select **Marketing Lists.**
-
-4.  Select **+New subscription list.**
-
-    - Name the list **[my prefix] Contoso Subscription List**.
-
-    - Save your changes.
-
-5.  Add the subscription list to a subscription form.
-
-    - Return to the Marketing app.
-    
-    - Navigate to **Marketing Forms** under the **Internet marketing** group.  Create a new form using the herakloin
-        template.
-
-    - Click the **Summary** tab. Name the form **[my prefix] Contoso Subscription Form**. Ensure the type is subscription
-        center and that only contacts are updated.
-
-    - Return to the **Designer** tab. Update the header to: “Please update your preferences below”. Center
-        align and change the font to Segoe UI.
-
-    - Update the font for First Name, Last Name, Phone, and Email to Segoe UI.
-
-    - Make First Name, Last Name, and Email required.
-
-    - From the Toolbox, drag the **[my prefix]] Contoso Subscription List** above Do not email.
-        Change the Label to Contoso Newsletter and select prefill.
-
-    - Remove [Update subscriptions heading].
-
-    - Save and check for errors. Correct any if needed.
-
-    - Go live.
-
-6.  Create a new marketing page.
-
-    - Navigate to Marketing pages and click **+New**. When prompted to select a template, click **Skip.**
-
-    - Click the dropdown in the upper right corner. Name the page **[my prefix] Contoso Subscription Page** with a type of subscription
-        center and enter the partial URL as **[myprefix]subscription**. It should look like the following: **mollycsubscription.**
-
-    - Drag and drop an Image block. Add the Contoso logo and ensure that **Center** is selected for **Alignment**.
-
-    - Return to the **Toolbox** tab. Drag and drop a Form block below the image. Start by typing in your prefix into the search box and select the **[my prefix] Contoso
-        Subscription Form** you just created. Input the following:
-
-        1.  Success notification: Thank you. Your submission has been received.
-
-        2.  Error message: Something went wrong. Please try again.
-
-        3.  Redirecting URL: http://www.contoso.com
-
-    - Save and check for errors. Correct any if needed.
-
-    - Go live.
-
-7.  Update content settings.
-
-    - Navigate to Content Settings in the Templates section and select the
-        default content settings record. You will need to stop the entity record
-        before you can update. Add the following:
-
-        1.  Address main: 4567 Main St. Seattle, WA 98052
-
-        2.  LinkedIn URL: https://www.linkedin.com/company/contoso12345/about/
-
-        3.  Twitter URL: https://twitter.com/ContosoInc
-
-        4.  Facebook URL: https://www.facebook.com/Contoso-102137176602590/
-
-        5.  Subscription center: Use the edit assist option to select the
-            Contoso Subscription Page you just created. Be sure to select the
-            FullPageURL.
-
-    - Save and check for errors. Correct any if needed.
-
-    - Go live.
-
-Exercise 2: Create a marketing form 
+Exercise 1: Create a marketing form 
 ====================================
 
 You need to start by creating a form for leads to fill out in order to request
 an insurance quote. This form will be hosted on a marketing page.
-
-1.  Log into Dynamics 365 Marketing.
 
 2.  Navigate to **Marketing forms** in the left menu in the **Internet marketing** group. Create a new form.
 
 3.  From the template gallery, select **argos**.
 
 4.  Click the **Summary** tab. Name the form **[my prefix] Contoso Request a Quote Form**. In the upper right corner, confirm the Form Type is **Landing page**
-    and that it is set to update **contacts and leads.**
+    and that it is set to update **Contacts and leads.**
 
 5.  Save your changes.
 
 6.  Return to the **Designer** tab. In the form heading, type “Please fill out this form for an agent to contact
-    you” and change the font size to **20**.
+    you.” and change the font size to **20**.
 
 7.  Since we already know where these leads came from, you can delete the “How
     did you hear about us?” field by selecting the field and clicking the **trash** icon. In its place we want to add an Industry field
@@ -183,13 +90,11 @@ an insurance quote. This form will be hosted on a marketing page.
 
 11. Go live.
 
-Exercise 3: Create a marketing page and embed a form 
+Exercise 2: Create a marketing page and embed a form 
 =====================================================
 
 Next, you need to create a marketing page to host the form you created in
-Exercise 2. This is where you will direct leads to request a quote.
-
-1.  Log into Dynamics 365 Marketing.
+Exercise 1. This is where you will direct leads to request a quote.
 
 2.  Navigate to **Files** from the **Marketing content** group in the left menu.
 
@@ -200,32 +105,30 @@ Exercise 2. This is where you will direct leads to request a quote.
 
 5.  From the template gallery, select **marbella.**
 
-6.  Click the **Summary** tab. Name the page **[my prefix] Contoso Request a Quote Page**. Expand the carrot next to **Draft** int eh upper right corner. Confirm this page is designated as a landing page
+6.  Click the **Summary** tab. Name the page **[my prefix] Contoso Request a Quote Page**. Expand the carrot next to **Draft** in the upper right corner. Confirm this page is designated as a landing page
     and enter **[myprefix]quote** in the partial URL field. (It should look like the following: **mollycquote**.)
 
 7.  Save your changes.
 
-8.  Return to the **Designer** tab. Select the top image block. Navigate to the Image Gallery, which is located in the bottom left icon that pops up as you select the image. Locate and
+8.  Return to the **Designer** tab. Select the top image block. Navigate to the Image Gallery, which is located in the two icons that pops up as you select the image. Locate and
     select the contosologo image. In the properties, set the
     width to 250px.
 
 9.  Select the background of the marketing page to deselect the image and return to the general Properties tab.
 
-10. In the Hero image field, paste the URL you copied for heropage.jpg. Ensure
+10. In the Hero image field, paste the URL you copied for heropage.jpg. Click out of the field and ensure
     the hero image now appears instead of the placeholder.
 
 11. In the same tab, change Color 1 to #E2E2E2 and Color 5 to #666666.
-    Change Inner background and Form background color to #f5f5ed.
+    Change Inner background and Form background color to #F5F5ED.
 
 12. Remove Book Pro 360 from the page by selecting the text block and selecting the **trash** button.
 
 13. Add a divider where the Book Pro 360 text block was by dragging the **Divider** box from the **Toolbox**. Once the divider is placed and selected, switch to the **Properties** tab. Change the color to
-    #f5f5ed and the **padding top** to 20. Adding this spacer will help align the
-    text block with the top of the form.
+    #F5F5ED and the **padding top** to 20. 
 
 14. Change “Content of the Guide” to “Things to Consider When Buying Business
-    Insurance:” Note: If you copy and paste, the formatting may change. You may
-    want to type the new text instead of copy and paste.
+    Insurance:".
 
 15. Replace the bullets with the following:
 
@@ -241,8 +144,6 @@ Exercise 2. This is where you will direct leads to request a quote.
 
 16. Select the button block and delete.
 
-17. Select the image block placeholder below the form block and delete.
-
 18. Click the form block. In the Marketing form field, begin typing **your prefix** and select
     the form you created in Exercise 1. If your form does
     not appear, save your marketing page and navigate to your form to ensure it
@@ -257,11 +158,9 @@ Exercise 2. This is where you will direct leads to request a quote.
     -   Redirect URL: http://www.contoso.com (You must include this full URL.)
 
 20. Scroll down to the next section. Change “In this complete guide you'll see”
-    to “Contoso offers insurance for all your business needs”. Reminder: If you
-    copy and paste, the system may not apply the text styling. You may want to
-    type the text instead of copy and paste.
-
-21. In the four image boxes below, add the following images THAT WE uploaded in Lab
+    to “Contoso offers insurance for all your business needs”. 
+    
+21. In the four image boxes below, add the following images that we uploaded in Lab
     1 along with alt text describing the image:
 
     -   safebox.png / alt text: cyber liability insurance
