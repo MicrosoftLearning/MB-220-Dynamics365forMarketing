@@ -61,49 +61,40 @@ The scoring model will be on a grading scale of 1-100 as follows:
 4.  Switch back to the Design tab. On the right, navigate to **Grades**. Input 100
     as your sales ready score. Add three new grades:
 
-    - Cool 0-24
+    - **Cool:** 0-24
 
-    - Warm 25-59
+    - **Warm:** 25-59
 
-    - Hot 60-99
+    - **Hot:** 60-99
 
-5.  Navigate to the **Toolbox**. Drag a Condition onto the canvas. Name the
-    condition Industry Demographic.
+5.  Navigate to the **Toolbox**. Drag a **Condition** onto the canvas. Name the
+    condition **Industry Demographic.**
 
 6.  On the condition tile, select the arrow down button to expose the child
     condition. Select the child condition and name it Industry. In the entity
-    field, select Lead. Add the following expressions:
+    field, select Lead. Add the following expression:
 
     - Industry = Business Services
-
-    - Industry = Entertainment Retail
-
-    - Industry = Eating and Drinking Places
     
     - **Note:** You may have the option to select from two Industry fields. Pick the one that has Values as option sets, not empty fields.
 
 7.  Navigate back to the toolbox and add an Action to the right of the Industry
     Demographic condition. In the action, increase the score by 15.
 
-8.  In the toolbox, drag a new condition below Industry Demographic and name it
-    Southwest Demographic.
+8.  In the toolbox, drag a new condition below Industry Demographic and name it Texas Demographic.
 
 9.  On the condition tile, select the arrow down button to expose the child
-    condition. Select the child condition and name it Southwest States.
+    condition. Select the child condition and name it Texas State.
 
 10. Since our state field lives on the contact level, we will have to make a
     transcendental jump from lead to contact. In the entity field, type Lead
     and select it. Add a period and then select Parent contact. Your entity
     field will look like this: **Lead.Parent contact**. Add the following
-    expressions:
+    expression:
 
     1.  Address 1: State/Province = Texas
 
-    2.  Address 1: State/Province = Arizona
-
-    3.  Address 1: State/Province = California
-
-11. Navigate back to the toolbox and add an Action to the right of the Southwest
+11. Navigate back to the toolbox and add an Action to the right of the Texas
     Demographic condition. In the action, increase the score by 25.
 
 12. Save and check for errors. Correct any as needed.
