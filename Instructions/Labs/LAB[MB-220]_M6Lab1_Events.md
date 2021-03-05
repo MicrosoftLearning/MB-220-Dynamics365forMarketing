@@ -92,7 +92,7 @@ Exercise 1: Create an in-person event
         event invitation.
 
     - In the Key information section add the event name as **[my prefix] 10th Contoso
-        Conference.** Specify type as **Conference** and format as **On site.**
+        Conference.** Specify type as **Conference**.
 
     - In the Schedule section, add the event time zone as **Pacific**, event start date as a month from today, and
         event end date as a month from today + 2 days.
