@@ -27,7 +27,7 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 1 – Log into the Power Platform admin center
 
-1.  Access <https://admin.Powerplatform.microsoft.com> and log in with your user credentials.
+1.  Access <office.com> and log in with your user credentials.
 
 2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization. 
 
@@ -37,10 +37,10 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 2 – Access the Dynamics 365 application
 
-1.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Dynamics 365.**
+1.  Expand the grid button at the top left of the screen. Select **Dynamics 365.**
 
-2.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform admin center.**
+2.  From the list of available applications, select **Marketing.**
 
-4. From the list of available Dynamics 365 apps, select **Marketing**.
+4. The Dynamics 365 Marketing application will open.
 
-5. Spend a few minutes exploring the application.
+6. Spend a few minutes exploring the application but do not make any changes.

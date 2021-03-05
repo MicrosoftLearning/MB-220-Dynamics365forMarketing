@@ -50,12 +50,12 @@ page you created.
 
 1.  Log into Dynamics 365 Marketing.
 
-2.  Navigate to **Customer Journeys** from the **Marketing execution** group. Click **+New**. When prompted to select a template, click **Skip.**
+2.  Navigate to **Customer journeys** from the **Marketing execution** group. Click **+New**. When prompted to select a template, click **Skip.**
 
 3.  Click the dorpdown carrot in the upper right corner. Name the journey **[my prefix] Contoso Request a Quote Journey**. Select today as a start
-    date and 4:00 PM as the time. Set recurring as no. Set end date 4 weeks after start date.
+    date and 4:00 PM as the time. Set recurring as no. 
 
-4.  Switch to the General tab. Ensure target is set to contact.
+4.  Switch to the General tab. Ensure target is set to contact. Select an end date as a month from the start date.
 
 5.  Save your changes.
 
@@ -63,84 +63,45 @@ page you created.
 
 7.  Define the audience for the journey.
 
-   - Drag a segment tile from the Toolbox onto the canvas. Switch to the
-        Properties tab and name the tile Contoso Contacts. On the
-        segmen tilet, select the arrow down button to expose the child segment.
-        Select the child segment and name it Contoso Southwest. In the segment
-        field, search for the **[my prefix] Contoso Southwest Excluding Competitors Segment**
-        you created in Lab 4 by starting to type in your prefix.
+   - Select the plus sign above **Set your audience** in the first box in the designer.
+   - In the audience pane on the right, ensure Source Type = **Segment**, Segment = **Segment**, and that **Inclusion** is selected. In the Segment field, start typing your prefix and select **[my prefix] Contoso Southwest Excluding Competitors Segment**.
+
+8. Set the date and time for the email to send. Select the plus sign between the **Start** and **End** nodes. In the **Wait for** pane on the right, select the following:
+	- Duration: One week
+	- Day of week: Weekdays (can use quick select or uncheck Saturday and Sunday)
+	- Time of day: Mornings
 	
-- From the Toolbox select the scheduler tile and drag it to the right of
-        the segment tile. In the properties, set the following:
+10. Set up an email to send via the journey.
 
-    1. Tile Name: One week
+	- Select the plus sign between the **Wait for** and **End** nodes.
+	- From the dropdown, select **Send an email.**
+	- In the **Send an email** pane on the right, type your prefix into the field and select **alans Contoso Request a Quote Email.**
+	- Expand the **Email elements** tab and select **+ Add item.** Select **Page** from the dropdown.
+	- Type in your prefix into the field and select **[my prefix] Contoso Request a Quote** page.
+	- Click **+Add item** again and select **Form.**
+	- Type in your prefix and select **[my prefix] Contoso Request a Quote** form.
+	- Expand the **Schedule** tab.
+	- Using Quick Select, select **Weekdays.**
+	- Using Quick Select, select **Mornings.**
 
-    2.  Scheduler type: Date and time
+11. Add a condition.
+	- Between the **Send an email** and the **End** node, click the plus sign.
+	- Select **If/Then.**
+	- In the **Select a source** field, select **[my prefix] Contoso Request a Quote Form.** In the **Select a condition** field, select **have registration.**
+	- Ensure that 1 hour is selected in **Wait up to.**
 
-    3.  Date and Time: One week from your current date
+12. Set up the Yes/No branches for the condition.
+	- In the **Yes** branch, click the plus sign. Select **Phone call**.
+	- In the **Phone call** field, select **+New Phone-call activity marketing template.**
+	- For **Name**, write **[my prefix] Requested Quote Follow-up.**
+	- For **Subject**, write **Customer requested a quote.**
+	- Set **Schedule type** to **Delay (in days)** and enter 0 for **Start delay.**
+	- For **Start time**, enter 1 for **Hour.**
+	- Click **Save and close.**
 
-    4.  Permitted Times (need to expand): Weekdays 8:00 AM – 5:00 PM (17:00)
+13. Save the customer journey and check for errors.
 
-8.  Set up the email and marketing page for the journey.
-
-    - From the Toolbox, select the marketing email message tile and drag it to
-        the right of the scheduler tile.
-
-    - In the properties, name the email tile Contoso Request a Quote Email.
-
-    - In the marketing email message field, search for your prefix and add the **[my prefix] Contoso Request a Quote Email** you created in Lab 5.
-
-    - From the Toolbox, select the marketing page tile and drag and drop it on top of the
-        the email tile.
-
-    - On the email tile, select the arrow down button to expose the marketing
-        page tile.
-
-    - Select the marketing page sub-tile and in the properties, name the tile
-        Contoso Request a Quote Page.
-
-    - In the marketing page field, search for your prefix and add the **[my prefix] Contoso Request a Quote Page**
-        you created in Lab 3.
-
-9.  Add a trigger.
-
-    - From the Toolbox, select the trigger tile and drag it to the right of
-        the email tile.
-
-    - In the properties, name the trigger **Requested a quote?**
-
-    - Set the timeout to 14 days.
-
-    - Add a new rule by clicking **+New** next to **Set rules.**
-
-        1.  Source: Contoso Request a Quote Page
-
-        2.  Condition: Trigger_Condition_UserRegistered
-
-	- **Note:** When you add a trigger tile, two paths will automatically appear – a positive path, denoted with a checkmark and a negative path, denoted with an x. This scenario will only use the positive path.
-
-10.  Add an activity.
-
-   - From the Toolbox, select the activity tile and drag it to the positive
-        path for the Request a quote trigger.
-
-   - In the properties, name the action Notify Owner.
-
-   - Set the Activity type to task.
-
-   - In the Activity tile, select + New. On the pop out add the following:
-
-        1.  Name: Notify Owner
-
-        2.  Owner: your personal user account (should be default)
-
-        3.  Subject: A quote has been requested
-
-   - Save and close.
-
-11.  Save the journey.
-
-12.  Check for errors and correct any if needed. 
+15. Go live.
 
 Exercise 2: Update lead scoring model with interaction data
 ===========================================================
