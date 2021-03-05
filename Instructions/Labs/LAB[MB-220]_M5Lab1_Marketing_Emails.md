@@ -79,17 +79,9 @@ Exercise 1: Create an email from a template
     
     - Finally, press **Insert.**
 
-10. Remove the text below the button. This text was hard coded to the template
-    instead of added using one of the standard toolbox elements. That means you
-    will need to remove this from the HTML. Switch to the HTML tab and search
-    for “Or verify using this link”. When you find that in the code, start by
-    selecting the open parentheses p (\<p\>) before it and drag to the close
-    parentheses p after it (\</p\>) then hit delete. The full text you are
-    deleting is:
-    
-        <p class="verify">Or verify using this link: <a href="http://www.fabrikam.com"\>http://www.fabrikam.com\</a> \</p>
+10. Remove the text below the button.
 
-11. Return to the designer tab and update the copyright to this year and change
+11. Update the copyright to this year and change
     the company to Contoso.
 
 12. Preview the email.
