@@ -27,7 +27,7 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 1 – Log into the admin center 
 
-1.  Access [office.com]<office.com> and log in with your user credentials.
+1.  Access **office.com** and log in with your user credentials.
 
 2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization. 
 
@@ -37,7 +37,7 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 2 – Access the Dynamics 365 application
 
-1.  Expand the grid button at the top left of the screen. Select **Dynamics 365.**
+1.  Expand the grid button at the top left of the screen. Scroll to the bottom of the list.
 
 2.  From the list of available applications, select **Marketing.**
 
