@@ -1,7 +1,7 @@
 ---
 demo:
-    title: 'Demo 4.1: :ead scoring'
-    module: 'Module 1: Manage leads, accounts, and contacts'
+    title: 'Demo 4.1: Lead scoring'
+    module: 'Module 4: Manage leads, accounts, and contacts'
 ---
 
 
