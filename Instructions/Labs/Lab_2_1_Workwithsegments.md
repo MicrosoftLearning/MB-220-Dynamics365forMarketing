@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 2.1: VWork with segments'
+    title: 'Lab 2.1: Work with segments'
     module: 'Module 2: Manage segments and lists'
 ---
 
