@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo 3.1: Manage subscription centers'
-    module: 'Module 1: Manage marketing forms and pages'
+    module: 'Module 3: Manage marketing forms and pages'
 ---
 
 
