@@ -140,11 +140,11 @@ This lab compromises of three exercises:
         
         	2. Assign to: **Contact owner**.
 
-13. **Save**.
+13. On the toolbar, click **Save**.
 
 14. **Check for errors**. Correct any as needed. Note: You will receive a warning that the journey uses 1 or more emails multiple times and that it starts in the past. These are OK and your journey will still go live.
 
-15. **Go live**.  
+15. On the toolbar, click **Go live**.
 ‎
 
 # Exercise 2: Interact with the outbound campaign components
