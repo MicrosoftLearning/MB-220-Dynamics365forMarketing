@@ -155,9 +155,9 @@ This lab comprises of seven exercises:
     
     - Click the arrow next to **Estimate size**. Review the results. Reminder: The capacity for the venue is 50.
     
-    - **Save** and **check for errors**. Correct any if needed.
+    - Click **Save** and **check for errors**. Correct any if needed.
     
-    - **Go live**.
+    - On the toolbar, click **Go live**.
     
     - Give the system time and refresh if needed. After a few minutes, reopen the segment and navigate to the **Members** tab.
     
@@ -175,9 +175,9 @@ This lab comprises of seven exercises:
 
 	- Under **Check-in**, in the event lookup field, select **[my prefix] Contoso Insurance Business Appreciation Event**.
 
-	- **Save** and **check for errors**. Correct any if needed.
+	- Click **Save** and **check for errors**. Correct any if needed.
 
-	- **Go live**.
+	- On the toolbar, click **Go live**.
 
  
 
@@ -475,11 +475,11 @@ This lab comprises of seven exercises:
     
     - Make any other changes as desired.
     
-    - **Save**.
+    - On the toolbar, click **Save**.
     
     - **Preview** the email.
     
-    - **Go live**. Correct any errors if needed.
+    - On the toolbar, click **Go live**. Correct any errors if needed.
 
  
 
