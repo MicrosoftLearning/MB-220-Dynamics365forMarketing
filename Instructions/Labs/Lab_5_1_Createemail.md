@@ -256,7 +256,7 @@ This lab compromises of one exercise:
 
 18. Make any other changes as desired.
 
-19. **Save**.
+19. On the toolbar, click **Save**.
 
 20. Select **Preview and test**.
 
@@ -270,7 +270,7 @@ This lab compromises of one exercise:
 
 22. Click the arrow next to **Check** **content**. Choose both **Accessibility checker** and **Spam checker** to see if there are any other issues within the email.
 
-23. **Go live**.
+23. On the toolbar, click **Go live**.
 
  
 
@@ -345,13 +345,13 @@ This lab compromises of one exercise:
 
 	- Expand **Size and alignment**. Change the width to 300px. 
 
-14. **Save**.
+14. On the toolbar, click **Save**.
 
 15. **Preview** the email.
 
 16. Click **Check content**. Correct any errors if needed.
 
-17. **Go live**.
+17. On the toolbar, click **Go live**.
 
  
 
@@ -397,10 +397,10 @@ This lab compromises of one exercise:
 
 14. Remove the **button** section.
 
-15. **Save**.
+15. On the toolbar, click **Save**.
 
 16. **Preview** the email.
 
 17. Click **Check content**. Correct any errors if needed.
 
-18. **Go live**.
+18. On the toolbar, click **Go live**.

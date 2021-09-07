@@ -40,7 +40,7 @@ This lab compromises of three exercises:
 
 2. Navigate to **Marketing websites** under the **Internet marketing** group.
 
-3. Create a new website.
+3. Click **+New** to create a new website.
 
 4. Name the website **[my prefix] Contoso Insurance Product Page**.
 

@@ -42,7 +42,7 @@ This lab compromises of three exercises:
 
 4. When prompted to select a Segment Template, click **Skip.**
 
-5. Name the segment **[my prefix] Humongous Insurance.**
+5. In the **Name** segment located in the middle of the screen, enter **[my prefix] Humongous Insurance.**
 
 6. On the right, next to Undo/Redo, make sure **Natural view** is selected.
 
@@ -64,9 +64,9 @@ This lab compromises of three exercises:
 
 	- Create the following condition: Status **is** Active.
 
-11. **Save** and **check for errors**. Correct any if needed.
+11. Click **Save** and click **check for errors** in the toolbar. Correct any if needed.
 
-12. **Go live**.
+12. Click **Go live** in the toolbar.
 
 13. Click on the **Members** tab. 
 
@@ -92,7 +92,7 @@ This lab compromises of three exercises:
 
 	- Create the following condition: Status **is** Active.
 
-8. Click +Add and select **Add condition to Contact**.
+8. Click **+Add** and select **Add condition to Contact**.
 
 	- Select **And** for the operator.
 
@@ -104,9 +104,9 @@ This lab compromises of three exercises:
 
 	- Start typing your prefix into the field and select the **[my prefix] Humongous Insurance**.
 
-10. **Save** and **check for errors**. Correct any if needed.
+10. Click **Save** and click **check for errors** in the toolbar. Correct any if needed.
 
-11. **Go live**.
+12. Click **Go live** in the toolbar.
 
 12. Click on the **Members** tab. 
 
@@ -136,7 +136,7 @@ To participate in the journey, you will need to set yourself up as a contact. Be
 
 9. In the **Address 1: City** field, enter Seattle.
 
-10. In the **Address 1: State/Province** field, enter Washington.
+10. In the **Address 1: State/Province** field, enter Washington. Click **Done**.
 
 11. Navigate to the **Details** tab. In the **Personal Notes** field, enter Business.
 

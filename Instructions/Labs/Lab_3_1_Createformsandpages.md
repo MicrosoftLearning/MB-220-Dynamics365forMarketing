@@ -128,9 +128,9 @@ This lab compromises of two exercises:
 
 13. Preview the form by selecting the **Preview** tab at the top of the form designer underneath the main tabs.
 
-14. **Save** and **check for errors**. Correct any if needed.
+14. Click **Save** and click **check for errors** in the toolbar. Correct any if needed.
 
-15. **Go live**.
+12. Click **Go live** in the toolbar.
 
  
 
@@ -140,7 +140,7 @@ This lab compromises of two exercises:
 
 2. Click **+ New** to create a new page.
 
-3. From the template gallery, select **product page 2.**
+3. From the template gallery, select **product page 2. (Layout enabled)**
 
 4. Expand the carrot next to **Draft** in the upper right corner. 
 
@@ -208,10 +208,10 @@ This lab compromises of two exercises:
 
 19. **Preview** the page.
 
-20. **Save** and **check for errors**. Correct any if needed.
+20. Click **Save** and click **check for errors** in the toolbar. Correct any if needed.
 
-21. **Go live**. A pop-up will show up. Click **OK**. 
+12. Click **Go live** in the toolbar. A pop-up will show up. Click **OK**. 
 
 22. Navigate to the **Summary** tab and open the **Full page URL** to view your page. It may take a moment for all content to appear.
 
-23. If you would like to make changes, stop the page, make your updates, **check for errors** and **go live** again.
+23. If you would like to make changes, stop the page, make your updates. Click **Check for errors** and then click **Go live** again.
