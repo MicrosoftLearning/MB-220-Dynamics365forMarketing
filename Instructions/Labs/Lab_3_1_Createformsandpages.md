@@ -26,7 +26,7 @@ This lab compromises of two exercises:
 
 ## What you’ll need:
 
-- A computer with a Dynamics 365 Marketing environment
+- Access to a Dynamics 365 Marketing environment
 
 # Exercise 1: Create a marketing form
 
