@@ -51,7 +51,7 @@ This lab compromises of two exercises:
 
 - A computer or VM with a Dynamics 365 Marketing environment
 
-- 12 image files to be used in marketing content. These can be found in the AllFiles folder on GitHub or may be distributed directly by your MCT.
+- 12 image files to be used in marketing content. These can be found in the AllFiles folder on GitHub under Labs/Content Images for Demo 1_1.
 
 	- agent-email-icon.png
 
