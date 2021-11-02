@@ -64,7 +64,7 @@ This lab compromises of two exercises:
 
 	- Select **Toolbox** on the right. In the **Fields** section, click in the search box. Search for **Job Title**. Once it appears select it so that it appears with the other fields. Drag and drop the **Job Title** field below the **Email** field.
 
-	- Select **Toolbox** on the right. In the **Fields** section, click in the search box. Search for **Industry**. Once it appears select it so that it appears with the other fields. Drag and drop the **Job Title** field below the **Email** field.
+	- Select **Toolbox** on the right. In the **Fields** section, click in the search box. Search for **Industry**. Once it appears select it so that it appears with the other fields. Drag and drop the **Industry** field below the **Email** field.
 
 12. Make the following updates to the form fields:
 
