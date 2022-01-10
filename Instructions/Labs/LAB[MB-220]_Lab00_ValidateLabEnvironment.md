@@ -39,9 +39,11 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 2 – Access the Dynamics 365 application
 
-1.  Expand the grid button at the top left of the screen. Scroll to the bottom of the list.
+1.  Open browser and navigate to https://dynamics.microsoft.com/en-us/marketing/overview/
 
-2.  From the list of available applications, select **Marketing.**
+2.  Expand the grid button at the top left of the screen. Scroll to the bottom of the list.
+
+3.  From the list of available applications, select **Marketing.**
 
 4. The Dynamics 365 Marketing application will open.
 
