@@ -35,8 +35,6 @@ Exercise 1 - Access the Dynamics 365 application
 
 **Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. you create.
 
-3. Feel free to explore the Power Platform admin center but **do not make any changes.**
-
 ### Task 2 – Access the Dynamics 365 application
 
 1.  Expand the grid button at the top left of the screen. Scroll to the bottom of the list.
