@@ -136,7 +136,7 @@ To participate in the journey, you will need to set yourself up as a contact. Be
 
 9. In the **Address: City** field, enter Seattle.
 
-10. In the **Address: State/Province** field, enter Washington. Click **Done**.
+10. In the **Address: State/Province** field, enter Washington.
 
 11. Navigate to the **Details** tab. In the **Personal Notes** field, enter Business.
 
