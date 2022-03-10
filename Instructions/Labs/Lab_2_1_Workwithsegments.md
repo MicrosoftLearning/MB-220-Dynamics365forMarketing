@@ -132,17 +132,15 @@ To participate in the journey, you will need to set yourself up as a contact. Be
 
 7. In the **Email** field, enter your email.
 
-8. Click the edit icon in the **ADDRESS** section.
+8. In the **Address: City** field, enter Seattle.
 
-9. In the **Address: City** field, enter Seattle.
+9. In the **Address: State/Province** field, enter Washington. Click **Done**.
 
-10. In the **Address: State/Province** field, enter Washington. Click **Done**.
+10. Navigate to the **Details** tab. In the **Personal Notes** field, enter Business.
 
-11. Navigate to the **Details** tab. In the **Personal Notes** field, enter Business.
+11. Click **Save &amp; Close**.
 
-12. Click **Save &amp; Close**.
-
-13. Navigate back to **Segments**. Open the **[my prefix] Business Customers** segment. Verify the contact you created appears.
+12. Navigate back to **Segments**. Open the **[my prefix] Business Customers** segment. Verify the contact you created appears.
 
 	- Note: You may need to refresh or wait a few minutes before the contact appears.
 
