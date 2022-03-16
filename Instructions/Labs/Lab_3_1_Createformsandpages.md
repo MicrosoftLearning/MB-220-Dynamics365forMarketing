@@ -48,7 +48,7 @@ This lab compromises of two exercises:
 
 6. Save your changes.
 
-7. Navigate to the **Summary** tab. Change the **Prefill fields** field to **Yes**.
+7. Navigate to the **Summary** tab. In the **Content** section, change the **Prefill fields** field to **Yes**.
 
 8. Navigate back to the **Designer** tab. 
 
