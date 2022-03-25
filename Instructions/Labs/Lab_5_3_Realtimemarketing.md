@@ -80,7 +80,7 @@ provided in the Appendix for design and content suggestions for these emails.
 
 ![](https://github.com/MicrosoftLearning/MB-220-Dynamics365forMarketing/blob/master/Instructions/Labs/media/WelcomeEmail1.jpg)
 
-    -   Here is some sample copy for this email. You can copy and paste this
+Here is some sample copy for this email. You can copy and paste this
         into your email design.
 
  FirstName,
@@ -187,7 +187,7 @@ history, pay your bill, and more.
 
 ![](https://github.com/MicrosoftLearning/MB-220-Dynamics365forMarketing/blob/master/Instructions/Labs/media/WelcomeEmail2.jpg)
 
-    -   Here is sample copy for this email. You can copy and paste this into
+Here is sample copy for this email. You can copy and paste this into
         your email design.
 
     -   Note: We recommend leaving FirstName from the first email and then
@@ -282,7 +282,7 @@ Insurance Specialist
 
 ![](https://github.com/MicrosoftLearning/MB-220-Dynamics365forMarketing/blob/master/Instructions/Labs/media/WelcomeEmail3.jpg)
 
-    -   Here is sample copy for this email. You can copy and paste this into
+Here is sample copy for this email. You can copy and paste this into
         your email design.
 
     -   Note: We recommend leaving FirstName from the second email and then
