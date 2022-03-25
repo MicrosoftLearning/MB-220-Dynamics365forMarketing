@@ -4,7 +4,7 @@ lab:
     module: 'Module 4: Manage segments and subscription centers'
 ---
 
-# Module 2: Module 4: Manage segments and subscription centers
+# Module 4: Manage segments and subscription centers
 
 ## Practice Lab 4.1: Work with segments
 
