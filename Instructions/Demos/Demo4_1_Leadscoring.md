@@ -1,13 +1,13 @@
 ---
 demo:
-    title: 'Demo 4.1: Lead scoring'
-    module: 'Module 4: Manage leads, accounts, and contacts'
+    title: 'Demo 2.1: Lead scoring'
+    module: 'Module 2: Manage customers in Dynamics 365 Marketing'
 ---
 
 
-# Module 4: Manage leads, accounts, and contacts
+# Module 2: Manage customers in Dynamics 365 Marketing
 
-## Demo 4.1: Lead scoring
+## Demo 2.1: Lead scoring
 
 # Demo Overview
 
