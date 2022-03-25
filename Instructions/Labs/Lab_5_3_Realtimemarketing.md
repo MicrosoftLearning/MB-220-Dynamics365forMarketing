@@ -82,7 +82,8 @@ provided in the Appendix for design and content suggestions for these emails.
 
 Here is some sample copy for this email. You can copy and paste this
         into your email design.
-
+        
+```
  FirstName,
 
 Thank you for putting your trust in Contoso Insurance. We're honored to have you
@@ -98,6 +99,7 @@ contact information. Use the link below to download it.
 Feel free to contact us any time at 888-888-8888 with any questions you have.
 And don't forget to download our mobile app where you can view your account
 history, pay your bill, and more.
+```
 
 1.  Add personalization.
 
@@ -187,12 +189,9 @@ history, pay your bill, and more.
 
 ![](https://github.com/MicrosoftLearning/MB-220-Dynamics365forMarketing/blob/master/Instructions/Labs/media/WelcomeEmail2.jpg)
 
-Here is sample copy for this email. You can copy and paste this into
-        your email design.
+Here is sample copy for this email. You can copy and paste this into your email design. (Note: We recommend leaving FirstName from the first email and then replacing the rest of the copy with this.)
 
-    -   Note: We recommend leaving FirstName from the first email and then
-        replacing the rest of the copy with this:
-
+```
 I would like to welcome you to the Contoso family! I hope you found the welcome
 kit helpful and informative.
 
@@ -215,6 +214,7 @@ Cheers,
 **John Smith**  
 Insurance Specialist  
 <jsmith@contosoinsurance.com>888-888-8888
+```
 
 1.  Update the button in the email.
 
@@ -282,12 +282,9 @@ Insurance Specialist
 
 ![](https://github.com/MicrosoftLearning/MB-220-Dynamics365forMarketing/blob/master/Instructions/Labs/media/WelcomeEmail3.jpg)
 
-Here is sample copy for this email. You can copy and paste this into
-        your email design.
+Here is sample copy for this email. You can copy and paste this into your email design. (Note: We recommend leaving FirstName from the second email and then replacing the rest of the copy with this.)
 
-    -   Note: We recommend leaving FirstName from the second email and then
-        replacing the rest of the copy with this:
-
+```
 Thank you for putting your trust in Contoso Insurance. I'm honored to have you
 as a customer and look forward to building a lasting relationship with you.
 
@@ -302,6 +299,7 @@ Cheers,
 **John Smith**  
 Insurance Specialist  
 <jsmith@contosoinsurance.com>888-888-8888
+```
 
 1.  Update the button in the email.
 
