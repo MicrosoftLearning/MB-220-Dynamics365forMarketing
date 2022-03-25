@@ -1,13 +1,13 @@
 ---
 demo:
-    title: 'Demo 3.1: Manage subscription centers'
-    module: 'Module 3: Manage marketing forms and pages'
+    title: 'Demo 4.1: Manage subscription centers'
+    module: 'Module 4: Manage segments and subscription centers'
 ---
 
 
-# Module 3: Manage marketing forms and pages
+# Module 4: Manage segments and subscription centers
 
-## Demo 3.1 – Manage subscription centers
+## Demo 4.1: Manage subscription centers
 
 # Demo Overview
 
