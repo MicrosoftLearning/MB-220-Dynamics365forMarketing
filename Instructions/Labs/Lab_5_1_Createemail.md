@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 5.1: Create a marketing email'
-    module: 'Module 5: Manage marketing emails and customer journeys'
+    module: 'Module 5: Manage emails and journeys in Dynamics 365 Marketing'
 ---
 
-# Module 5: Manage marketing emails and customer journeys
+# Module 5: Manage emails and journeys in Dynamics 365 Marketing
 
 ## Practice Lab 5.1: Create a marketing email
 
