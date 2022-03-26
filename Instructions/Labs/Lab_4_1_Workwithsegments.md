@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 2.1: Work with segments'
-    module: 'Module 2: Manage segments and lists'
+    title: 'Lab 4.1: Work with segments'
+    module: 'Module 4: Manage segments and subscription centers'
 ---
 
-# Module 2: Manage segments and lists
+# Module 4: Manage segments and subscription centers
 
-## Practice Lab 2.1 - Work with segments
+## Practice Lab 4.1: Work with segments
 
  
 

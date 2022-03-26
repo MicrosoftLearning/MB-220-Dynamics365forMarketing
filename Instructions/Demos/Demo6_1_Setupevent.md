@@ -1,13 +1,13 @@
 ---
 demo:
-    title: 'Demo 6.1: Create an event'
+    title: 'Demo 6.1: Set up buildings and speakers'
     module: 'Module 6: Manage events'
 ---
 
 
 # Module 6: Manage events
 
-## Demo 6.1: Create an event
+## Demo 6.1: Set up buildings and speakers
 
 # Demo Overview
 
