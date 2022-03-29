@@ -72,7 +72,7 @@ This lab comprises of four exercises:
 
 1.  Log into Dynamics 365 Marketing with your admin credentials.
 
-2.  Navigate to the **Settings **work area.  
+2.  Navigate to the **Settings** work area.  
 
 3.  Under **Email marketing** click on **Default settings.**
 
