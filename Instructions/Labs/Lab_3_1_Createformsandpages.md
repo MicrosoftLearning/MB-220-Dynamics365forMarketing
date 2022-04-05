@@ -32,7 +32,7 @@ This lab compromises of two exercises:
 
  
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Marketing. Change the area to **Outbound marketing**.
 
 2. Navigate to **Marketing forms** under the **Internet marketing** group.
 
