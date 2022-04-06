@@ -69,6 +69,8 @@ This lab compromises of one exercise:
 	- On the right, click the placeholder image, select **Replace** then choose **Browse library**.
 
 	- Select the **contoso-insurance-logo** then click **Select**.
+	
+	- Replace the **Alt text** with: **Contoso icon**.
 
 	- On the right, click the **Link to** drop down then select **URL** then enter [www.microsoft.com](http://www.microsoft.com/).
 
