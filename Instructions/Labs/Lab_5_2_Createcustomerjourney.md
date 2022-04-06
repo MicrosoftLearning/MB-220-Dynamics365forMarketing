@@ -72,7 +72,7 @@ This lab compromises of three exercises:
 
 	- Select the plus sign after the segment. Select **Send an Email**.
 
-	- In the **Email** field on the right, select **[my prefix] Cross Sell Campaign Email 1**.
+	- In the **Email** field on the right, select **[my prefix] Cross Sell Campaign Email**.
 
 8. Add a wait step.
 
