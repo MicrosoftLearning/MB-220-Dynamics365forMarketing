@@ -116,7 +116,7 @@ This lab comprises of seven exercises:
 
 1. Log into Dynamics 365 Marketing.
 
-2. Navigate to the **Marketing** work area.
+2. Navigate to the **Outbound Marketing** work area.
 
 3. Navigate to **Segments** under the **Customers** section.
 
