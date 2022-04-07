@@ -221,7 +221,7 @@ This lab comprises of seven exercises:
 
 		- Close the Satisfaction metrics window.
 
-    2. Click **Branching**.
+    2. Click **Advanced Logic**.
     
     	- Click **Customize.**
     
