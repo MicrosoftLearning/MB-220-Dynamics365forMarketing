@@ -36,7 +36,7 @@ This lab compromises of one exercise:
 
 3. Click **+New** to create a new email.
 
-4. From the template gallery, select **2 column layout**.
+4. From the template gallery, select **1-2 column layout**.
 
 5. In the upper left corner, name the email **[my prefix] Cross Sell Campaign Email** 
 
