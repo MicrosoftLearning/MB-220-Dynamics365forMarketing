@@ -112,7 +112,7 @@ history, pay your bill, and more.
 
     -   Select **First Name**, verify the source is **Contact**.
 
-    -   Select **Contact** if a pop up appears to select the **Target Audience**.
+    -   Choose **Contact** if a pop up appears to select the **Target Audience**.
     
     -   In Default value enter Valued Customer.
 
