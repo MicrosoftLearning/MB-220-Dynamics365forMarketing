@@ -303,14 +303,10 @@ Insurance Specialist
 
 1.  Update the button in the email.
 
-    -   In the **Toolbox**, select **Elements** tab.
-
-    -   Drag a **button** below the main text.
-
     -   Change **Link to** from URL to **File download.**
 
-    -   Select **Choose a file** then **Browse library**. Select *Contoso
-        Insurance Welcome kit* then click **Insert**.
+    -   Select **Choose a file** then **Browse library**. Select **Contoso
+        Insurance Welcome kit** then click **Insert**.
 
     -   In the **Button Text** field, change it to **Click here to download the
         welcome kit.**
