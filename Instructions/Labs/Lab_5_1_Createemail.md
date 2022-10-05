@@ -62,7 +62,7 @@ This lab compromises of one exercise:
 
 9. Update the logo column. 
 
-	- Select the column with the logo. Expand the **Spacing** section. Change the **Left** **Inner spacing** to 20px. Set the others to 10 px.
+	- Select the column with the logo. Expand the **Spacing** section. Change the **Inner spacing** to 20px. Set the **Outer Spacing** to 10 px.
 
 	- Select the image on the designer.
 
