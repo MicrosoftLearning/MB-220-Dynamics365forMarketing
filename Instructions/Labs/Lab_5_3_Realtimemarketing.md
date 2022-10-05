@@ -110,11 +110,11 @@ history, pay your bill, and more.
 
     -   Wait for the **Personalization** window to load.
 
-    -   Click **Select a data field** then select **Contact**.
+    -   Select **First Name**, verify the source is **Contact**.
 
-    -   Select **First Name**.
-
-    -   In **Default value** enter **Valued Customer.**
+    -   Choose **Contact** if a pop up appears to select the **Target Audience**.
+    
+    -   In Default value enter Valued Customer.
 
     -   Click **Save**.
 
