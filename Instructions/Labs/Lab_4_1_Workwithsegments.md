@@ -34,7 +34,7 @@ This lab compromises of three exercises:
 
 # Exercise 1: Create a dynamic segment
 
-1. Log into Dynamics 365 Marketing. Change to the **Outbound marketing** area, in the Change area drop-down menu.
+1. Log into Dynamics 365 Marketing. Change to the **Outbound marketing** area, in the **Change area** drop-down menu.
 
 2. Navigate to **Segments** under the **Customers** group. 
 
