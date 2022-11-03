@@ -345,9 +345,9 @@ Insurance Specialist
 
     1.  In **Name the journey**, enter [my prefix] Welcome Journey.
 
-    2.  In **Choose journey type**, select Event-based.
+    2.  In **Choose journey type**, select Trigger-based.
 
-    3.  In **Which event triggers the start of this journey?**, search for and
+    3.  In **Choose a trigger**, search for and
         select Contact Created.
 
     4.  Click **Create**.
@@ -388,18 +388,16 @@ Insurance Specialist
 
     2.  In **Display name** on the right, enter New Business Customer.
 
-    3.  Click **Incomplete condition**.
+    3.  Select **Branch 1**.
 
-    4.  Verify **Contact** is selected.
+    4.  In **Choose an attribute**, Search for Description (description), under Audience and Contact.
 
-    5.  In **Select an attribute,** choose Description.
-
-    6.  In **Select Condition Operator,** change the value from Equals to
+    5.  In **Select Condition Operator,** change the value from Equals to
         Contains.
 
-    7.  In **Value,** enter Business.
+    6.  In **Value,** enter Business.
 
-8.  Click the **plus icon (+)** in the Yes path.
+8.  Click the **plus icon (+)** under Branch 1.
 
     1.  Select **Send an email**.
 
@@ -408,15 +406,18 @@ Insurance Specialist
 9.  Click the **plus icon (+)** under the Send an email tile.
 
     1.  Select **Respond to an action**.
+    
+    2.  To configure the **If/then branch**, under **Wait for, Choose a branch condition type** select The previous message gets an interaction.
 
-    2.  In **Branch off this,** select [your prefix] Welcome Email 1.
-
-    3.  In **Wait for,** select Email Link Clicked.
-
-    4.  In **Which link?,** select the call-to-action button from the email
-        (e.g., Click here to download the welcome kit).
-
-    5.  In **What’s the time limit?,** enter 10 minutes.
+    3.  In **Choose an interaction**, select Email Link Clicked.
+    
+    4.  In **What’s the time limit?,** enter 10 minutes.
+    
+    5.  To specify the link clicked, select **create branches**.
+    
+    6.  Select the Attribute **Email Link Clicked**.
+    
+    7.  In **Branch 1, Choose a link**, select the call-to-action button from the email (e.g., Click here to download the welcome kit).  
 
 10. In the **Yes** path, click the **plus icon (+).**
 
