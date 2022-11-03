@@ -413,7 +413,7 @@ Insurance Specialist
     
     4.  In **What’s the time limit?,** enter 10 minutes.
     
-    5.  To specify the link clicked, select **create branches**.
+    5.  Back on the Journey diagram: To specify the link clicked, select **create branches**.
     
     6.  Select the Attribute **Email Link Clicked**.
     
