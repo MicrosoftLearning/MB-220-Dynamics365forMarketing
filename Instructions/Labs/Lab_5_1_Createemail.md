@@ -238,9 +238,9 @@ This lab compromises of one exercise:
 
 		5. Change the **button color** to #1a658c.
 
-		6. Expand **Size and alignment**.
+		6. Expand **Size and alignment**. 
 
-		7. Change the **Width** to 275px and the **Height** to 50px.
+		7. Uncheck the box next to **Fit to text**. Change the **Width** to 275px and the **Height** to 50px.
 
 		8. Expand **Spacing**.
 
