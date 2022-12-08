@@ -6,7 +6,7 @@ lab:
 
 # Module 5: Manage emails and journeys in Dynamics 365 Marketing
 
-## Practice Lab 5.4 – Real-time marketing
+## Practice Lab 5.3 – Real-time marketing
 
 # Lab Overview
 
