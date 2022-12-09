@@ -621,7 +621,7 @@ The day of the event, a representative from Contoso Insurance would check in att
 
 1. Log into Dynamics 365 Marketing.
 
-2. Navigate to the **Events** work area.
+2. Navigate to the **Event Planning** work area.
 
 3. Navigate to **Events** under the Event group.
 
