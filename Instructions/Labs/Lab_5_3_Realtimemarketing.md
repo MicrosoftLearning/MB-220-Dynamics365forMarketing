@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 5.3: Real-time marketing'
-    module: 'Module 5: Manage emails and journeys in Dynamics 365 Marketing'
+    title: 'Lab 6.1: Real-time marketing journey'
+    module: 'Module 6: Manage emails and journeys in real-time marketing'
 ---
 
-# Module 5: Manage emails and journeys in Dynamics 365 Marketing
+# Module 6: Manage emails and journeys in real-time marketing
 
-## Practice Lab 5.3 – Real-time marketing
+## Practice Lab 6.1 – Real-time marketing journey
 
 # Lab Overview
 
