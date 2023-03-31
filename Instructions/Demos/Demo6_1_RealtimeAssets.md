@@ -83,7 +83,7 @@ This lab comprises of four exercises:
 
 9.  Note: The **Default from email** domain will auto-update to the sending domain of your Dynamics 365 environment.
 
-## Exercise 3: Review the features of the real-time asset library
+## Exercise 3: Review the features of the library
 
 1.  Download the image files from the resource documents. Extract the files to a
     folder on your desktop.
