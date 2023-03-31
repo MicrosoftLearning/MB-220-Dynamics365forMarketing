@@ -15,7 +15,7 @@ demo:
 
 The marketing team wants to begin using the real-time marketing capabilities.
 They start by updating real-time marketing settings and uploading assets to the
-real-time library.
+library.
 
 ## Lab Overview
 
@@ -27,10 +27,7 @@ This lab comprises of four exercises:
 -   In the second exercise, you will demonstrate update marketing email
     settings.
 
--   In the third exercise, you will demonstrate copy all files over from
-    outbound marketing.
-
--   In the fourth exercise, you will demonstrate the capabilities of the
+-   In the third exercise, you will demonstrate the capabilities of the
     real-time marketing asset library.
 
 ## What You’ll Need
@@ -86,7 +83,7 @@ This lab comprises of four exercises:
 
 9.  Note: The **Default from email** domain will auto-update to the sending domain of your Dynamics 365 environment.
 
-## Exercise 4: Review the features of the real-time asset library
+## Exercise 3: Review the features of the real-time asset library
 
 1.  Download the image files from the resource documents. Extract the files to a
     folder on your desktop.
