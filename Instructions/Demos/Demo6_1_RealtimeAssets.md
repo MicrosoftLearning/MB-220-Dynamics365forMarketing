@@ -96,7 +96,7 @@ This lab comprises of four exercises:
 
 5.  Show how the images we uploaded in the Outbound marketing section are also active in this section. The asset library is shared between the two sections.
 
- 1.  From your computer, locate the images downloaded in step 1 of this exercise. Select all images **except person using laptop**. (This image will be uploaded in a future step.) Drag and drop the files into the Asset library.
+ 1.  From your computer, locate the images downloaded in step 1 of this exercise. Select all images. Drag and drop the files into the Asset library.
 
     2.  Select **Videos**. Explain how the asset library supports videos such as
         MP4, AVI, and MPEG files.
