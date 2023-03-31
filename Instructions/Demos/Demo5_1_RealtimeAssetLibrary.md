@@ -1,13 +1,13 @@
 ---
 demo:
-    title: 'Demo 5.1: Real-time marketing asset library'
-    module: 'Module 5: Manage emails and journeys in Dynamics 365 Marketing'
+    title: 'Demo 6.1: Real-time marketing assets'
+    module: 'Module 6: Manage emails and journeys in real-time marketing'
 ---
 
 
-#  Module 5: Manage emails and journeys in Dynamics 365 Marketing
+#  Module 6: Manage emails and journeys in real-time marketing
 
-## Demo 5.1 - Real-time marketing asset library
+## Demo 6.1 - Real-time marketing assets
 
 # Demo Overview
 
