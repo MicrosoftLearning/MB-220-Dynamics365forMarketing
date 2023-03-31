@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 5.4: Create marketing websites and redirect URLs'
-    module: 'Module 5: Manage emails and journeys in Dynamics 365 Marketing'
+    title: 'Lab 5.3: Create marketing websites and redirect URLs'
+    module: 'Module 5: Manage emails and journeys in outbound marketing'
 ---
 
-# Module 5: Manage emails and journeys in Dynamics 365 Marketing
+# Module 5: Manage emails and journeys in outbound marketing
 
-## Practice Lab 5.4: Create marketing websites and redirect URLs
+## Practice Lab 5.3: Create marketing websites and redirect URLs
 
 # Lab Overview
 
