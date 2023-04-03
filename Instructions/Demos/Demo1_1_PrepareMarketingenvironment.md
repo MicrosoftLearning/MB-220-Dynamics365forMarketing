@@ -41,7 +41,7 @@ To get started, the Marketing Coordinator needs to upload the digital assets tha
 
 This lab compromises of two exercises:
 
-1. In the first exercise, you will upload image files to be used in marketing pages and emails.
+1. In the first exercise, you will upload image files to be used in marketing pages and emails. (For this exercise, we will use the Library in the Marketing content section of **Outbound marketing.** Later on, we will upload images from the **Real-time marketing** Asset section, to show the images are shared between them.)
 
 2. In the second exercise, you will update details for existing contacts within Dynamics.
 
@@ -85,7 +85,7 @@ This lab compromises of two exercises:
 
 2. Log into Dynamics 365 Marketing with your **admin** credentials.
 
-3. Navigate to **Files** under the **Marketing content** group. 
+3. By default, you should be in the **Real-time marketing** area. Switch areas to **Outbound marketing**. Navigate to **Files** under the **Marketing content** group. 
 
 4. Click the **+ New** button to open the upload files window. 
 

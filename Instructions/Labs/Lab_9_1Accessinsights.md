@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 8.1: Access insights in Dynamics 365 Marketing'
-    module: 'Module 8: Review insights in Dynamics 365 Marketing'
+    title: 'Lab 9.1: Access insights in Dynamics 365 Marketing'
+    module: 'Module 9: Review insights in Dynamics 365 Marketing'
 ---
 
-# Module 8: Analyze insights with Dynamics 365 Marketing
+# Module 9: Analyze insights with Dynamics 365 Marketing
 
-## Lab 8.1: Review insights in Dynamics 365 Marketing
+## Lab 9.1: Review insights in Dynamics 365 Marketing
 
  
 
