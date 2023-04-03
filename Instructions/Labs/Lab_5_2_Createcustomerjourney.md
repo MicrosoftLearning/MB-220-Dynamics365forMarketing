@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 5.2: Create and launch a customer journey'
-    module: 'Module 5: Manage emails and journeys in Dynamics 365 Marketing'
+    title: 'Lab 5.2: Create and launch an outbound customer journey'
+    module: 'Module 5: Manage emails and journeys in outbound marketing'
 ---
 
-# Module 5: Manage emails and journeys in Dynamics 365 Marketing
+# Module 5: Manage emails and journeys in outbound marketing
 
-## Practice Lab 5.2 – Create and launch a customer journey
+## Practice Lab 5.2 – Create and launch an outbound customer journey
 
 # Lab Overview
 
