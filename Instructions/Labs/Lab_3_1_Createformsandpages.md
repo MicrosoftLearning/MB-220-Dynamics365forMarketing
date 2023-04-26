@@ -212,6 +212,3 @@ This lab compromises of two exercises:
 
 12. Click **Go live** in the toolbar. A pop-up will show up. Click **OK**. 
 
-22. Navigate to the **Summary** tab and open the **Full page URL** to view your page. It may take a moment for all content to appear.
-
-23. If you would like to make changes, stop the page, make your updates. Click **Check for errors** and then click **Go live** again.
