@@ -8,8 +8,6 @@ Lab:
 
 ## Lab 1.2: Prepare Marketing Environment
 
- 
-
 # Lab Overview
 
 # Scenario
