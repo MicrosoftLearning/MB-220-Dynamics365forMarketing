@@ -341,7 +341,7 @@ This lab compromises of one exercise:
 
 	- Change **Link to** to Marketing page.
 
-	- Select the marketing page you created in a previous lab.
+	- Select any marketing page.
 
 	- Change the **Button text** to REVIEW MY COVERAGE.
 
