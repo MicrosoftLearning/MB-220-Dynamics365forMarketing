@@ -201,7 +201,7 @@ This lab comprises of seven exercises:
 
 9. On left side you will see the name of the Project - Periodic customer feedback, the **Surveys** area, which shows all the surveys for that project, including the new one you just created, and the **Reports** area, which shows all the reports for the surveys within that project.
 
-	- In the **Surveys** section, click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename **to [my prefix] Business Appreciation Event Survey**. Click **Rename**.
+	- In the **Surveys** section, click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename **to Business Appreciation Event Survey**. Click **Rename**.
 
 	- This is the name you will search for when linking your survey to other marketing content for the event.
 
