@@ -38,7 +38,7 @@ This lab compromises of one exercise:
 
 4. From the template gallery, select **1-2 column layout**.
 
-5. In the upper left corner, name the email **[my prefix] Cross Sell Campaign Email** 
+5. In the upper left corner, name the email **Cross Sell Campaign Email** 
 
 6. Select the **From Name/Subject** box in the designer to display the **Email** header details on the right.
 
@@ -286,11 +286,11 @@ This lab compromises of one exercise:
 
 4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as**.
 
-5. In the **Quick Create** menu on the right, name the email **[my prefix] Cross Sell Campaign Email 2**.
+5. In the **Quick Create** menu on the right, name the email **Cross Sell Campaign Email 2**.
 
 6. In the **Subject** **field,** enter “Is your business fully covered?”
 
-7. Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Marketing emails list and open **[my prefix] Cross Sell Campaign Email 2**.
+7. Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Marketing emails list and open **Cross Sell Campaign Email 2**.
 
 8. Select the **From Name/Subject** box in the designer to display the Email header details on the right. Expand **Send settings**. Verify the **From name** is Contoso Insurance.
 
@@ -367,11 +367,11 @@ This lab compromises of one exercise:
 
 4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as**.
 
-5. In the **Quick Create** menu on the right, name the email **[my prefix] Cross Sell Campaign Email 3**.
+5. In the **Quick Create** menu on the right, name the email **Cross Sell Campaign Email 3**.
 
 6. In the **Subject** **field,** enter “Thanks for contacting us!”
 
-7. Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Marketing emails list and open **[my prefix] Cross Sell Campaign Email 3**.
+7. Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Marketing emails list and open **Cross Sell Campaign Email 3**.
 
 8. Select the **From Name/Subject** box in the designer to display the Email header details on the right. Expand **Send settings**. Verify the **From name** says Contoso Insurance.
 
