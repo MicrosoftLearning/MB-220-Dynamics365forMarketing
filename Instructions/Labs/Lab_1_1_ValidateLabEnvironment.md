@@ -48,3 +48,10 @@ minutes before the virtual machine has network connectivity to begin the labs.
 
 4.  Finally, select **Skip & go to Dynamics 365 Customer Voice**. 
 
+
+### Task 3 - Configuration
+
+1.  In Dynamics 365 Marketing, change to the **Settings** area, select **Feature switches** under Overview.  
+
+2.  Under **Integrations**, enable **Customer Voice integration** and select **I agree**. Select **Save**. 
+
