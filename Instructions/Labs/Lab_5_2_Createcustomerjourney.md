@@ -40,7 +40,7 @@ This lab compromises of three exercises:
 
 4. Navigate to the **General** tab.
 
-	- Name the journey **[my prefix] Cross Sell Campaign Journey**. 
+	- Name the journey **Cross Sell Campaign Journey**. 
 
 	- Ensure **target** is set to **Contact**. 
 
@@ -66,13 +66,13 @@ This lab compromises of three exercises:
 
 	- **Inclusion** is selected. 
 
-	- In the **field below Inclusion**, start typing your prefix and select **[my prefix] Business Customers**.
+	- In the **field below Inclusion**, start typing and select **Business Customers**.
 
 7. Set up the first email in the journey.
 
 	- Select the plus sign after the segment. Select **Send an Email**.
 
-	- In the **Email** field on the right, select **[my prefix] Cross Sell Campaign Email**.
+	- In the **Email** field on the right, select **Cross Sell Campaign Email**.
 
 8. Add a wait step.
 
@@ -88,15 +88,15 @@ This lab compromises of three exercises:
 
 	- Select the plus sign after the segment. Select **Send an Email**.
 
-	- In the **Email** field on the right, select **[my prefix] Cross Sell Campaign Email 2**.
+	- In the **Email** field on the right, select **Cross Sell Campaign Email 2**.
 
-	- Expand the **Email elements** tab and select **+ Add item.** Select **Form**. In the lookup field, choose **[my prefix] Cross Sell Campaign** **Form**.
+	- Expand the **Email elements** tab and select **+ Add item.** Select **Form**. In the lookup field, choose **Cross Sell Campaign** **Form**.
 
 10. Add an if/then condition. 
 
 	- After email 2, click the plus sign. Select **If/Then**.
 
-		1. In the **Conditions** field, select **[my prefix] Cross Sell Campaign Form**.
+		1. In the **Conditions** field, select **Cross Sell Campaign Form**.
 
 		2. In the **Select a condition** field, select **have registration**.
 
@@ -106,7 +106,7 @@ This lab compromises of three exercises:
 
 	- In the **Yes** branch, click the plus sign. Select **Send an email**.
 
-		1. In the **Email** field on the right, select **[my prefix] Cross Sell Campaign Email 3**.
+		1. In the **Email** field on the right, select **Cross Sell Campaign Email 3**.
 
     - After the email, click the plus sign. Select **Task**. 
     
@@ -118,13 +118,13 @@ This lab compromises of three exercises:
 
 	- In the **No** branch, click the plus sign. Select **Send an email**.
 
-		1. In the **Email** field on the right, **select** **[my prefix] Cross Sell Campaign Email 2**.
+		1. In the **Email** field on the right, **select** **Cross Sell Campaign Email 2**.
 
-		2. Expand the **Email elements** tab and select **+ Add item.** Select **Form**. In the lookup field, choose **[my prefix] Cross Sell Campaign** **Form**.
+		2. Expand the **Email elements** tab and select **+ Add item.** Select **Form**. In the lookup field, choose **Cross Sell Campaign** **Form**.
 
     - After the email, click the plus sign. Select **If/Then**.
     
-    	1. In the **Conditions** field, select **[my prefix] Cross Sell Campaign Form**.
+    	1. In the **Conditions** field, select **Cross Sell Campaign Form**.
     
     	2. In the **Select a condition** field, select **have registration**.
     
@@ -132,7 +132,7 @@ This lab compromises of three exercises:
     
     	4. In the **Yes** branch, click the plus sign. Select **Send an email**.
     
-    		1. In the **Email** field on the right, select **[my prefix] Cross Sell Campaign Email 3**.
+    		1. In the **Email** field on the right, select **Cross Sell Campaign Email 3**.
     
         5. After the email, click the plus sign. Select **Task**.
         
