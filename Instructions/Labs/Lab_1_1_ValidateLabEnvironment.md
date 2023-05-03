@@ -8,14 +8,12 @@ lab:
 Module 1: Configure Dynamics 365 Marketing
 ========================
 
-**Important notice for instructors:** Please do not make any changes, including adding licenses or changing tenant password. Tenants are fully provisioned with all necessary licenses, environments, and applications to complete the required tenants. Instructors and students should not add any additional functionality outside of the published lab steps. Adding additional functionality will cause the tenant to break and become inactive, and changing tenant password will inhibit the recycling of the tenant for the next class. Thank you for your cooperation.
-
-## Practice Lab 1.1 - Validate lab environment 
+# Practice Lab 1.1 - Validate lab environment 
 
 Scenario
 --------
 
-In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your “alias”, and open the Dynamics 365 model-driven application that we will be using throughout the course. 
+In this lab, you will provision Trial licenses for Dynamics 365 Marketing and Dynamics 365 Customer Voice and validate that the tenant is working as expected. You will access your individual credentials and open the Dynamics 365 model-driven application that we will be using throughout the course. 
 
 **Important Note:** This lab will provide you with an actual Dynamics 365 tenant
 and licenses for the Power Platform applications you will be using in this
@@ -24,23 +22,36 @@ instructions in this document may be different from what you experience in your
 actual tenant. It is also possible to experience a delay of several
 minutes before the virtual machine has network connectivity to begin the labs.
 
-Exercise 1 - Access the Dynamics 365 application
+## Exercise 1 - Access the Dynamics 365 application
 ---------------------------------------------------
 
-### Task 1 – Log into the admin center 
+### Task 1 – Provision Dynamics 365 Marketing Trial
 
-1.  Access **office.com** and log in with your user credentials.
+1.  In a new browser tab, navigate to `https://dynamics.microsoft.com/en-us/marketing` and select **Try for free**. 
 
-2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization. 
+2.  Enter the email address provided by the Authorized Lab Host and select **Start your free trial**. 
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. you create.
+3.  Enter your password. 
 
-3. Record your organization ID after the **@** symbol on a scratch piece of paper or in Notepad. This is your organization ID that will be helpful in accessing the Dynamics 365 application.
+4.  Enter a phone number, or `0123456789` if you do not have one. Select **Submit**. 
 
-### Task 2 – Access the Dynamics 365 application
+5.  You should be directed to the Dynamics 365 Marketing model-driven application. 
 
-1. Open browser and navigate to https://[Organization ID that you recorded in Step 3].crm.dynamics.com. 
 
-3. The Dynamics 365 app will open. Select the **Marketing** app. (If you are not taken directly to a list of applications, look at the top bar that says "Dynamics 365". Click the name of the app you are currently in, directly to the right of "Dynamics 365." A list of applications will open. Select **Marketing.**)
+### Task 2 – Set up Customer Voice
 
-4. Spend a few minutes exploring the application but do not make any changes.
+1.  In a new browser tab, navigate to `https://aka.ms/TryCustomerVoice` 
+
+2.  Select **Continue** or if you're not already signed in, enter the email address provided by the Authorized Lab Host. 
+
+3.  Select **Get Started**. 
+
+4.  Finally, select **Skip & go to Dynamics 365 Customer Voice**. 
+
+
+### Task 3 - Configuration
+
+1.  In Dynamics 365 Marketing, change to the **Settings** area, select **Feature switches** under Overview.  
+
+2.  Under **Integrations**, enable **Customer Voice integration** and select **I agree**. Select **Save**. 
+
