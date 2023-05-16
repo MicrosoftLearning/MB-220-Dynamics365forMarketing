@@ -14,7 +14,7 @@ lab:
 
 ## Scenario
 
-Dynamics 365 provides a variety of built-in analytics throughout the application that enables you to view statistics, analytics, and key performance indicators based on your marketing results. This lab will review the insights generated from the Cross Sell Campaign and the Business After Hours Event
+Dynamics 365 provides a variety of built-in analytics throughout the application that enables you to view statistics, analytics, and key performance indicators based on your marketing results. This lab will review the insights generated from the Cross Sell Campaign and the Business After Hours Event.
 
 ## Lab Overview
 
