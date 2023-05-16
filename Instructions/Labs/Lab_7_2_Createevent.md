@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 7.1: Create an event'
+    title: 'Lab 7.2: Create an event'
     module: 'Module 7: Manage events'
 ---
 
 # Module 7: Manage events
 
-## Practice Lab 7.1: Create an event
+## Practice Lab 7.2: Create an event
 
 # Lab Overview
 
