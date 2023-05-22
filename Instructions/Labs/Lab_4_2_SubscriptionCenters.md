@@ -1,5 +1,5 @@
 ---
-Lab:
+lab:
     title: 'Lab 4.2: Manage subscription centers'
     module: 'Module 4: Manage segments and subscription centers'
 ---
