@@ -42,7 +42,7 @@ This lab compromises of three exercises:
 
 4. When prompted to select a Segment Template, click **Skip.**
 
-5. In the **Name** segment located in the middle of the screen, enter **[my prefix] Humongous Insurance.**
+5. In the **Name** segment located in the middle of the screen, enter **Humongous Insurance.**
 
 6. On the right, next to Undo/Redo, make sure **Natural view** is selected.
 
@@ -84,7 +84,7 @@ This lab compromises of three exercises:
 
 4. When prompted to select a Segment Template, click **Skip.**
 
-5. Name the segment **[my prefix] Business Customers.**
+5. Name the segment **Business Customers.**
 
 6. Select **Add Query Block.** (If a pop-up appears, close it.) 
 
@@ -102,7 +102,7 @@ This lab compromises of three exercises:
 
 	- Change the operator to **but not**. 
 
-	- Start typing your prefix into the field and select the **[my prefix] Humongous Insurance**.
+	- Start typing **Hum** and select the **Humongous Insurance** record.
 
 10. Click **Save** and click **check for errors** in the toolbar. Correct any if needed.
 
@@ -124,7 +124,7 @@ To participate in the journey, you will need to set yourself up as a contact. Be
 
 3. Select **+New**.
 
-4. In the **First Name** field, enter [my prefix].
+4. In the **First Name** field, enter a generic first name.
 
 5. In the **Last Name** field, enter a generic last name.
 
@@ -140,6 +140,6 @@ To participate in the journey, you will need to set yourself up as a contact. Be
 
 11. Click **Save &amp; Close**.
 
-12. Navigate back to **Segments**. Open the **[my prefix] Business Customers** segment. Verify the contact you created appears.
+12. Navigate back to **Segments**. Open the **Business Customers** segment. Verify the contact you created appears.
 
 	- Note: You may need to refresh or wait a few minutes before the contact appears.

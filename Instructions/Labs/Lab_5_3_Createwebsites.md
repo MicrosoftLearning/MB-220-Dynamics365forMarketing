@@ -42,7 +42,7 @@ This lab compromises of three exercises:
 
 3. Click **+New** to create a new website.
 
-4. Name the website **[my prefix] Contoso Insurance Product Page**.
+4. Name the website **Contoso Insurance Product Page**.
 
 5. In the **URL** field, copy and paste this URL: [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/)
 
@@ -66,7 +66,7 @@ This lab compromises of three exercises:
 
 6. Create a new **redirect URL**.
 
-7. Name the redirect URL **[my prefix] Contoso Insurance Product Page Redirect**.
+7. Name the redirect URL **Contoso Insurance Product Page Redirect**.
 
 8. In the **Original URL** field, copy and paste this URL: [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/)
 

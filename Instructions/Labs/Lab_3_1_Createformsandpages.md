@@ -42,7 +42,7 @@ This lab compromises of two exercises:
 
 5. Expand the carrot next to **Draft** in the upper right corner. 
 
-	- Name the form **[my prefix] Cross Sell Campaign Form**. 
+	- Name the form **Cross Sell Campaign Form**. 
 
 	- Confirm the **Form Type** is **Landing page** and that it is set to update **Contacts and leads.**
 
@@ -144,11 +144,11 @@ This lab compromises of two exercises:
 
 4. Expand the carrot next to **Draft** in the upper right corner. 
 
-	- Name the page **[my prefix] Cross Sell Campaign Page**. 
+	- Name the page **Cross Sell Campaign Page**. 
 
 	- Confirm this page is designated as a **landing page**. 
 
-	- In the **Partial URL** field, enter **[myprefix]reviewcoverage**.
+	- In the **Partial URL** field, enter **reviewcoverage**.
 
 5. Save your changes.
 
@@ -168,7 +168,7 @@ This lab compromises of two exercises:
 
 13. From the **Toolbox**, drag an **image** element below the paragraph. Navigate to the image gallery and select **insurance-agent**. Change the Height/Width sizing to Auto.
 
-14. Click the form block. In the **Marketing form** field, begin typing **your prefix** and select the form you created in the previous exercise. If your form does not appear, save your marketing page and navigate to your form to ensure it is **Live**.
+14. Click the form block. In the **Marketing form** field, select the form you created in the previous exercise. If your form does not appear, save your marketing page and navigate to your form to ensure it is **Live**.
 
 15. Add a **text element** above the form. Add “Contact us to schedule your coverage review.” Change the font size to 18.
 

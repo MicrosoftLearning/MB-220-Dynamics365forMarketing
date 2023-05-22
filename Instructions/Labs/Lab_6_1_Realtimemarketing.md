@@ -53,20 +53,15 @@ provided in the Appendix for design and content suggestions for these emails.
 
 5.  Enter details about the email.
 
-    -   Suggested **Name**: [my prefix] Welcome Email 1
+    -   Suggested **Name**: [Welcome Email 1
 
         1.  Enter this at the top left of the email designer.
 
-    -   Suggested **Subject**: [my prefix] Welcome to Contoso Insurance
+    -   Suggested **Subject**: Welcome to Contoso Insurance
 
         1.  To add a subject and preview text, click the section in the middle
             of the designer that includes the From address and Subject Line
             placeholder to display the **Email header** on the right.
-
-        2.  Note: All students in the course will create the same emails and
-            journey. This means you will receive emails from other students’
-            journeys. We suggest you include your prefix in the subject line of
-            the email to identify which one you created.
 
     -   Suggested **Preview text**: We’re committed to providing you quality
         insurance.
@@ -163,7 +158,7 @@ history, pay your bill, and more.
     -   While Welcome Email 1 is open, click the drop down next to **Save** then
         select **Save as**.
 
-    -   Update the name of the email to **[my prefix] Welcome Email 2** and
+    -   Update the name of the email to **Welcome Email 2** and
         click **Save and Close**.
 
     -   Select **View record** in the pop-up at the bottom of the screen to move
@@ -171,13 +166,8 @@ history, pay your bill, and more.
 
 2.  Enter details about the email.
 
-    -   Suggested **Subject**: [your prefix] Get on-demand access to your
+    -   Suggested **Subject**: Get on-demand access to your
         Contoso Insurance portal
-
-        1.  Note: All students in the course will create the same emails and
-            journey. This means you will receive emails from other students’
-            journeys. We suggest you include your prefix in the subject line of
-            the email to identify which one you created.
 
     -   Suggested **Preview text**: Review account information, policy details,
         submit a claim, and more.
@@ -257,7 +247,7 @@ Insurance Specialist
     -   While Welcome Email 2 is open, click the drop down next to **Save** then
         select **Save as**.
 
-    -   Update the name of the email to **[my prefix] Welcome Email 3** and
+    -   Update the name of the email to **Welcome Email 3** and
         click **Save and Close**.
 
     -   Select **View record** in the pop-up at the bottom of the screen to move
@@ -267,11 +257,6 @@ Insurance Specialist
 
     -   Suggested **Subject**: [your prefix] Your welcome kit contains important
         information
-
-        1.  Note: All students in the course will create the same emails and
-            journey. This means you will receive emails from other students’
-            journeys. We suggest you include your prefix in the subject line of
-            the email to identify which one you created.
 
     -   Suggested **Preview text**: Download and review your welcome kit.
 
@@ -343,7 +328,7 @@ Insurance Specialist
 
 4.  Click **+ New journey** in the command bar.
 
-    1.  In **Name the journey**, enter [my prefix] Welcome Journey.
+    1.  In **Name the journey**, enter Welcome Journey.
 
     2.  In **Choose journey type**, select Trigger-based.
 
@@ -401,7 +386,7 @@ Insurance Specialist
 
     1.  Select **Send an email**.
 
-    2.  In **Select email,** choose [your prefix] Welcome Email 1.
+    2.  In **Select email,** choose Welcome Email 1.
 
 9.  Click the **plus icon (+)** under the Send an email tile.
 
@@ -423,13 +408,13 @@ Insurance Specialist
 
     1.  Select **Send an email**.
 
-    2.  In **Select email,** choose [your prefix] Welcome Email 2.
+    2.  In **Select email,** choose Welcome Email 2.
 
 11. In the corresponding **No** path, click the **plus icon (+).**
 
     1.  Select **Send an email**.
 
-    2.  In **Select email,** choose [your prefix] Welcome Email 3.
+    2.  In **Select email,** choose Welcome Email 3.
 
 12. **Save** the journey.
 
@@ -457,7 +442,7 @@ Insurance Specialist
     4.  Click **Save** in the command bar.
 
     5.  Wait a few minutes. Check your inbox to see that you have received
-        Welcome Email 1 \| subject line: [my prefix] Welcome to Contoso
+        Welcome Email 1 \| subject line: Welcome to Contoso
         Insurance.
 
         1.  Note: Be sure to check your junk folder if you do not see the email
@@ -469,7 +454,7 @@ Insurance Specialist
     7.  Verify the PDF downloads.
 
     8.  Wait a few minutes. Check your inbox to see that you have received
-        Welcome Email 2 \| subject line: [my prefix] Get on-demand access to
+        Welcome Email 2 \| subject line: Get on-demand access to
         your Contoso Insurance portal.
 
         1.  Note: Be sure to check your junk folder if you do not see the email
@@ -499,13 +484,13 @@ Insurance Specialist
     6.  Do not take any action within the email.
 
     7.  Wait 10 minutes. Check your inbox to see that you have received Welcome
-        Email 3 \| subject line: [my prefix] Your welcome kit contains important
+        Email 3 \| subject line: Your welcome kit contains important
         information.
 
 6.  Navigate to the **Real-time marketing** work area.
 
 7.  Under **Engagement**, select **Journeys.**
 
-8.  Open **[my prefix] Welcome Journey.**
+8.  Open **Welcome Journey.**
 
 9.  Review the insights generated from the journey.

@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 7.1: Create an event'
+    title: 'Lab 7.2: Create an event'
     module: 'Module 7: Manage events'
 ---
 
 # Module 7: Manage events
 
-## Practice Lab 7.1: Create an event
+## Practice Lab 7.2: Create an event
 
 # Lab Overview
 
@@ -64,7 +64,7 @@ This lab comprises of seven exercises:
 
 4. Click **+New** to create a new event.
 
-	- **Event name**: [my prefix] Contoso Insurance Business Appreciation Event. 
+	- **Event name**: Contoso Insurance Business Appreciation Event. 
 
 	- **Event type**: Demonstration.
 
@@ -126,7 +126,7 @@ This lab comprises of seven exercises:
 
 	- When prompted to select a template, click **Skip.**
 
-	- Name the segment **[my prefix] Business Appreciation Event Invitees**.
+	- Name the segment **Business Appreciation Event Invitees**.
 
 	- Select **Add Query Block.** (If a pop-up appears, close it.) 
 
@@ -151,7 +151,7 @@ This lab comprises of seven exercises:
     
     	- Change the operator to **but not**. 
     
-    	- Start typing your prefix into the field and select the **[my prefix] Humongous Insurance.**
+    	- Select the **Humongous Insurance** record.
     
     - Click the arrow next to **Estimate size**. Review the results. Reminder: The capacity for the venue is 50.
     
@@ -171,9 +171,9 @@ This lab comprises of seven exercises:
 
 	- In the template gallery, select **Attended an event** then click **Select**.
 
-	- Name the segment **[my prefix] Business Appreciation Event Attendees**.
+	- Name the segment **Business Appreciation Event Attendees**.
 
-	- Under **Check-in**, in the event lookup field, select **[my prefix] Contoso Insurance Business Appreciation Event**.
+	- Under **Check-in**, in the event lookup field, select **Contoso Insurance Business Appreciation Event**.
 
 	- Click **Save** and **check for errors**. Correct any if needed.
 
@@ -201,7 +201,7 @@ This lab comprises of seven exercises:
 
 9. On left side you will see the name of the Project - Periodic customer feedback, the **Surveys** area, which shows all the surveys for that project, including the new one you just created, and the **Reports** area, which shows all the reports for the surveys within that project.
 
-	- In the **Surveys** section, click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename **to [my prefix] Business Appreciation Event Survey**. Click **Rename**.
+	- In the **Surveys** section, click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename **to Business Appreciation Event Survey**. Click **Rename**.
 
 	- This is the name you will search for when linking your survey to other marketing content for the event.
 
@@ -344,15 +344,15 @@ This lab comprises of seven exercises:
 
 	- Navigate to **Marketing emails** under the **Marketing execution** group.
 
-	- Open **[my prefix] Cross Sell Campaign Email 3**.
+	- Open **Cross Sell Campaign Email 3**.
 
 	- Click the drop down next to **Save** then choose **Save as**.
 
-	- **Name**: [my prefix] Business Appreciation Event Invite.
+	- **Name**: Business Appreciation Event Invite.
 
 	- **Subject:** You’re invited!
 
-	- Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click View record to open the new email. Otherwise navigate to the Marketing emails list and open **[my prefix] Business Appreciation Event Invite**.
+	- Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click View record to open the new email. Otherwise navigate to the Marketing emails list and open **Business Appreciation Event Invite**.
 
 	- Change the image to: coho-vineyard
 
@@ -372,7 +372,7 @@ This lab comprises of seven exercises:
     
     	- **Link to**: Event
     
-    	- **Event**: Click **Change View**. Choose **My Active Events.** Select [my prefix] Contoso Insurance Business Appreciation Event
+    	- **Event**: Click **Change View**. Choose **My Active Events.** Select Contoso Insurance Business Appreciation Event
     
     	- **Button text**: REGISTER NOW
     
@@ -394,9 +394,9 @@ This lab comprises of seven exercises:
 
 3. Create event email #2.
 
-	- While **[my prefix] Business Appreciation Event Invite** email is still open, click the drop down next to **Save** then choose **Save as**.
+	- While **Business Appreciation Event Invite** email is still open, click the drop down next to **Save** then choose **Save as**.
 
-	- **Name**: [my prefix] Business Appreciation Event Confirmation.
+	- **Name**: Business Appreciation Event Confirmation.
 
 	- **Subject:** Thanks for registering!
 
@@ -425,7 +425,7 @@ This lab comprises of seven exercises:
     
     	- What should be added to calendar: Only the event
     
-    	- **Event**: [my prefix] Contoso Insurance Business Appreciation Event
+    	- **Event**: Contoso Insurance Business Appreciation Event
     
     	- **Button text**: ADD TO CALENDAR
 
@@ -439,9 +439,9 @@ This lab comprises of seven exercises:
 
 4. Create event email #3.
 
-	- While **[my prefix] Business Appreciation Event Confirmation** email is still open, click the drop down next to **Save** then choose **Save as**.
+	- While **Business Appreciation Event Confirmation** email is still open, click the drop down next to **Save** then choose **Save as**.
 
-	- **Name**: [my prefix] Business Appreciation Event Thank You.
+	- **Name**: Business Appreciation Event Thank You.
 
 	- **Subject:** Thanks for attending our Business Appreciation Event!
 
@@ -469,7 +469,7 @@ This lab comprises of seven exercises:
     
     	- **Link to**: Survey
     
-    	- **Event**: [my prefix] Business Appreciation Event Survey
+    	- **Event**: Business Appreciation Event Survey
     
     	- **Button text**: TAKE SURVEY
     
@@ -495,7 +495,7 @@ The journey will have two tracks - the first will include the invitation and con
 
 4. Navigate to the **General** tab.
 
-	- **Name** the journey [my prefix] Business Appreciation Event Journey.
+	- **Name** the journey Business Appreciation Event Journey.
 
 	- Ensure **Target** is set to Contact.
 
@@ -513,19 +513,19 @@ The journey will have two tracks - the first will include the invitation and con
 
 6. Define the first track for the customer journey.
 
-	- Click **Set audience.** On the properties pane on the right, in the un-named field under Inclusion, click on the magnifying glass. Select **[my prefix] Business Appreciation Event Invitees**.
+	- Click **Set audience.** On the properties pane on the right, in the un-named field under Inclusion, click on the magnifying glass. Select **Business Appreciation Event Invitees**.
 
 	- Click on the plus sign between Start and End arrows. Select **Send an email** from the menu.
 
-	- Click the **Send an email** tile. On the properties pane on the right, in the email field, click on the magnifying glass. Select the **[my prefix] Business Appreciation Event Invite**.
+	- Click the **Send an email** tile. On the properties pane on the right, in the email field, click on the magnifying glass. Select the **Business Appreciation Event Invite**.
 
-		- Expand the **Email elements** tab and select **+ Add item.** Select **Event**. In the lookup field, choose **[my prefix] Contoso Insurance Business Appreciation Event**.
+		- Expand the **Email elements** tab and select **+ Add item.** Select **Event**. In the lookup field, choose **Contoso Insurance Business Appreciation Event**.
 
     - Click on the plus sign next to **Send an email.** Select **If/then** from the menu.
     
     - Click the **If/then** tile.
     
-    	- In the **Conditions** field, select **[my prefix] Contoso Insurance Business Appreciation Event**.
+    	- In the **Conditions** field, select **Contoso Insurance Business Appreciation Event**.
     
     	- In the **Select a condition** field, select **has been registered**.
     
@@ -533,19 +533,19 @@ The journey will have two tracks - the first will include the invitation and con
     
     - In the **Yes** branch, click the plus sign. Select **Send an email**.
     
-    	- In the **Email** field on the right, select **[my prefix] Business Appreciation Event Confirmation**.
+    	- In the **Email** field on the right, select **Business Appreciation Event Confirmation**.
     
     - In the **No** branch, click the plus sign. Select **Send an email**.
     
-    	- In the **Email** field on the right, select **[my prefix] Business Appreciation Event Invite**.
+    	- In the **Email** field on the right, select **Business Appreciation Event Invite**.
     
-    	- Expand the **Email elements** tab and select **+ Add item.** Select **Event**. In the lookup field, choose **[my prefix] Contoso Insurance Business Appreciation Event**.
+    	- Expand the **Email elements** tab and select **+ Add item.** Select **Event**. In the lookup field, choose **Contoso Insurance Business Appreciation Event**.
     
     	- Click on the plus sign next to **Send an email.** Select **If/then** from the menu.
     
     	- Click the **If/then** tile.
     
-    		1. In the **Conditions** field, select **[my prefix] Contoso Insurance Business Appreciation Event**.
+    		1. In the **Conditions** field, select **Contoso Insurance Business Appreciation Event**.
     
     		2. In the **Select a condition** field, select **has been registered**.
     
@@ -553,13 +553,13 @@ The journey will have two tracks - the first will include the invitation and con
     
     - In the **Yes** branch, click the plus sign. Select **Send an email**.
     
-    	1. In the **Email** field on the right, select **[my prefix] Business Appreciation Event Confirmation**.`
+    	1. In the **Email** field on the right, select **Business Appreciation Event Confirmation**.`
 
 7. Define the second track for the customer journey.
 
 	- Below the audience tile, click **+ Add swimlane.**
 
-	- Click **Set Audience.** On the **properties** pane on the right, in the un-named field under **Inclusion**, click on the magnifying glass. Select **[my prefix] Business Appreciation Event Attendees**.
+	- Click **Set Audience.** On the **properties** pane on the right, in the un-named field under **Inclusion**, click on the magnifying glass. Select **Business Appreciation Event Attendees**.
 
 	- Click on the plus sign between Start and End arrows. Select **Wait until** from the menu.
 
@@ -569,9 +569,9 @@ The journey will have two tracks - the first will include the invitation and con
 
     - Click on the plus sign next to the **Wait until** tile. Select **Send an email** from the menu.
     
-    - Click the **Send an email** tile. On the **properties** pane on the right, in the **email** field, click on the magnifying glass. Select the **[my prefix] Business Appreciation Event Thank You**.
+    - Click the **Send an email** tile. On the **properties** pane on the right, in the **email** field, click on the magnifying glass. Select the **Business Appreciation Event Thank You**.
     
-    	- Expand the **Email elements** tab and select **+ Add item.** Select **Customer Voice survey**. In the lookup field, choose **[my prefix] Business Appreciation Event Survey**.
+    	- Expand the **Email elements** tab and select **+ Add item.** Select **Customer Voice survey**. In the lookup field, choose **Business Appreciation Event Survey**.
 
 8. Click **Save** in the command bar. 
 
@@ -625,7 +625,7 @@ The day of the event, a representative from Contoso Insurance would check in att
 
 3. Navigate to **Events** under the Event group.
 
-4. Open **[my prefix] Contoso Insurance Business Appreciation Event**.
+4. Open **Contoso Insurance Business Appreciation Event**.
 
 5. Navigate to the **Registration and attendance** tab. Scroll down to the **Event registrations** area to see who has registered.
 

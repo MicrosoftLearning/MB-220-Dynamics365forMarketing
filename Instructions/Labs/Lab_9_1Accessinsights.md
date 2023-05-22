@@ -14,7 +14,7 @@ lab:
 
 ## Scenario
 
-Dynamics 365 provides a variety of built-in analytics throughout the application that enables you to view statistics, analytics, and key performance indicators based on your marketing results. This lab will review the insights generated from the Cross Sell Campaign and the Business After Hours Event
+Dynamics 365 provides a variety of built-in analytics throughout the application that enables you to view statistics, analytics, and key performance indicators based on your marketing results. This lab will review the insights generated from the Cross Sell Campaign and the Business After Hours Event.
 
 ## Lab Overview
 
@@ -34,7 +34,7 @@ This lab compromises of one exercise:
 
 2. Navigate to **Customer journeys** under the **Marketing execution** group.
 
-3. Select the **[my prefix] Cross Sell Campaign Journey**. 
+3. Select the **Cross Sell Campaign Journey**. 
 
 	- Navigate to the **Insights** tab. Review the Overview and Incomplete journeys tabs.
 
@@ -72,7 +72,7 @@ This lab compromises of one exercise:
 
 4. Navigate to **Marketing pages** under the Internet marketing group.
 
-	- Open **[my prefix] Cross Sell Campaign** **Page.** 
+	- Open **Cross Sell Campaign** **Page.** 
 
 	- Navigate to the **Insights** tab.
 
@@ -80,7 +80,7 @@ This lab compromises of one exercise:
 
 5. Navigate to **Marketing forms** under the Internet marketing group.
 
-	- Open **[my prefix] Cross Sell Campaign** **Form.** 
+	- Open **Cross Sell Campaign** **Form.** 
 
 	- Navigate to the **Insights** tab.
 
@@ -110,6 +110,6 @@ This lab compromises of one exercise:
 
 	- Click on **All projects** on the left.
 
-	- Select **[my prefix] Customer Appreciation Event Survey**. When the survey opens, expand the **Reports** menu on the left. Click **Satisfaction Metrics** for a dashboard view of the survey results.
+	- Select **Customer Appreciation Event Survey**. When the survey opens, expand the **Reports** menu on the left. Click **Satisfaction Metrics** for a dashboard view of the survey results.
 
 	- Click on the name of your survey to view the responses to each question.
