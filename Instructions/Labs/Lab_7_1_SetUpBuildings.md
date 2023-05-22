@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
     title: 'Lab 7.1: Set up buildings and speakers'
     module: 'Module 7: Manage events'
 ---
