@@ -1,5 +1,5 @@
 ---
-Lab:
+lab:
     title: 'Lab 1.2: Prepare Marketing environment'
     module: 'Module 1: Configure Dynamics 365 Marketing'
 ---
