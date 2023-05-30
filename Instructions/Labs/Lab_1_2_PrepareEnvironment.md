@@ -41,9 +41,9 @@ This lab compromises of two exercises:
 
 1. In the first exercise, you will upload image files to be used in marketing pages and emails. (For this exercise, we will use the Library in the Marketing content section of **Outbound marketing.** Later on, we will upload images from the **Real-time marketing** Asset section, to show the images are shared between them.)
 
-2. In the second exercise, you will update details for existing contacts within Dynamics.
+2. In the second exercise, you will update details for existing contacts within Dynamics 365 Marketing. 
 
-3. In the third exercise, you will create a task template that will be used in the customer journey.
+3. In the third exercise, you will create a task template that will be used in the customer journey. 
 
 ## What you’ll need:
 
@@ -77,119 +77,115 @@ This lab compromises of two exercises:
 
 # Exercise 1: Upload marketing assets
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Discourage students from using any PII (personally identifiable information) when creating records. This exercise should **only be completed by the MCT using the admin credential.**
+1. Download the image files (.png files) from the resource documents. Extract the files to a folder on your desktop. 
 
-1. Download the image files (.png files) from the resource documents. Extract the files to a folder on your desktop.
+2. Log into Dynamics 365 Marketing with your **admin** credentials. 
 
-2. Log into Dynamics 365 Marketing with your **admin** credentials.
+3. By default, you should be in the **Real-time marketing** area. Switch areas to **Outbound marketing**. Navigate to **Library** under the **Marketing content** group. 
 
-3. By default, you should be in the **Real-time marketing** area. Switch areas to **Outbound marketing**. Navigate to **Files** under the **Marketing content** group. 
+4. Select the **+ New** button to open the upload files window. 
 
-4. Click the **+ New** button to open the upload files window. 
-
-5. Click **+ Add files**, locate the 12 .png files on your local computer, and select them.
+5. Select **+ Add files**, locate the 12 .png files on your local computer, and select them. 
 
 6. While the upload window is open, add keywords to the images. Since this is a new system, keywords will need to be created and then selected. 
 
-	- contoso-insurance.png – add “logo”
+	- contoso-insurance.png – Add keyword “logo” 
 
-7. When you’re done adding keywords, finish the upload. Ensure 12 images files uploaded.
+7. When you’re done adding keywords, finish the upload. Ensure 12 images files uploaded. Select **Done**. 
 
-8. Using the search bar, type “con” and hit enter. Ensure the **Contoso Insurance** **logo** appears in the search results.
+8. Using the Filter search box, enter `con`. Ensure the **Contoso Insurance logo** appears in the search results. 
 
-9. These files will now be available for all the users to incorporate into their marketing operations.
+9. These files will now be available for users to incorporate into their marketing operations. 
 
- 
 
 # Exercise 2: Update existing contacts
 
 In an upcoming lab, students will build segments for an outbound marketing campaign and an in-person event. The demo contact records need to be updated in order to populate those segments. The steps below will allow the students to build segments for competitors, business contacts, and contacts living in the Seattle area.
 
-1. Log into Dynamics 365 Marketing with your **admin** credentials.
+1.  Log into Dynamics 365 Marketing with your **admin** credentials.
 
-2. Navigate to the **Accounts** entity under the **Customers** group.
+2.  Navigate to the **Accounts** entity under the **Customers** group.
 
-3. Open Humongous Insurance.
+3.  Open **Humongous Insurance**. 
 
-	- Click the **Related tab** then select **Contacts**.
+	- Select the **Related tab** then select **Contacts**. 
 
-	- Select all contacts available by clicking the checkmark to the left of the full name then click **Edit**.
+	- Select all contacts listed then select **Edit**. 
 
-	- Locate the **Personal Notes** field. Enter “Business” in the field. Click **Change**. (You may have to scroll down to find this area) 
+	- On the **Details** tab, locate the **Personal Notes** field. Enter `Business` in the field. Select **Save**.  
 
-	- Select one of the contacts. Navigate to the **Details** tab. Verify “Business” appears in the **Personal Notes** field.
+	- Select one of the contacts. Navigate to the **Details** tab. Verify “Business” appears in the **Personal Notes** field. 
 
-4. Navigate to the **Contacts** entity under the **Customers** group. 
+4.  Navigate to the **Contacts** entity under the **Customers** group. 
 
-5. Set a filter on **Company Name**.
+5.  Set a filter on **Company Name**. 
 
-	- Click the drop-down arrow next to **Company Name**. Select **Filter by**. Choose **Equals** then select Lucerne Publishing, Southridge Video, and Wingtip Toys. Click **Apply**.
+	- Select the drop-down arrow next to **Company Name**. Select **Filter by**. Choose **Equals** then select **Lucerne Publishing**, **Southridge Video**, and **Wingtip Toys**. Select **Apply**. 
 
-	- Select all contacts for those 3 accounts.
+	- Select all contacts for those 3 accounts. 
 
-	- Click **Edit** in the command bar. Enter the following:
+	- Select **Edit** in the command bar. Enter the following: 
 
-		- Address 1: City: Bellevue
+		- Address 1: City: `Bellevue`
 
-		- Address 1: State/Province: Washington
+		- Address 1: State/Province: `Washington`
 
-		- Personal Notes: Business
+		- Details > Personal Notes: `Business`
 
-		- Click **Change**.
+		- Select **Save**. 
 
-6. Change the filter on **Company Name**.
+6.  Change the filter on **Company Name**.
 
-	- Click the drop-down arrow next to **Company Name**. Select **Filter by**. Remove the current values then select Adatum Corporation, Fourth Coffee, and Northwind Traders. Click **Apply**.
-
-	- Select all contacts for those 3 accounts.
-
-	- Click **Edit** in the command bar. Enter the following:
-
-		- Address 1: City: Redmond
-
-		- Address 1: State/Province: Washington
-
-		- Personal Notes: Business
-
-		- Click **Change**.
-
-7. Change the filter on **Company Name**.
-
-	- Click the drop-down arrow next to **Company Name**. Select **Filter by**. Remove the current values then select The Phone Company, Trey Research, and Wide World Importers. Click **Apply**.
+	- Select the drop-down arrow next to **Company Name**. Select **Filter by**. Remove the current values then select **Adatum Corporation**, **Fourth Coffee**, and **Northwind Traders**. Select **Apply**. 
 
 	- Select all contacts for those 3 accounts.
 
-	- Click **Edit** in the command bar. Enter the following:
+	- Select **Edit** in the command bar. Enter the following:
 
-		- Address 1: City: Seattle
+		- Address 1: City: `Redmond`
 
-		- Address 1: State/Province: Washington
+		- Address 1: State/Province: `Washington`
 
-		- Personal Notes: Business
+		- Details > Personal Notes: `Business`
 
-		- Click **Change**.
+		- Select **Save**. 
 
-8. Change the filter on **Company Name**.
+7.  Change the filter on **Company Name**.
 
-	- Click the drop-down arrow next to **Company Name**. Select **Filter by**. Remove the current values then select Fabrikam, Munson’s Pickles and Preserves Farm, and Adventure Works Cycles. Click **Apply**.
+	- Select the drop-down arrow next to **Company Name**. Select **Filter by**. Remove the current values then select **The Phone Company**, **Trey Research**, and **Wide World Importers**. Select **Apply**.
 
 	- Select all contacts for those 3 accounts.
 
-	- Click **Edit** in the command bar. Enter the following:
+	- Select **Edit** in the command bar. Enter the following:
 
-		- Personal Notes: Business
+		- Address 1: City: `Seattle`
 
-		- Click **Change**.
+		- Address 1: State/Province: `Washington`
 
- 
+		- Details > Personal Notes: `Business`
+
+		- Select **Save**. 
+
+8.  Change the filter on **Company Name**.
+
+	- Select the drop-down arrow next to **Company Name**. Select **Filter by**. Remove the current values then select **Fabrikam, Inc.**, **Munson’s Pickles and Preserves Farm**, and **Adventure Works Cycles**. Select **Apply**.
+
+	- Select all contacts for those 3 accounts.
+
+	- Select **Edit** in the command bar. Enter the following:
+
+		- Personal Notes: `Business`
+
+		- Select **Save**. 
+
 
 # Exercise 3: Create a task template
 
-1. Log into Dynamics 365 Marketing with your **admin** credentials.
+1.  Log into Dynamics 365 Marketing with your **admin** credentials. 
 
-2. Navigate to **Task templates** under the **Marketing templates** group.
+2.  Navigate to **Task templates** under the **Marketing templates** group. 
 
-3. Click **+New**.
+3.  Select **+New**.
 
 	- **Name:** Follow up with customer.
 
@@ -199,6 +195,7 @@ In an upcoming lab, students will build segments for an outbound marketing campa
 
 	- **Start delay:** 0.
 
-	- **Start time:** 01 Hour.
+	- **Start time:** 01 Hour. 
 
-4. Click **Save &amp; Close**.
+4.  Select **Save &amp; Close**. 
+
