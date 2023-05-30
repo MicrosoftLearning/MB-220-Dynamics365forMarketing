@@ -35,7 +35,9 @@ minutes before the virtual machine has network connectivity to begin the labs.
 
 4.  Enter a phone number, or `0123456789` if you do not have one. Select **Submit**. 
 
-5.  You should be directed to the Dynamics 365 Marketing model-driven application. 
+5.  Select **Launch trial**.
+
+6.  You should be directed to the **Dynamics 365 Marketing** model-driven application. 
 
 
 ### Task 2 – Set up Customer Voice
@@ -48,10 +50,14 @@ minutes before the virtual machine has network connectivity to begin the labs.
 
 4.  Finally, select **Skip & go to Dynamics 365 Customer Voice**. 
 
+5.  If you receive an error, wait a moment for the trial provisioning to finish and **Refresh** the page. 
+
 
 ### Task 3 - Configuration
 
-1.  In Dynamics 365 Marketing, change to the **Settings** area, select **Feature switches** under Overview.  
+1.  In Dynamics 365 Marketing, change to the **Settings** area, select **Feature switches** under Overview. 
 
-2.  Under **Integrations**, enable **Customer Voice integration** and select **I agree**. Select **Save**. 
+2.  Under **Integrations**, enable **Customer Voice integration** and select **I agree**. 
+
+3.  Select **Save**. 
 
