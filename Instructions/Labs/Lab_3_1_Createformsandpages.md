@@ -39,7 +39,7 @@ This lab compromises of two exercises:
 
 4.  From the template gallery, scroll down and select **rhodes**. 
 
-5.  On the heading bar, select the drop-down next to **Draft**. 
+5.  On the heading bar, select the &#709; drop-down next to **Draft**. 
 
 	- Name the form **Cross Sell Campaign Form**. 
 
