@@ -140,11 +140,11 @@ This lab compromises of two exercises:
 
 3.  From the template gallery, select **product page 2. (Layout enabled)**
 
-4.  Select the drop-down next to **Draft** on the heading bar. 
+4.  Select the &#709; drop-down next to **Draft** on the heading bar. 
 
 	- Name the page **Cross Sell Campaign Page**. 
 
-	- Confirm this page is designated as a **landing page**. 
+	- Confirm this page is designated as a **Landing page**. 
 
 	- In the **Partial URL** field, enter **reviewcoverage**. 
 
