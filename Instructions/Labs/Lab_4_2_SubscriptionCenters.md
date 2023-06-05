@@ -35,53 +35,54 @@ This lab compromises of four exercises:
 
 ## Exercise 1: Create subscription lists
 
-1. Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2. Navigate to **Subscription lists** under the **Customers** group. 
+2.  Navigate to **Subscription lists** under the **Customers** group. 
 
-3. Click **+ New subscription list**.
+3.  Select **+ New subscription list**.
 
-	- Name the list **Monthly Newsletters.**
+	- Name the list `Monthly Newsletters`
 
-	- Click Save & Close.
+	- Select **Save & Close**.
 
-4. Click **+ New subscription list**.
+4.  Select **+ New subscription list**.
 
-	- Name the list **Product Updates.**
+	- Name the list `Product Updates`
 
-	- Click Save & Close.
+	- Select **Save & Close**.
 
-5. Click **+ New subscription list**.
+5.  Select **+ New subscription list**.
 
-	- Name the list **Special Offers.**
+	- Name the list `Special Offers`
 
-	- Click Save & Close.
+	- Select **Save & Close**.
 
- 
 
 ## Exercise 2: Create subscription center form
 
-1. Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Marketing. 
 
-2. Navigate to **Marketing forms** under the **Internet marketing** group. 
+2.  Navigate to **Marketing forms** under the **Internet marketing** group. 
 
-3. Click **+ New** to create a new form.
+3.  To create a new form, select **+ New** from the command bar. 
 
-4. Select the **heraklion** template.
+4.  Select the **heraklion** template.
 
-5. Click the **drop-down arrow** in the header area. Name the form **Business Subscription Center Form**. Ensure the **type** is **subscription center** and that only **contacts** are updated.
+5.  Select the **drop-down arrow** in the header area. Name the form `Business Subscription Center Form` 
 
-6. In the **Designer** area, update the header.
+6.  Ensure the **type** is **subscription center** and that only **contacts** are updated.
 
-	- Change the text to: “Email Preference Center.” 
+7.  In the **Designer** area, update the header.
 
-	- Change the font to Segoe UI and center align.
+	- Change the text to: `Email Preference Center`
 
-7. From the Toolbox, locate the **Subscription lists** section.
+	- Change the font to **Segoe UI** and **center** align.
+
+7.  From the Toolbox, locate the **Subscription lists** section. 
 
 	- Drag **Monthly Newsletters** above **Do not email**. 
 
-		1. Change the Default value to Subscribed. Turn Prefill to On.
+		1. Change the Default value to **Subscribed**. Turn Prefill to On.
 
 		2. Highlight Monthly Newsletters. Change the font to Segoe UI and font size 16.
 
@@ -97,9 +98,9 @@ This lab compromises of four exercises:
     
     	2. Highlight Monthly Newsletters. Change the font to Segoe UI and font size 16.
 
-8. From the Toolbox, drag a **divider** between **Special Offers** and **Do not email**. Adjust the width, color, and padding as desired.
+8.  From the Toolbox, drag a **divider** between **Special Offers** and **Do not email**. Adjust the width, color, and padding as desired.
 
-9. Highlight **Do not email**. Change the font to Segoe UI and font size 16.
+9.  Highlight **Do not email**. Change the font to Segoe UI and font size 16.
 
 10. Delete **[Update subscriptions heading]**.
 
@@ -147,27 +148,28 @@ This lab compromises of four exercises:
 
 17. **Go live**.
 
+
 ## Exercise 3: Create subscription center page
 
-1. Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2. Navigate to **Marketing pages** under the **Internet marketing** group. 
+2.  Navigate to **Marketing pages** under the **Internet marketing** group. 
 
-3. Click **+ New**. Click **Skip** in the template dialog box. 
+3.  Select **+ New**. Select **Skip** in the template dialog box. 
 
-4. Click the dropdown in the upper right corner. 
+4.  Select the drop-down in the upper right corner. 
 
-	- Name the page **Business Subscription Center.**
+	- Name the page `Business Subscription Center`
 
 	- In the **Type** field, select **Subscription center**.
 
-	- In the partial URL field enter **businessmanagesubscriptions**.
+	- In the partial URL field enter `businessmanagesubscriptions`
 
-5. From the **Toolbox**, drag and drop an **Image** block. With the image block selected, click the magnifying glass icon under **Image source** in the **Properties** tab. Select **Contoso Insurance logo** and ensure that **Left** is selected for **Alignment**.
+5.  From the **Toolbox**, drag and drop an **Image** block. With the image block selected, select the magnifying glass icon under **Image source** in the **Properties** tab. Select **Contoso Insurance logo** and ensure that **Left** is selected for **Alignment**. 
 
-6. Add a **divider** below the logo. Change the color to white and add 10px padding to the top and bottom.
+6.  Add a **divider** below the logo. Change the color to white and add 10px padding to the top and bottom.
 
-7. Add a **form** **block** below the **divider**. Select the **Business Subscription Center Form** you created in the previous exercise. Input the following:
+7.  Add a **form** **block** below the **divider**. Select the **Business Subscription Center Form** you created in the previous exercise. Input the following:
 
 	- **Success notification**: Thank you. Your submission has been received.
 
@@ -175,21 +177,22 @@ This lab compromises of four exercises:
 
 	- **Redirecting URL**: http://www.contoso.com
 
-8. **Save** and **check for errors**. Correct any if needed.
+8.  **Save** and **check for errors**. Correct any if needed.
 
-9. **Go live**. (If you receive a pop-up, click **OK**.)
+9.  **Go live**. (If you receive a pop-up, click **OK**.)
+
 
 ## Exercise 4: Create content settings record
 
-1. Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Marketing.
 
-2. Navigate to **Content Settings** under the Templates group 
+2.  Navigate to **Content Settings** under the Templates group 
 
-3. Click **+ New**. 
+3.  Select **+ New**. 
 
-4. Update the following:
+4.  Update the following:
 
-	- **Name**: Business Content Settings
+	- **Name**: `Business Content Settings`
 
 	- **Address main**: 4567 Main St., Seattle, WA 98052
 
@@ -199,7 +202,7 @@ This lab compromises of four exercises:
 
 	- **Facebook URL**: [https://www.facebook.com/Contoso-102137176602590/](https://www.facebook.com/Contoso-102137176602590/)
 
-5. In the **Subscription center** field, click the **Personalization** icon.
+5.  In the **Subscription center** field, select the **Personalization** icon. 
 
 	- Choose **Static** content.
 
@@ -213,6 +216,6 @@ This lab compromises of four exercises:
 
 	- Click **Insert**.
 
-- **Save** and **check for errors**. Correct any if needed.
+6.  Select **Save** and **check for errors**. 
 
-- **Go live**.
+7.  Select **Go live**. 
