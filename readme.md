@@ -1,4 +1,4 @@
-# MB-220-Dynamics365forMarketing	
+# MB-220 Dynamics 365 for Marketing	
 
 - **[Download Latest Student Handbook and AllFiles Content](https://learningdownloadcenter.microsoft.com/)**
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
