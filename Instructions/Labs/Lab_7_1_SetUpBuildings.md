@@ -56,7 +56,7 @@ This lab comprises of two exercises:
     
     	1. Click **+New Room**.
     
-    	2. Enter the **name** as **St. Croix Room**. 
+    	2. Enter the name as **St. Croix Room**. 
     
     	3. Add the **capacity** as 50.
     
