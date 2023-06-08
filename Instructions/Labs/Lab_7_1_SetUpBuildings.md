@@ -114,7 +114,7 @@ This lab comprises of two exercises:
 
 	- Locate the image for Dean Halstead from your desktop.
 
-		1. Note: Image files do not pull from the asset library. You will need to upload this image from the files you saved as part of Demo 1.1.
+		1. Note: Image files do not pull from the asset library. You will need to upload this image from the files you saved as part of Lab 1.2, Prepare environment.
 
     - Click **Change**.
     
