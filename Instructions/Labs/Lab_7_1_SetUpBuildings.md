@@ -72,8 +72,6 @@ This lab comprises of two exercises:
 
 4. Click **+New** to create a new speaker record.
 
-5. Under the **New Speaker** header, change the **view from Portal form: Speaker** **details** to **Speakers**.
-
 6. In the **Name** field**,** enter Dean Halstead.
 
 7. In the **Contact** field, select the magnifying glass. Click **+ New Contact**.
@@ -84,19 +82,19 @@ This lab comprises of two exercises:
 
 	- Enter CMO as the **Job Title.**
 
-	- In the **Account** field, click the magnifying glass. Click **+ New Record** then select **Account**.
+	- In the **Account** field, click the magnifying glass. Click **+ New Record** then select **Accounts**.
 
 		1. Enter Contoso Insurance as the **Account Name**.
 
 		2. Click **Save and Close**.
 
-    - In the **Account** field on the new contact record, select Contoso Insurance.
+    - In the **Account** field on the new contact record, select Contoso Insurance if it does not autopopulate.
 
     - In the **Email** field enter [dean@contosoinsurance.com](mailto:dean@contosoinsurance.com).
 
     - Click **Save and Close**.
 
-8. Back on the New Speaker record, select Dean Halstead as the **Contact**.
+8. Back on the New Speaker record, select Dean Halstead as the **Contact** if it does not autopopulate.
 
 9. Enter CMO as the **Title.**
 
