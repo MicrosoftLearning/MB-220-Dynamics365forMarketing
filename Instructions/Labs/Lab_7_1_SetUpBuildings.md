@@ -72,7 +72,7 @@ This lab comprises of two exercises:
 
 4. Click **+New** to create a new speaker record.
 
-6. In the **Name** field**,** enter Dean Halstead.
+6. In the **Name** field, enter Dean Halstead.
 
 7. In the **Contact** field, select the magnifying glass. Click **+ New Contact**.
 
