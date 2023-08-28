@@ -12,23 +12,16 @@ lab:
 
 ## Scenario
 
-Once a customer or prospect submits the form for the Cross Sell Campaign, the marketing team wants to redirect the customer to a webpage on the Contoso Insurance website. Since this page is native to their CMS system, they would like to track analytics from this page within Dynamics. They would also like to set up a redirect URL from the form submission on the Cross Sell Campaign marketing page to the website page so that they can view how the traffic is originating to that page.
+Once a customer or prospect submits the form for the Cross Sell Campaign, the marketing team wants to redirect the customer to a webpage on the Contoso Insurance website. Since this page is native to their CMS system, they would like to track analytics from this page within Dynamics. 
 
-The Marketing Coordinator will start by creating a marketing website for the product page on their website. This will allow the marketing team to view insights, including referring URL, from the product page within Dynamics.
-
-Next, the Marketing Coordinator will create a redirect URL that will be used on the form for the Cross Sell Campaign marketing page in Dynamics. This URL will drive traffic to the product page on Contoso Insurance's website and they will be able to view the referring URL within Dynamics. 
-
-Finally, the Marketing Coordinator will add the redirect URL to the marketing form for the Cross Sell Campaign. Anyone who submits the form will be redirected to the product page on Contoso Insurance's website. The marketing team will then be able to see these insights in Dynamics.
+The Marketing Coordinator will start by creating a marketing website for the product page on their website. This will allow the marketing team to view insights on it.
 
 # Lab Overview
 
-This lab compromises of three exercises:
+This lab compromises of one exercise:
 
-1. In exercise one, you will create a marketing website.
+1. In exercise one, you will create a form and host it on a webpage.
 
-2. In exercise two, you will create a redirect URL.
-
-3. In exercise three, you will add the redirecting URL to the marketing form on the marketing page created in the previous lab.
 
 ## What you’ll need:
 
@@ -36,21 +29,15 @@ This lab compromises of three exercises:
 
 # Exercise 1: Create a marketing website
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** section.
 
-2. Navigate to **Marketing websites** under the **Internet marketing** group.
+2. Navigate to **Forms** under the **Channels** group.
 
-3. Click **+New** to create a new website.
+3. Click **+New** to create a new form.
 
-4. Name the website **Contoso Insurance Product Page**.
+4. Name the form **Contoso Insurance Product Page**. Select **Contact** as the target audience.
 
-5. In the **URL** field, copy and paste this URL: [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/)
-
-6. Save your changes.
-
-7. After saving, JavaScript and Form capture code will be generated for the website. 
-
-	- Note: The next step would be to send the code to a web master for the Contoso Insurance website to embed on the webpage that will be tracked in Dynamics. Once added, the Insights tab will display analytics such as Contact name (if the visitor is a known contact), page address, referrer URL, visit duration, and timestamp.
+6. Click **Create.**
 
 # Exercise 2: Create a redirect URL
 
