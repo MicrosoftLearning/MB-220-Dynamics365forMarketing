@@ -6,13 +6,13 @@ lab:
 
 # Module 5: Manage emails and journeys in outbound marketing
 
-## Practice Lab 5.1: Create a marketing email
+## Practice Lab 5.1: Create an email
 
 # Lab Overview
 
 ## Scenario
 
-For this campaign, the marketing team wants to upsell current customers with additional services. They plan to send a three-email series. The first email will promote some of the company’s more specialized offerings. The second email is intended to encourage customers to visit a marketing page and fill out a marketing form. The third email is a confirmation email once the form has been submitted.
+For this campaign, the marketing team wants to upsell current customers with additional services. They plan to send a three-email series. The first email will promote some of the company’s more specialized offerings. The second email is intended to encourage customers to fill out a marketing form. The third email is a confirmation email once the form has been submitted.
 
 ## Lab Overview
 
@@ -30,23 +30,23 @@ This lab compromises of one exercise:
 
 # Exercise 1: Create an email from a template
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
 
-2. Navigate to **Marketing emails** under the **Marketing execution** group. 
+2. Navigate to **Emails** under the **Channels** group. 
 
 3. Click **+New** to create a new email.
 
-4. From the template gallery, select **1-2 column layout**.
+4. From the template gallery, select **1-2 column.** 
 
-5. In the upper left corner, name the email **Cross Sell Campaign Email** 
+5. In the upper left corner, name the email **Cross Sell Campaign Email**.
 
 6. Select the **From Name/Subject** box in the designer to display the **Email** header details on the right.
 
 	- Type the following in the **Subject**: “Ensure all aspects of your business are covered”.
 
-	- Expand **Send settings**. Change the **From name** to Contoso Insurance.
+	- Change the **From name** to Contoso Insurance.
 
-7. Click anywhere on the sides of the email in the designer to display the **Toolbox**. In the **Toolbox**, switch to the **General styles** tab.
+7. In the **Toolbox**, switch to the **General styles** tab.
 
 	- Note: The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size and color listed here. You can then updated those elements as needed.
 
@@ -56,41 +56,21 @@ This lab compromises of one exercise:
 
 	- Change the **email background** color to #CCCCCC.
 
-8. Select the first section.
+8. Select the first section. Change the **Section background color** to white.
 
-	- When you select, it will default to the column, click the arrow icon to go up to the section. Change the **Section background color** to white.
-
-9. Update the logo column. 
-
-	- Select the column with the logo. Expand the **Spacing** section. Change the **Inner spacing** to 20px. Set the **Outer Spacing** to 10 px.
+9. Update the logo.
 
 	- Select the image on the designer.
 
-	- On the right, click the placeholder image, select **Replace** then choose **Browse library**.
+	- On the right, click the placeholder image. Select **Replace** then choose **Browse library**.
 
-	- Select the **contoso-insurance-logo** then click **Select**.
+	- Select the Contoso logo then click **Select**.
 	
-	- Replace the **Alt text** with: **Contoso icon**.
+	- Replace the **Alt text** with **Contoso icon**.
 
 	- On the right, click the **Link to** drop down then select **URL** then enter [www.microsoft.com](http://www.microsoft.com/).
 
 	- In the **Size and alignment** section, if **Auto width** is checked, uncheck it. Enter **150px** by **50px**. Note you may have to click the unlink icon between width and height to set both.
-
-10. Update the Date column.
-
-	- Select the column with the **Date** text. Expand the **Spacing** section. Uncheck **Set equal for all sides**. Change the **Top** and **Right Inner spacing** to 20px.
-
-	- Highlight **Date** in the top right column then type “View in browser”. Highlight View in browser then click the **link icon** in the text toolbar.
-
-	- In the **Link** field, click on the assist edit icon **{ }**.
-
-	- Under **Dynamic content**, select **Message** in the **entity** field. 
-
-	- Select **No relationship** in the next field then **ViewAsWebpageURL** in the last field
-
-	- Click **Insert**. Click **OK**.
-
-	- Change the **font size** to 14px.
 
 11. Select the text section below the logo. 
 
@@ -98,33 +78,17 @@ This lab compromises of one exercise:
 
 	- Change the **Section background color** to white.
 
-	- Expand the **Spacing** section. Change the **Inner spacing** to 20px.
-
 	- Update the header text.
 
-		1. Put your cursor at the start of the header text then click the **{ Personalization }** icon in the toolbar.
+		1. Put your cursor at the start of the header text then click the **Personalization** icon in the toolbar. Select **First name** from the dropdown. Ensure **Contact** is selected and select **Choose.**
 
-			1. Under **Dynamic content**, select **Contact**. 
-
-			2. Select **No relationship**.
-
-			3. Select **First Name**.
-
-			4. Click **Insert**.
-
-			5. Add a **comma** and a space after {{contact.firstname}},
+		2. Add a **comma** and a space after {{Firstname}}.
 
         2. Change “A short headline goes here to: “**we’ve got you covered**.” 
         
         3. Highlight the text, make it **bold** and change the **font size** to 26.
         
-    - From the **Toolbox**, drag a **Divider** below {{contact.firstname}}, we’ve got you covered. 
-        
-		1. Change the size to **10px**.
-	
-		2. Click the **color selector** then select **Custom**. Change **Transparency** to 100. 
-        
-    - Change “This section is perfect….” to “With customized packages, we have insurance options to protect all aspects of your business.”
+    - Change “Customize your email...” to “With customized packages, we have insurance options to protect all aspects of your business.”
         
     - Highlight the text and change the **font size** to 18.
 
@@ -132,53 +96,31 @@ This lab compromises of one exercise:
 
 	- Navigate to the section. Change the **Section background color** to white.
 
-	- Expand the **Spacing** section. Change the **Inner spacing** to 15px.
-
 	- In the left column, make the following updates:
 
-		1. Select **Image placeholder**. 
+		1. Select **Image placeholder**. Navigate to the image library and select the **briefcase icon**. 
 
-			1. Navigate to the image library and select the **umbrella icon**. 
+		2. Replace the **Alt text** with: Briefcase icon.
 
-			2. Replace the **Alt text** with: Umbrella icon.
+		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/) 
 
-			3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/) 
-
-			4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px.
-
-				1. Note: You may need to click the unlink icon between the width and height to be able to adjust both.
-
-        2. Change Headline or title to UMBRELLA. **Bold** and **center** the text.
-
-        3. Update “This content could describe…” to “An additional layer of coverage that protects your business from things that may not be included in your standard policy such as legal fees, medical bills or damage expenses.” **Center** the text.
-
-        4. Remove the **Link text**.
+		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px. (Note: You may need to click the unlink icon between the width and height to be able to adjust both.)
 
     - In the right column under the sub header, make the following updates:
     
     	1. Select **Image placeholder**. 
     
-    		1. Navigate to the image library and select the **computer icon**.
+    		1. Navigate to the image library and select the **safebox icon**.
     
-    		2. Replace the **Alt text** with: Computer icon.
+    		2. Replace the **Alt text** with: Safebox icon.
     
     		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/capabilities/](https://dynamics.microsoft.com/en-us/marketing/capabilities/)
     
-    		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px.
-    
-    			1. Note: You may need to click the unlink icon between the width and height to be able to adjust both.
-    
-        2. Change Headline or title to: CYBER. **Bold** and **center** the text.
-        
-        3. Update “This content could describe…” to “Cyber insurance protects your business from malware, cyber-attacks and data loss. If your business does anything online, then you need cyber insurance.” **Center** the text.
-        
-        4. Remove the **Link text**.
+    		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px. (Note: You may need to click the unlink icon between the width and height to be able to adjust both.
 
 13. Select the next two-column section.
 
 	- Navigate to the section. Change the **Section background color** to white.
-
-	- Expand the **Spacing** section. Change the **Inner spacing** to 15px.
 
 	- In the left column, make the following updates:
 
@@ -190,61 +132,7 @@ This lab compromises of one exercise:
 
 			3. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px.
 
-			4. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/resources/](https://dynamics.microsoft.com/en-us/marketing/resources/) 
-
-        2. Change Headline or title to: COMMERCIAL CRIME. **Bold** and **center** the text.
-        
-        3. Update “This content could describe…” to “Whether it’s crimes committed by someone from outside of the business or your employees, commercial crime insurance can help protect your company from significant losses due to criminal activities.” **Center** the text.
-        
-        4. Remove the **Link text**.
-
-    - In the right column, make the following updates:
-
-    	1. Select **Image placeholder**. 
-    
-    		1. Navigate to the image library and select the **shop icon**. 
-    
-    		2. Replace the **Alt text** with: Business shop icon.
-    
-    		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/pricing/](https://dynamics.microsoft.com/en-us/marketing/pricing/)
-    
-    		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px.
-        
-        2. Change Headline or title to: BUSINESS INTERRUPTION. **Bold** and **center** the text.
-        
-        3. Update This content could describe… to “An additional layer of coverage that protects your business from things that may not be included in your standard policy such as legal fees, medical bills, damage expenses, and more.” **Center** the text.
-        
-        4. Remove the **Link text**.
-
-14. Delete the final two column section.
-
-15. Select the section with the button. 
-
-	- Navigate to the section. Change the **Section background color** to white.
-
-	- Expand the **Spacing** section. Change the **Inner spacing** to 25px for all sides.
-
-	- Set all **Outer spacing** to 0px.
-
-	- Select the button.
-
-		1. In the **Link to** field, select URL.
-
-		2. In the **URL** field, enter [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/) 
-
-		3. In the **Button text** field, enter LEARN MORE.
-
-		4. Change the **Font** to Segoe UI, size 20px.
-
-		5. Change the **button color** to #1a658c.
-
-		6. Expand **Size and alignment**. 
-
-		7. Uncheck the box next to **Fit to text**. Change the **Width** to 275px and the **Height** to 50px.
-
-		8. Expand **Spacing**.
-
-		9. Uncheck the box next to **Outer spacing**. Change the **Bottom** spacing to 40px.
+			4. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/resources/](https://dynamics.microsoft.com/en-us/marketing/resources/).
 
 16. Select the section with the social icons.
 
@@ -254,7 +142,7 @@ This lab compromises of one exercise:
 
 	- Navigate to the section. Change the **Section background color** to white.
 
-	- Update the copyright from Microsoft Dynamics to Contoso Insurance.
+	- Update the copyright from Company Inc. to Contoso Insurance.
 
 18. Make any other changes as desired.
 
@@ -262,17 +150,24 @@ This lab compromises of one exercise:
 
 20. Select **Preview and test**.
 
-	- Change the **Preview** as to **[your contact]**.
-
-	- Change the **content settings** to: **Business Content Settings**.
+	- In the Preview personalization pane, enter the first name of the contact you created. Select the contact to watch the personalization change.
 
 	- Preview the email on all screen sizes.
 
-21. Click **Check content**. Correct any if needed.
+21. Click **Ready to send.** Click the notification bar to view the errors. 3 errors should be thrown:
+	- From email
+	- Reply to email
+	- Purpose
 
-22. Click the arrow next to **Check** **content**. Choose both **Accessibility checker** and **Spam checker** to see if there are any other issues within the email.
+22. Let's fix these errors and get the email ready for sending.
+    - Return to the Design tab.
+    - Expand the **Brand profile** section and select the **Default brand profile.**
+    - From email will be filled with a default sender email.
+    - Select the **Email header** section from the right pane. Under **Purpose**, enter 
 
-23. On the toolbar, click **Go live**.
+24. Click the arrow next to **Check** **content**. Choose both **Accessibility checker** and **Spam checker** to see if there are any other issues within the email.
+
+25. On the toolbar, click **Go live**.
 
  
 
