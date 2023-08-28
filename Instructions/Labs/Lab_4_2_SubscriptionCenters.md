@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.2: Manage subscription centers'
-    module: 'Module 4: Manage segments and subscription centers'
+    title: 'Lab 4.2: Manage consent'
+    module: 'Module 4: Manage segments and consent'
 ---
 
 
-# Module 4: Manage segments and subscription centers
+# Module 4: Manage segments and consent
 
-## Lab 4.2: Manage subscription centers
+## Lab 4.2: Manage consent
 
 # Lab Overview
 
