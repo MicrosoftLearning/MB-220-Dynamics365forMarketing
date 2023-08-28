@@ -1,20 +1,20 @@
 ---
 lab:
-    title: 'Lab 3.1: Create marketing forms and pages'
-    module: 'Module 3: Manage marketing forms and pages'
+    title: 'Lab 3.1: Create marketing forms'
+    module: 'Module 3: Manage marketing forms'
 ---
 
-# Module 3: Manage marketing forms and pages
+# Module 3: Manage marketing forms
 
-## Practice Lab 3.1 - Create marketing forms and pages
+## Practice Lab 3.1 - Create marketing forms
 
 # Lab Overview
 
 ## Scenario
 
-For the cross-sell campaign, the marketing team wants to direct contacts to a marketing page with a marketing form. The purpose of the page will be to encourage business customers to fill out the form to schedule a review of their current coverage and learn about additional services available.
+For the cross-sell campaign, the marketing team wants to direct contacts to a marketing webpage with a marketing form. The purpose of the page will be to encourage business customers to fill out the form to schedule a review of their current coverage and learn about additional services available.
 
-The Marketing Coordinator will start by creating the marketing form and then create a marketing page and add the form to the page.
+The Marketing Coordinator will start by creating the marketing form. Then, they will configure the form hosting.
 
 ## Lab Overview
 
@@ -22,7 +22,7 @@ This lab compromises of two exercises:
 
 1. In exercise one, you will create a marketing form.
 
-2. In exercise two, you will create a marketing page and embed the marketing form on the page.
+2. In exercise two, you will host the form.
 
 ## What you’ll need:
 
@@ -31,182 +31,56 @@ This lab compromises of two exercises:
 
 # Exercise 1: Create a marketing form
 
-1.  Log into Dynamics 365 Marketing. Change the work area to **Outbound marketing**.
+1.  Log into Dynamics 365 Marketing. Change the work area to **Real-time marketing** if you are not already in that area.
 
-2.  Navigate to **Marketing forms** under the **Internet marketing** group.
+2.  Navigate to **Forms** under the **Channels** group.
 
-3.  Select **+ New** to create a new form. 
+3.  Select **+ New** to create a new form. Name the form **Cross Sell Campaign Form** and select **Lead** as the target audience. Click **Create.**
 
-4.  From the template gallery, scroll down and select **rhodes**. 
+4.  The form designer will open, and available fields will appear in the right menu.
+- Drag the **First Name** field onto the form. (You can use the search box to search for the field instead of scrolling.)
+ - Return to **Fields**. Next, drag **Last Name** below First Name.
+ - Return to **Fields.** Drag **Email** below Last Name.
+ - Below Email, add three more fields: **Company Name, Job Title,** and **Industry (option set)**.
 
-5.  On the heading bar, select the &#709; drop-down next to **Draft**. 
+5. Select the **Industry** field on the form. In the Placeholder text field, enter "Select industry...".
 
-	- Name the form **Cross Sell Campaign Form**. 
+10. Switch to the **Elements** section. Drag the **Submit** button below Email.
+	- Change the font size from 16px to 20px.
+	- Change Rounded corners to 6px.
+	- Change Border to dotted.
 
-	- Confirm the **Form Type** is **Landing page** and that it is set to update **Contacts and leads.**
+13. Make the following updates to the First Name, Last Name, Email, Company Name, and Job Title fields:
+	- Remove the Placeholder text.
+	- Set **Required** to Yes.
 
-6.  Save your changes. 
+15. Preview the form by selecting the **Preview and test** tab at the top of the form designer.
 
-7.  Navigate to the **Summary** tab. In the **Content** section, change the **Prefill fields** field to **Yes**. 
+16. **Save** the record and select **Check content** in the toolbar. Correct any errors if needed. 
 
-8.  Navigate back to the **Designer** tab. 
+12. Select **Publish**. Do not navigate away from the screen.
 
-9.  Remove the **[Form heading].**
+# Exercise 2: Host the form
 
-10. Move the **Remember me** checkbox below the **Email** field. Highlight **Remember Me** and change the font to **Segoe UI** and the font size to **16**.
+A pop-up window will appear with two options for publishing your form. In this exercise, we will publish the form as a standalone page.
 
-11. Add the following fields to the form: Company Name, Job Title, and Industry. 
+1. Select **Create** under Create new standalone page.
 
-	- Select **Toolbox** on the right. In the **Fields** section, select the search box. 
+2. The creation process may take a second.
 
-	- Search for `Company Name`. Select the search result so it is added to the **Fields** section. Drag and drop the **Company Name** field below the **Email** field. 
+3. When your page is published, a URL will appear. Select **Open in new tab.**
 
-	- Select **Toolbox** on the right. In the **Fields** section, scroll down and drag and drop the **Job Title** field below the **Email** field. 
+4. Fill out the form for a new lead.
+	- Under First Name, enter **John.**
+	- Under Last Name, enter **Doe.**
+	- Under Email, enter **johndoe@alpineskihouse.com.**
+	- Under **Company**, enter **Alpine Ski House.**
+	- Under **Job Title,** enter **Account Manager.**
+	- Under **Industry,** select **Entertainment Retail.**
 
-	- Select **Toolbox** on the right. In the **Fields** section, search for `Industry`. Select the search result so that it is added to the **Fields** section. Drag and drop the **Industry** field below the **Email** field. 
+5. Select **Submit.**
 
-12. Make the following updates to the form fields:
-
-	- First Name
-
-		1. Change **font** to Segoe UI and font size to 14.
-
-		2. Remove the **Placeholder** text. 
-
-		3. Set **Required** to on. 
-
-		4. Add a **Required error message** (e.g., Something went wrong. Please try again.)
-
-		5. Set **Prefill** to on.
-
-    - Last Name
-    
-    	1. Change **font** to Segoe UI and font size to 14.
-    
-    	2. Remove the **Placeholder** text.
-    
-    	3. Set **Required** to on.
-    
-    	4. Add a **Required error message** (e.g., Something went wrong. Please try again.)
-    
-    	5. Set **Prefill** to on.
-    
-    - Email
-    
-    	1. Change **font** to Segoe UI and font size to 14.
-    
-    	2. Remove the **Placeholder** text.
-    
-    	3. Set **Required** to on.
-    
-    	4. Add a **Required error message** (e.g., Something went wrong. Please try again.)
-    
-    	5. Set **Prefill** to on.
-    
-    - Company Name
-    
-    	1. Change **font** to Segoe UI and font size to 14.
-    
-    	2. Set **Required** to on.
-    
-    	3. Add a **Required error message** (e.g., Something went wrong. Please try again.)
-    
-    - Job Title
-    
-    	1. Change **font** to Segoe UI and font size to 14.
-    
-    	2. Set **Required** to on.
-    
-    	3. Add a **Required error message** (e.g., Something went wrong. Please try again.)
-    
-    - Industry
-    
-    	1. Change **font** to Segoe UI and font size to 14.
-    
-    	2. Set **Required** to on.
-
-13. Preview the form by selecting the **Preview** tab at the top of the form designer underneath the main tabs.
-
-14. **Save** the record and select **check for errors** in the toolbar. Correct any if needed. 
-
-12. Select **Go live** in the command bar.
-
-
-# Exercise 2: Create a marketing page and embed a form
-
-1.  Navigate to **Marketing pages** under the **Internet marketing** group.
-
-2.  Select **+ New** to create a new page.
-
-3.  From the template gallery, select **product page 2. (Layout enabled)**
-
-4.  Select the &#709; drop-down next to **Draft** on the heading bar. 
-
-	- Name the page **Cross Sell Campaign Page**. 
-
-	- Confirm this page is designated as a **Landing page**. 
-
-	- In the **Partial URL** field, enter **reviewcoverage**. 
-
-5.  **Save** the changes. 
-
-6.  Remove the **Fabrikam** text block. From the **Toolbox**, drag an **image** element where the text was. Navigate to the image gallery and select the **Contoso Insurance logo**. 
-
-7.  Change About Us to **Business**.
-
-8.  Change Our product to **Residential**.
-
-9.  Remove “Articles | Try for free - >.”
-
-10. Remove “Marketing automation”. 
-
-11. Change “A short headline goes here” to “We’ve got you covered.” 
-
-12. Change the paragraph below the headline to: “Your business is unique. Your insurance should be, too. Contoso provides a variety of insurance options that cover every aspect of your business, big or small. Our agents can review your current coverage, discuss your business goals, and recommend additional options that ensure your employees and assets are protected.”
-
-13. From the **Toolbox**, drag an **image** element below the paragraph. Navigate to the image gallery and select **insurance-agent**. Change the Height/Width sizing to **Auto**.
-
-14. Select the form block. In the **Marketing form** field, select the form you created in the previous exercise. If your form does not appear, save your marketing page and navigate to your form to ensure it is **Live**. 
-
-15. Add a **text element** above the form. Add “Contact us to schedule your coverage review.” Change the font size to 18.
-
-16. Make any other changes to the page as desired.
-
-17. Suggested edits:
-
-	- Remove the About Us section.
-
-	- Remove the image section.
-
-	- Remove the Our product section.
-
-	- Remove the 01 Email Campaigns section.
-
-	- Remove the Read our latest articles section.
-
-	- Remove the 3-column section.
-
-	- Remove the next 3-column section.
-
-	- Remove Fabrikam. 
-
-	- Move the grey divider above Follow us on social media. Add 15px padding to the bottom of the divider.
-
-	- Remove the menu section.
-
-	- Update social media icon links.
-
-		1. Select the **Facebook** icon. In the **Link** field, copy and paste [https://www.facebook.com/Contoso-Insurance-Agency-100458384785914/community/](https://www.facebook.com/Contoso-Insurance-Agency-100458384785914/community/) 
-
-		2. Select the **LinkedIn** icon. In the **Link** field, copy and paste [https://www.linkedin.com/company/contoso/about/](https://www.linkedin.com/company/contoso/about/)
-
-		3. Select the **Twitter** icon. In the **Link** field, copy and paste [https://twitter.com/ContosoInc](https://twitter.com/ContosoInc) 
-
-18. Save your changes. 
-
-19. **Preview** the page. 
-
-20. Select **Save** and select **check for errors** in the toolbar. Correct any if needed. 
-
-12. Select **Go live** in the toolbar. A pop-up will show up. Select **OK**. 
-
+6. You can now close the tab.
+7. Back in the **Real-time marketing** section, navigate to **Forms** in the **Channels** section.
+8. Select the **Cross-Sell Campaign Form**. Navigate to the **Submissions** tab.
+9. You should now see **John Doe** as a submission. Select John Doe to navigate to the new **Lead** record.
