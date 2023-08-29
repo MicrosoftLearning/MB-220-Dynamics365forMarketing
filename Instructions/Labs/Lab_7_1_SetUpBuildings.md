@@ -30,7 +30,7 @@ This lab comprises of two exercises:
 
 1. Log into Dynamics 365 Marketing.
 
-2. Navigate to the **Events**  work area.
+2. Navigate to the **Event planning** work area.
 
 3. Select **Buildings** under the **Venue management** group.
 
@@ -54,7 +54,7 @@ This lab comprises of two exercises:
     
     - Click on the **Rooms** tab. 
     
-    	1. Click **+New Room**.
+    	1. Click **+New**.
     
     	2. Enter the name as **St. Croix Room**. 
     
@@ -66,7 +66,7 @@ This lab comprises of two exercises:
 
 1. Log into Dynamics 365 Marketing.
 
-2. Navigate to the **Event** work area.
+2. Navigate to the **Event planning** work area.
 
 3. Select **Speakers** under the **Participants** group.
 
@@ -82,7 +82,7 @@ This lab comprises of two exercises:
 
 	- Enter CMO as the **Job Title.**
 
-	- In the **Account** field, click the magnifying glass. Click **+ New Record** then select **Accounts**.
+	- In the **Account Name** field, click the magnifying glass. Click **+ New Record** then select **Accounts**.
 
 		1. Enter Contoso Insurance as the **Account Name**.
 
