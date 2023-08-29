@@ -43,7 +43,9 @@ This lab compromises of two exercises:
 
 2. In the second exercise, you will update details for existing contacts within Dynamics 365 Marketing. 
 
-3. In the third exercise, you will create a task template that will be used in the journey. 
+3. In the third exercise, you will create a task template that will be used in the journey.
+
+4. In the fourth exercise, you will configure the default brand profile to be used in your marketing assets (like emails).
 
 ## What you’ll need:
 
@@ -202,5 +204,27 @@ In an upcoming lab, students will build segments for a marketing campaign and an
 
 	- **Start time:** 01 Hour. 
 
-4.  Select **Save &amp; Close**. 
+4.  Select **Save &amp; Close**.
+
+# Exercise 4: Configure the default brand profile
+
+1.  Log into Dynamics 365 Marketing. Change areas to the **Settings** area.
+
+2.  Navigate to **Brand profiles** under the Customer engagement group.
+
+3.  Select the **Default brand profile.** Navigate to the **Senders** tab. You should see the Default sender record in the subgrid. Select the record to open it.
+
+4.  In the **From email**, change everything before the @ symbol to contosoinsurance. Change the **From name** to Contoso Insurance.
+   
+5.  Select **Save and close.** You will return to the Brand profile record.
+
+6. Select the **Social links** tab. Fill in the following:
+
+	- **LinkedIn URL**: [https://www.linkedin.com/company/contoso12345/about/](https://www.linkedin.com/company/contoso12345/about/)
+
+	- **Twitter URL**: [https://twitter.com/ContosoInc](https://twitter.com/ContosoInc)
+
+	- **Facebook URL**: [https://www.facebook.com/Contoso-102137176602590/](https://www.facebook.com/Contoso-102137176602590/)
+
+9.  Select **Save and close.**
 
