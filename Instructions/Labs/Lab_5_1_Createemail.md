@@ -72,7 +72,15 @@ This lab compromises of one exercise:
 
 	- In the **Size and alignment** section, if **Auto width** is checked, uncheck it. Enter **150px** by **50px**. Note you may have to click the unlink icon between width and height to set both.
 
-11. Select the text section below the logo. 
+10. Update the image.
+
+	- Select the image in the section below the logo.
+
+	- Select **Replace image** and **Browse library.**
+
+	- Select the **Hero page** image.
+
+12. Select the text section below the logo. 
 
 	- Navigate to the section. 
 
@@ -92,7 +100,7 @@ This lab compromises of one exercise:
         
     - Highlight the text and change the **font size** to 18.
 
-12. Select the two-column section below the text.
+13. Select the two-column section below the text.
 
 	- Navigate to the section. Change the **Section background color** to white.
 
@@ -118,7 +126,7 @@ This lab compromises of one exercise:
     
     		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px. (Note: You may need to click the unlink icon between the width and height to be able to adjust both.
 
-13. Select the next two-column section.
+14. Select the next two-column section.
 
 	- Navigate to the section. Change the **Section background color** to white.
 
@@ -162,20 +170,18 @@ This lab compromises of one exercise:
 22. Let's fix these errors and get the email ready for sending.
     - Return to the Design tab.
     - Expand the **Brand profile** section and select the **Default brand profile.**
-    - From email will be filled with a default sender email.
-    - Select the **Email header** section from the right pane. Under **Purpose**, enter 
+    - From email will be filled with a default sender email for your organization's domain. 
+    - Select the **Email header** section from the right pane. Under **Compliance profile,** select **Contoso Americas.** The Purpose should automatically update to **Commercial.**
 
-24. Click the arrow next to **Check** **content**. Choose both **Accessibility checker** and **Spam checker** to see if there are any other issues within the email.
+24. Click the arrow next to **Check content**. Choose both **Accessibility checker** and **Spam checker** to see if there are any other issues within the email. Mitigate any other issues as you see fit. 
 
-25. On the toolbar, click **Go live**.
-
- 
+25. On the toolbar, click **Ready to send.**.
 
 # Exercise 2: Create an email by copying an email
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
 
-2. Navigate to **Marketing emails** under the Marketing execution group. 
+2. Navigate to **Emails** under the Channels group. 
 
 3. Open the email you created in the Exercise 1.
 
@@ -183,45 +189,27 @@ This lab compromises of one exercise:
 
 5. In the **Quick Create** menu on the right, name the email **Cross Sell Campaign Email 2**.
 
-6. In the **Subject** **field,** enter “Is your business fully covered?”
+6. In the **Subject** field, enter “Is your business fully covered?”
 
-7. Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Marketing emails list and open **Cross Sell Campaign Email 2**.
+7. Click **Save and Close**. A pop up will appear that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate back to **Emails** and open **Cross Sell Campaign Email 2**.
 
-8. Select the **From Name/Subject** box in the designer to display the Email header details on the right. Expand **Send settings**. Verify the **From name** is Contoso Insurance.
-
-9. On the designer, change the header text to: “**{{contact.firstname}}, let’s review your coverage.**” 
+9. On the designer, change the header text to: “**{{Firstname}}, let’s review your coverage.**” 
 
 10. Change the copy below the header to: “From increasing your online operations to adjusting the setup of your offices, your business needs may have changed considerably this past year. Let's review your policy to ensure you are getting all the coverage you need.”
 
-11. Remove the first two-column section.
+12. Select the next two-column section. Change the **Layout** from 2 to 1:2.
 
-12. Select the next two-column section.
-
-	- Navigate to the section. Change the **Layout** from 2 to 1:2.
-
-	- In the left column, make the following updates:
-
-		1. Select the current image. 
-
-			1. Navigate to the image library and select **customer-review-icon**. 
-
-			2. Replace the **Alt text** with: Customer review icon.
-
-			3. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 100px by 100px.
-
-			4. In the **URL** field, remove the link.
-
-        2. Remove: COMMERCIAL CRIME.
-    
-        3. Remove: Whether it’s crimes committed…
-
-    - In the right column, make the following updates:
+     -	In the left column, make the following updates:
+    	1. Remove the text.
+    	2. Remove the button.
+     
+     - In the right column, make the following updates:
 
     	1. Remove the image. 
     
     	2. Remove BUSINESS INTERRUPTION.
     
-    	3. Change “An additional layer of coverage…” to:
+    	3. Change the text to:
     
             *“It's important to have a partner who understands your business. We are so pleased with our experience at Contoso Insurance. They found us the coverage we needed at a great price.”
             ‎  
@@ -230,7 +218,7 @@ This lab compromises of one exercise:
 
         4. Change the **font size** to 16 and **italicize**.
 
-13. Update the button.
+14. Update the button.
 
 	- Select the button. 
 
@@ -240,59 +228,7 @@ This lab compromises of one exercise:
 
 	- Change the **Button text** to REVIEW MY COVERAGE.
 
-	- Expand **Size and alignment**. Change the width to 300px. 
-
-14. On the toolbar, click **Save**.
-
-15. **Preview** the email.
-
-16. Click **Check content**. Correct any errors if needed.
-
-17. On the toolbar, click **Go live**.
-
- 
-
-# Exercise 3: Create an email by copying an email
-
-1. Log into Dynamics 365 Marketing.
-
-2. Navigate to **Marketing emails** under the Marketing execution group. 
-
-3. Open the email you created in the Exercise 2.
-
-4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as**.
-
-5. In the **Quick Create** menu on the right, name the email **Cross Sell Campaign Email 3**.
-
-6. In the **Subject** **field,** enter “Thanks for contacting us!”
-
-7. Click **Save and Close**. A pop up will appear at the bottom of the email that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Marketing emails list and open **Cross Sell Campaign Email 3**.
-
-8. Select the **From Name/Subject** box in the designer to display the Email header details on the right. Expand **Send settings**. Verify the **From name** says Contoso Insurance.
-
-9. From the **Toolbox**, drag an **Image** element above the header. 
-
-	- Navigate to the library and select the **agent-email-icon**.
-
-	- Add **Alt text** with: Agent icon.
-
-	- Leave **Auto width** On.
-
-	- Expand the **Spacing** section. Uncheck **Set equal for all sides**. Change **Bottom** to 30px.
-
-10. Change the header text to: “Thanks for contacting us!”
-
-11. Change the copy below the header to: 
-
-            We are excited to review your coverage and see what additional services may benefit your business.
-            
-            An agent will be contacting you shortly to schedule a review of your current coverage.
-
-12. Remove the two-column section.
-
-13. Move the divider in the button section below the copy. Expand the **Spacing** section. Change the **Top** spacing to 40px.
-
-14. Remove the **button** section.
+	- Expand **Size and alignment**. Switch **Fit to text** to Off. Change the width to 200px. 
 
 15. On the toolbar, click **Save**.
 
@@ -300,4 +236,38 @@ This lab compromises of one exercise:
 
 17. Click **Check content**. Correct any errors if needed.
 
-18. On the toolbar, click **Go live**.
+18. On the toolbar, click **Ready to send**.
+
+# Exercise 3: Create an email by copying an email
+
+1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
+
+2. Navigate to **Emails** under the Channels group. 
+
+3. Open the email you created in the Exercise 2.
+
+4. In the command bar, click the drop-down arrow next to **Save**. Choose **Save as**.
+
+5. In the **Quick Create** menu on the right, name the email **Cross Sell Campaign Email 3**.
+
+6. In the **Subject** field, enter “Thanks for contacting us!”
+
+7. Click **Save and Close**. A pop up will appear at the upper right that says Your changes were saved. Click **View record** to open the new email. Otherwise navigate to the Emails list and open **Cross Sell Campaign Email 3**.
+
+8. Change the header text to: “Thanks for contacting us!”
+
+9. Change the copy below the header to: 
+
+            We are excited to review your coverage and see what additional services may benefit your business.
+            
+            An agent will be contacting you shortly to schedule a review of your current coverage.
+
+10. Remove the two-column section.
+
+11. On the toolbar, click **Save**.
+
+12. **Preview** the email.
+
+13. Click **Check content**. Correct any errors if needed.
+
+14. On the toolbar, click **Ready to send**.
