@@ -53,30 +53,6 @@ This lab compromises of two exercises:
 
 - 12 image files to be used in marketing content. These can be found in the AllFiles folder on GitHub under Labs/Content Images.
 
-	- agent-email-icon.png
-
-	- coho-vineyard.png
-
-	- computer-icon.png
-
-	- contoso-insurance-logo.png
-
-	- customer-reviews-icon.png
-
-	- dean-halstead.png
-
-	- insurance-agent.png
-
-	- reserved.png
-
-	- shop-icon.png
-
-	- stop-icon.png
-
-	- thank-you-image.png
-
-	- umbrella-icon.png
-
 # Exercise 1: Upload marketing assets
 
 1. Download the image files (.png files) from the resource documents. Extract the files to a folder on your desktop. 
