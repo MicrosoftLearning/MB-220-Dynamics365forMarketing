@@ -34,7 +34,7 @@ This lab comprises of five exercises: 
 
 -   A computer with a Dynamics 365 Marketing environment
 
-# Exercise 1: Create email \#1
+# Exercise 1: Create email 1
 
 The journey will consist of 3 marketing emails. Refer to the screenshots inline or
 provided in the Appendix for design and content suggestions for these emails.
@@ -53,20 +53,18 @@ provided in the Appendix for design and content suggestions for these emails.
 
 5.  Enter details about the email.
 
-    -   Suggested **Name**: [Welcome Email 1
+    -   **Name**: Welcome Email 1
 
-        1.  Enter this at the top left of the email designer.
+    -   **Subject**: Welcome to Contoso Insurance
 
-    -   Suggested **Subject**: Welcome to Contoso Insurance
-
-        1.  To add a subject and preview text, click the section in the middle
-            of the designer that includes the From address and Subject Line
-            placeholder to display the **Email header** on the right.
-
-    -   Suggested **Preview text**: We’re committed to providing you quality
+    -   **Preview text**: We’re committed to providing you quality
         insurance.
 
-6.  Design the email.
+6.  Select the **Default brand profile** as the brand profile.
+
+7. Navigate to **Email header** and expand Compliance. Select the **Contoso Americas** compliance profile.
+
+8.  Design the email.
 
     -   Refer to the screenshot of Welcome Email 1 below for design
         and content ideas. You can modify the images and content as desired, but
@@ -75,11 +73,10 @@ provided in the Appendix for design and content suggestions for these emails.
 
 ![](https://github.com/MicrosoftLearning/MB-220-Dynamics365forMarketing/blob/master/Instructions/Labs/media/WelcomeEmail1.jpg)
 
-Here is some sample copy for this email. You can copy and paste this
-        into your email design.
+Here is some sample copy for this email. You can copy and paste this into your email design. Use **Personalization**, like we used in the previous email lab, to enter dynamic content for the contact's first name.
         
 ```
- FirstName,
+FirstName,
 
 Thank you for putting your trust in Contoso Insurance. We're honored to have you
 as a customer and look forward to building a lasting relationship with you.
@@ -96,24 +93,7 @@ And don't forget to download our mobile app where you can view your account
 history, pay your bill, and more.
 ```
 
-1.  Add personalization.
-
-    -   Note: Dynamic content functions differently than outbound marketing. To
-        add personalization in real-time, follow these steps:
-
-    -   Highlight FirstName then click **Personalization** in the text toolbar.
-
-    -   Wait for the **Personalization** window to load.
-
-    -   Select **First Name**, verify the source is **Contact**.
-
-    -   Choose **Contact** if a pop up appears to select the **Target Audience**.
-    
-    -   In Default value enter Valued Customer.
-
-    -   Click **Save**.
-
-2.  Add a button to the email.
+9.  Add a button to the email.
 
     -   In the **Toolbox**, select **Elements** tab.
 
@@ -131,19 +111,12 @@ history, pay your bill, and more.
 
     -   Change the **button color** to \#0076ad.
 
-3.  Preview, test, and go live with your email.
+10.  Preview, test, and go live with your email.
 
     -   Navigate to the **Preview and test** tab of your email to review your
         email.
 
-    -   Use **Test send** to send yourself a copy.
-
-        1.  Note: You do not need to fill out any of the fields other than
-            email. The remaining fields will populate based on system settings
-            and the personalization default values.
-
-        2.  Be sure to check your junk folder if you do not see the email in
-            your inbox.
+    -   Use **Test send** to send yourself a copy. Enter your personal email address. Select the contact you created previously - the personalization will fill in this contact's first name. Be sure to check your junk folder if you do not see the email in your inbox.
 
     -   Make any final changes.
 
@@ -161,13 +134,12 @@ history, pay your bill, and more.
     -   Update the name of the email to **Welcome Email 2** and
         click **Save and Close**.
 
-    -   Select **View record** in the pop-up at the bottom of the screen to move
-        to your newly created email record.
+    -   Select **View record** in the pop-up to move to your newly created email.
 
 2.  Enter details about the email.
 
     -   Suggested **Subject**: Get on-demand access to your
-        Contoso Insurance portal
+        Contoso Insurance portal.
 
     -   Suggested **Preview text**: Review account information, policy details,
         submit a claim, and more.
@@ -201,12 +173,12 @@ Feel free to contact me with any questions you have.
 
 Cheers,
 
-**John Smith**  
-Insurance Specialist  
-<jsmith@contosoinsurance.com>888-888-8888
+John Smith, Insurance Specialist  
+jsmith@contosoinsurance.com
+888-888-8888
 ```
 
-1.  Update the button in the email.
+4.  Update the button in the email.
 
     -   Select the button.
 
@@ -218,9 +190,9 @@ Insurance Specialist
 
     -   Expand the **Style** section.
 
-    -   Change the **button color** to \#595959.
+    -   Change the **button color** to \##9B1E13.
 
-2.  Preview, test, and go live with your email.
+5.  Preview, test, and go live with your email.
 
     -   Navigate to the **Preview and test** tab of your email to review your
         email.
@@ -242,23 +214,14 @@ Insurance Specialist
 
 # Exercise 3: Create email \#3
 
-1.  Create a new email by copying email 2.
-
-    -   While Welcome Email 2 is open, click the drop down next to **Save** then
-        select **Save as**.
-
-    -   Update the name of the email to **Welcome Email 3** and
-        click **Save and Close**.
-
-    -   Select **View record** in the pop-up at the bottom of the screen to move
-        to your newly created email record.
+1.  Create a new email by copying email 2. Name the email **Welcome email 3.**
 
 2.  Enter details about the email.
 
-    -   Suggested **Subject**: [your prefix] Your welcome kit contains important
+    -   **Subject**: Your welcome kit contains important
         information
 
-    -   Suggested **Preview text**: Download and review your welcome kit.
+    -   **Preview text**: Download and review your welcome kit.
 
 3.  Design the email.
 
@@ -280,10 +243,9 @@ the link below to download it.
 Feel free to contact me with any questions you have.
 
 Cheers,
-
-**John Smith**  
-Insurance Specialist  
-<jsmith@contosoinsurance.com>888-888-8888
+John Smith, Insurance Specialist  
+jsmith@contosoinsurance.com
+888-888-8888
 ```
 
 1.  Update the button in the email.
@@ -304,13 +266,6 @@ Insurance Specialist
         email.
 
     -   Use **Test send** to send yourself a copy.
-
-        1.  Note: You do not need to fill out any of the fields other than email
-            address. The remaining fields will populate based on system settings
-            and the personalization default values.
-
-        2.  Be sure to check your junk folder if you do not see the email in
-            your inbox.
 
     -   Make any final changes.
 
@@ -337,10 +292,9 @@ Insurance Specialist
 
     4.  Click **Create**.
 
-5.  From the Journey settings on the right, in the **Start** section, click
-    **Edit.**
+5.  From the Journey settings on the right, in the **Entry** section, do the following:
 
-    1.  Leave **Exclude by segments** blank
+    1.  Leave **Exclude by segments** blank.
 
     2.  In the **Repeat** section, select Immediately.
 
@@ -350,11 +304,7 @@ Insurance Specialist
 
     5.  In **End,** select tomorrow.
 
-    6.  Scroll back to the top and select the **back arrow** next to **Start**
-        to return to the Journey settings.
-
-6.  From the Journey settings on the right, in the **Goal** section, click
-    **Set**.
+6.  From the Journey settings on the right, navigate to the **Goal** section.
 
     1.  In **The goal of this journey is,** select Send a general notification.
 
@@ -362,9 +312,6 @@ Insurance Specialist
         link.
 
     3.  In **The number of people needed,** enter 50. Leave percent selected.
-
-    4.  Click the **back arrow** next to **Goal** to return to the Journey
-        settings.
 
 7.  In the journey designer, click the **plus icon (+)** under the Contact
     Created tile.
@@ -375,9 +322,9 @@ Insurance Specialist
 
     3.  Select **Branch 1**.
 
-    4.  In **Choose an attribute**, Search for Description (description), under Audience and Contact.
+    4.  In **Choose an attribute**, Search for Description (description), under Contact.
 
-    5.  In **Select Condition Operator,** change the value from Equals to
+    5.  Change the value from Equals to
         Contains.
 
     6.  In **Value,** enter Business.
@@ -420,45 +367,39 @@ Insurance Specialist
 
 13. Review the journey. Make any final changes.
 
-14. Click **Publish**.
+14. Click **Publish**. Wait for the journey to publish before moving on to Exercise 5.
 
 # Exercise 5: Participate in the journey
 
 1.  Log in to Dynamics 365 Marketing.
 
-2.  Navigate to the **Outbound marketing** work area.
+2.  Navigate to the **Real-time marketing** work area.
 
-3.  Under **Customers**, select **Contacts.**
+3.  Under **Audience**, select **Contacts.**
 
 4.  Create a new contact.
 
-    1.  Click **+ New** in the command bar.
+    -  Click **+ New** in the command bar.
 
-    2.  Input a fictitious first name, last name, and your email.
+    -  Input a fictitious first name, last name, and your email.
 
-    3.  Navigate to the **Details** tab. In the **Personal Notes** field, enter
+    -  Navigate to the **Details** tab. In the **Personal Notes** field, enter
         Business.
 
-    4.  Click **Save** in the command bar.
+    -  Click **Save** in the command bar.
 
-    5.  Wait a few minutes. Check your inbox to see that you have received
-        Welcome Email 1 \| subject line: Welcome to Contoso
-        Insurance.
-
-        1.  Note: Be sure to check your junk folder if you do not see the email
+5. Wait a few minutes. Check your inbox to see that you have received
+        Welcome Email 1 with the subject line: Welcome to Contoso
+        Insurance. Be sure to check your junk folder if you do not see the email
             in your inbox.
 
-    6.  Click the call-to-action button from the email (e.g., Click here to
-        download the welcome kit).
+6. Click the call-to-action button from the email (e.g., Click here to download the welcome kit).
 
-    7.  Verify the PDF downloads.
+7. Verify the PDF downloads.
 
-    8.  Wait a few minutes. Check your inbox to see that you have received
-        Welcome Email 2 \| subject line: Get on-demand access to
-        your Contoso Insurance portal.
-
-        1.  Note: Be sure to check your junk folder if you do not see the email
-            in your inbox.
+8. Wait a few minutes. Check your inbox to see that you have received
+        Welcome Email 2 with subject line: Get on-demand access to
+        your Contoso Insurance portal. (Note: Be sure to check your junk folder if you do not see the email in your inbox.)
 
 5.  Create a new contact.
 
@@ -467,11 +408,9 @@ Insurance Specialist
     2.  Input a fictitious first name, last name, and your email.
 
     3.  Navigate to the **Details** tab. In the **Personal Notes** field, enter
-        Business.
-
-        1.  Note: Depending on the environment you are working in, you may
+        Business. (Note: Depending on the environment you are working in, you may
             receive a pop-up notification stating you are creating a duplicate
-            contact. Select **Ignore and Save**.
+            contact. Select **Ignore and Save**.)
 
     4.  Click **Save** in the command bar.
 
@@ -493,4 +432,4 @@ Insurance Specialist
 
 8.  Open **Welcome Journey.**
 
-9.  Review the insights generated from the journey.
+9.  Review the analytics generated from the journey.
