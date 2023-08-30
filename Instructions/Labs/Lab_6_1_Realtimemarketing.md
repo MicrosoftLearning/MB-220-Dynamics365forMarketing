@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 6.1: Real-time marketing journey'
+    title: 'Lab 6.1: Create a journey'
     module: 'Module 6: Manage emails and journeys in real-time marketing'
 ---
 
 # Module 6: Manage emails and journeys in real-time marketing
 
-## Practice Lab 6.1 – Real-time marketing journey
+## Practice Lab 6.1 – Create a journey
 
 # Lab Overview
 
@@ -32,14 +32,14 @@ This lab comprises of five exercises: 
 
 ## What you’ll need:
 
--   A computer with a Dynamics 365 Marketing environment
+-   A computer with a Dynamics 365 Customer Insights - Journeys environment
 
 # Exercise 1: Create email 1
 
 The journey will consist of 3 marketing emails. Refer to the screenshots inline or
 provided in the Appendix for design and content suggestions for these emails.
 
-1.  Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Customer Insights - Journeys.
 
 2.  Navigate to the **Real-time marketing** work area.
 
@@ -275,7 +275,7 @@ jsmith@contosoinsurance.com
 
 # Exercise 4: Create a real-time journey
 
-1.  Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Customer Insights - Journeys.
 
 2.  Navigate to the **Real-time marketing** work area.
 
@@ -371,7 +371,7 @@ jsmith@contosoinsurance.com
 
 # Exercise 5: Participate in the journey
 
-1.  Log in to Dynamics 365 Marketing.
+1.  Log in to Dynamics 365 Customer Insights - Journeys.
 
 2.  Navigate to the **Real-time marketing** work area.
 
