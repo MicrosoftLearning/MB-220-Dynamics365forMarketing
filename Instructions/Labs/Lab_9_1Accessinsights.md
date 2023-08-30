@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 9.1: Access insights in Dynamics 365 Marketing'
-    module: 'Module 9: Review insights in Dynamics 365 Marketing'
+    title: 'Lab 9.1: Access insights in Dynamics 365 Customer Insights - Journeys'
+    module: 'Module 9: Review insights in Dynamics 365 Customer Insights - Journeys'
 ---
 
-# Module 9: Analyze insights with Dynamics 365 Marketing
+# Module 9: Analyze insights with Dynamics 365 Customer Insights - Journeys
 
-## Lab 9.1: Review insights in Dynamics 365 Marketing
+## Lab 9.1: Review insights in Dynamics 365 Customer Insights - Journeys
 
  
 
@@ -20,17 +20,17 @@ Dynamics 365 provides a variety of built-in analytics throughout the application
 
 This lab compromises of one exercise:
 
-1. In exercise one, you will view analytics within Dynamics 365 Marketing and Customer Voice.
+1. In exercise one, you will view analytics within Dynamics 365 Customer Insights - Journeys and Customer Voice.
 
 ## What you’ll need:
 
-- A computer or VM with a Dynamics 365 Marketing environment
+- A computer or VM with a Dynamics 365 Customer Insights - Journeys environment
 
  
 
 # Exercise 1: View analytics
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to **Journeys** under the **Channels** group.
 
