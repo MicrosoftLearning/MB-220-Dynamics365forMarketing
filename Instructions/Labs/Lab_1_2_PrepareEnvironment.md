@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 1.2: Prepare Marketing environment'
-    module: 'Module 1: Configure Dynamics 365 Marketing'
+    title: 'Lab 1.2: Prepare Customer Insights - Journeys environment'
+    module: 'Module 1: Configure Dynamics 365 Customer Insights - Journeys'
 ---
 
-# Module 1: Configure Dynamics 365 Marketing
+# Module 1: Configure Dynamics 365 Customer Insights - Journeys
 
-## Lab 1.2: Prepare Marketing Environment
+## Lab 1.2: Prepare Customer Insights - Journeys Environment
 
 # Lab Overview
 
@@ -27,7 +27,7 @@ For this campaign, the Marketing Coordinator will need to:
 
 - Build the journey that will automate the delivery of the campaign content.
 
-Sales would like a way to prioritize the leads generated from this campaign based on their marketing engagement activities. The sales and marketing teams work together to define the scoring criteria and point system for this campaign. The Marketing Coordinator will then create the model within Dynamics 365 Marketing. 
+Sales would like a way to prioritize the leads generated from this campaign based on their marketing engagement activities. The sales and marketing teams work together to define the scoring criteria and point system for this campaign. The Marketing Coordinator will then create the model within Dynamics 365 Customer Insights - Journeys. 
 
 As part of the journey, an agent will be assigned a task each time a lead submits the marketing form. For each lead, the agent will have visibility to all the marketing emails they received and be able to see what marketing activities they interacted with. They can also review the lead score based on the model the sales and marketing team put in place. 
 
@@ -41,7 +41,7 @@ This lab compromises of two exercises:
 
 1. In the first exercise, you will upload image files to be used in marketing pages and emails. These files will be uploaded to the real-time asset library.
 
-2. In the second exercise, you will update details for existing contacts within Dynamics 365 Marketing. 
+2. In the second exercise, you will update details for existing contacts within Dynamics 365 Customer Insights - Journeys. 
 
 3. In the third exercise, you will create a task template that will be used in the journey.
 
@@ -49,7 +49,7 @@ This lab compromises of two exercises:
 
 ## What you’ll need:
 
-- A computer or VM with a Dynamics 365 Marketing environment
+- A computer or VM with a Dynamics 365 Customer Insights - Journeys environment
 
 - 12 image files to be used in marketing content. These can be found in the AllFiles folder on GitHub under Labs/Content Images.
 
@@ -57,7 +57,7 @@ This lab compromises of two exercises:
 
 1. Download the image files (.png files) from the resource documents. Extract the files to a folder on your desktop. 
 
-2. Log into Dynamics 365 Marketing with your **admin** credentials. 
+2. Log into Dynamics 365 Customer Insights - Journeys with your **admin** credentials. 
 
 3. By default, you should be in the **Real-time marketing** area. Confirm that you are in **Real-time marketing** by opening the Area selector in the bottom left of the screen.
 
@@ -83,7 +83,7 @@ This lab compromises of two exercises:
 
 In an upcoming lab, students will build segments for a marketing campaign and an in-person event. The demo contact records need to be updated in order to populate those segments. The steps below will allow the students to build segments for competitors, business contacts, and contacts living in the Seattle area.
 
-1.  Log into Dynamics 365 Marketing with your **admin** credentials.
+1.  Log into Dynamics 365 Customer Insights - Journeys with your **admin** credentials.
 
 2.  Navigate to the **Contacts** option under the **Audience** group.
 
@@ -164,9 +164,9 @@ In an upcoming lab, students will build segments for a marketing campaign and an
 
 # Exercise 3: Create a task template
 
-1.  Log into Dynamics 365 Marketing with your **admin** credentials. 
+1.  Log into Dynamics 365 Customer Insights - Journeys with your **admin** credentials. 
 
-2.  Navigate to **Task templates** under the **Marketing templates** group. 
+2.  Navigate to **Task templates** under the **Assets** group. 
 
 3.  Select **+New**.
 
@@ -184,7 +184,7 @@ In an upcoming lab, students will build segments for a marketing campaign and an
 
 # Exercise 4: Configure the default brand profile
 
-1.  Log into Dynamics 365 Marketing. Change areas to the **Settings** area.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Change areas to the **Settings** area.
 
 2.  Navigate to **Brand profiles** under the Customer engagement group.
 
