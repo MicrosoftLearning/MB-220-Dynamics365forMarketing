@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab 4.1: Work with segments'
-    module: 'Module 4: Manage segments and subscription centers'
+    title: 'Lab 4.1: Create a segment'
+    module: 'Module 4: Manage segments'
 ---
 
 # Module 4: Manage segments and subscription centers
@@ -20,20 +20,20 @@ The Marketing Coordinator will start by creating a segment for all current busin
 
 This lab compromises of three exercises:
 
-1. In exercise one, you will create a dynamic segment for all competitors from Humongous Insurance. 
+1. In exercise one, you will create a segment for all competitors from Humongous Insurance. 
 
-2. In exercise two, you will create a dynamic segment for all active business contacts and exclude competitor contacts.
+2. In exercise two, you will create a segment for all active business contacts and exclude competitor contacts.
 
-3. In exercise three, you will create your own contact record to be able to participate in the customer journey.
+3. In exercise three, you will create your own contact record to be able to participate in the journey.
 
 
 ## What you’ll need:
 
-- A computer with a Dynamics 365 Marketing environment
+- A computer with a Dynamics 365 Customer Insights - Journeys environment
 
 # Exercise 1: Create a segment
 
-1.  Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
 
 2.  Navigate to **Segments** under the **Audience** group. 
 
@@ -68,7 +68,7 @@ This lab compromises of three exercises:
 
 # Exercise 2: Create a segment with exclusion
 
-1.  Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** section.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** section.
 
 2.  Navigate to **Segments** under the **Audience** group. 
 
@@ -99,7 +99,7 @@ This lab compromises of three exercises:
 
 To participate in the journey, you will need to set yourself up as a contact. 
 
-1.  Log into Dynamics 365 Marketing and ensure you are in the **Real-time marketing** section.
+1.  Log into Dynamics 365 Customer Insights - Journeys and ensure you are in the **Real-time marketing** section.
 
 2.  Navigate to **Contacts** under the **Audience** group. 
 
