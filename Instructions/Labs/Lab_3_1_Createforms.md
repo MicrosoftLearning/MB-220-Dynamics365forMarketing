@@ -1,37 +1,37 @@
 ---
 lab:
-    title: 'Lab 3.1: Create marketing forms'
-    module: 'Module 3: Manage marketing forms'
+    title: 'Lab 3.1: Create a form'
+    module: 'Module 3: Manage forms'
 ---
 
-# Module 3: Manage marketing forms
+# Module 3: Manage forms
 
-## Practice Lab 3.1 - Create marketing forms
+## Practice Lab 3.1 - Create a form
 
 # Lab Overview
 
 ## Scenario
 
-For the cross-sell campaign, the marketing team wants to direct contacts to a marketing webpage with a marketing form. The purpose of the page will be to encourage business customers to fill out the form to schedule a review of their current coverage and learn about additional services available.
+For the cross-sell campaign, the marketing team wants to direct contacts to a webpage with a form. The purpose of the page will be to encourage business customers to fill out the form to schedule a review of their current coverage and learn about additional services available.
 
-The Marketing Coordinator will start by creating the marketing form. Then, they will configure the form hosting.
+The Marketing Coordinator will start by creating the form. Then, they will configure the form hosting.
 
 ## Lab Overview
 
 This lab compromises of two exercises:
 
-1. In exercise one, you will create a marketing form.
+1. In exercise one, you will create a form.
 
 2. In exercise two, you will host the form.
 
 ## What you’ll need:
 
-- Access to a Dynamics 365 Marketing environment.
+- Access to a Dynamics 365 Customer Insights - Journeys environment.
 
 
-# Exercise 1: Create a marketing form
+# Exercise 1: Create a form
 
-1.  Log into Dynamics 365 Marketing. Change the work area to **Real-time marketing** if you are not already in that area.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Change the work area to **Real-time marketing** if you are not already in that area.
 
 2.  Navigate to **Forms** under the **Channels** group.
 
