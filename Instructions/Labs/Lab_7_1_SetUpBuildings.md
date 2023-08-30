@@ -12,7 +12,7 @@ lab:
 
 ## Scenario
 
-Contoso Insurance uses Dynamics 365 Marketing to manage their in-person and online events. Records such as speakers and venues are set up once and then used across multiple events.
+Contoso Insurance uses Dynamics 365 Customer Insights - Journeys to manage their in-person and online events. Records such as speakers and venues are set up once and then used across multiple events.
 
 ## Lab Overview
 
@@ -24,11 +24,11 @@ This lab comprises of two exercises:
 
 ## What You’ll Need
 
-- A computer with a Dynamics 365 Marketing environment
+- A computer with a Dynamics 365 Customer Insights - Journeys environment
 
 # Exercise 1: Create a building
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to the **Event planning** work area.
 
@@ -64,7 +64,7 @@ This lab comprises of two exercises:
 
 # Exercise 2: Create a speaker
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to the **Event planning** work area.
 
