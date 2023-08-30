@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 5.1: Create a marketing email'
-    module: 'Module 5: Manage emails and journeys in outbound marketing'
+    title: 'Lab 5.1: Create an email'
+    module: 'Module 5: Manage emails'
 ---
 
-# Module 5: Manage emails and journeys in outbound marketing
+# Module 5: Manage emails
 
 ## Practice Lab 5.1: Create an email
 
@@ -12,25 +12,25 @@ lab:
 
 ## Scenario
 
-For this campaign, the marketing team wants to upsell current customers with additional services. They plan to send a three-email series. The first email will promote some of the company’s more specialized offerings. The second email is intended to encourage customers to fill out a marketing form. The third email is a confirmation email once the form has been submitted.
+For this campaign, the marketing team wants to upsell current customers with additional services. They plan to send a three-email series. The first email will promote some of the company’s more specialized offerings. The second email is intended to encourage customers to fill out a form. The third email is a confirmation email once the form has been submitted.
 
 ## Lab Overview
 
 This lab compromises of one exercise:
 
-1. In this exercise, you will create a marketing email using an email template.
+1. In this exercise, you will create an email using an email template.
 
-2. In this exercise, you will create a marketing email by copying another email.
+2. In this exercise, you will create an email by copying another email.
 
-3. In this exercise, you will create a marketing email by copying another email.
+3. In this exercise, you will create an email by copying another email.
 
 ## What you’ll need:
 
-- A computer with a Dynamics 365 Marketing environment
+- A computer with a Dynamics 365 Customer Insights - Journeys environment
 
 # Exercise 1: Create an email from a template
 
-1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
+1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
 
 2. Navigate to **Emails** under the **Channels** group. 
 
@@ -110,7 +110,7 @@ This lab compromises of one exercise:
 
 		2. Replace the **Alt text** with: Briefcase icon.
 
-		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/overview/](https://dynamics.microsoft.com/en-us/marketing/overview/) 
+		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/].
 
 		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px. (Note: You may need to click the unlink icon between the width and height to be able to adjust both.)
 
@@ -122,7 +122,7 @@ This lab compromises of one exercise:
     
     		2. Replace the **Alt text** with: Safebox icon.
     
-    		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/capabilities/](https://dynamics.microsoft.com/en-us/marketing/capabilities/)
+    		3. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/].
     
     		4. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px. (Note: You may need to click the unlink icon between the width and height to be able to adjust both.
 
@@ -140,7 +140,7 @@ This lab compromises of one exercise:
 
 			3. In the **Size and alignment** section, uncheck **Auto width**. Change the size to 150px by 150px.
 
-			4. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/en-us/marketing/resources/](https://dynamics.microsoft.com/en-us/marketing/resources/).
+			4. In **Link to** field, select **URL**. Enter [https://dynamics.microsoft.com/].
 
 16. Select the section with the social icons.
 
@@ -179,7 +179,7 @@ This lab compromises of one exercise:
 
 # Exercise 2: Create an email by copying an email
 
-1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
+1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
 
 2. Navigate to **Emails** under the Channels group. 
 
@@ -222,9 +222,9 @@ This lab compromises of one exercise:
 
 	- Select the button. 
 
-	- Change **Link to** to Marketing page.
+	- Change **Link to** to URL.
 
-	- Select any marketing page.
+	- Enter [https://dynamics.microsoft.com/].
 
 	- Change the **Button text** to REVIEW MY COVERAGE.
 
@@ -240,7 +240,7 @@ This lab compromises of one exercise:
 
 # Exercise 3: Create an email by copying an email
 
-1. Log into Dynamics 365 Marketing. Ensure you are in the **Real-time marketing** area.
+1. Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
 
 2. Navigate to **Emails** under the Channels group. 
 
