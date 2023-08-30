@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab 4.2: Manage consent'
-    module: 'Module 4: Manage segments and consent'
+    title: 'Lab 4.2: Create a compliance profile'
+    module: 'Module 4: Manage segments'
 ---
 
 
@@ -23,11 +23,11 @@ This lab compromises of one exercise:
 
 ## What you’ll need:
 
-- A computer with a Dynamics 365 Marketing environment
+- A computer with a Dynamics 365 Customer Insights - Journeys environment
 
 ## Exercise 1: Create subscription lists
 
-1.  Log into Dynamics 365 Marketing. Change the area to the **Settings** area.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Change the area to the **Settings** area.
 
 2.  Navigate to **Compliance profiles** under **Customer engagement.**
 
