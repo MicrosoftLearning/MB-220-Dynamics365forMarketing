@@ -24,7 +24,7 @@ For this event, the Marketing Coordinator will need to:
 
 - Use Customer Voice to create a survey to gather feedback about the event.
 
-- Create three marketing emails – an invitation, a confirmation, and a post-event follow up email with a link to a survey.
+- Create three emails – an invitation, a confirmation, and a post-event follow up email with a link to a survey.
 
 - Create a journey that will automate the delivery of the event content.
 
@@ -50,11 +50,11 @@ This lab comprises of seven exercises:
 
 ## What You’ll Need
 
-- A computer with a Dynamics 365 Marketing environment
+- A computer with a Dynamics 365 Customer Insights - Journeys environment
 
 ## Exercise 1: Create an in-person event
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to the **Event planning** work area.
 
@@ -112,7 +112,7 @@ This lab comprises of seven exercises:
 
 ## Exercise 2: Create the segments
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to the **Real-time marketing** area.
 
@@ -178,7 +178,7 @@ This lab comprises of seven exercises:
 
 6. From the project template gallery, select the **Periodic customer feedback** template. Click **Next** on the bottom left of your screen. 
 
-7. Click **See all environments.** Select the same environment as the marketing app. To determine which environment to correct, compare the URL in the pop-up window within Customer Voice with the URL of the marketing app. Ask your instructor if you are unsure which environment to select. When the correct environment is selected, **Select and close.**
+7. Click **See all environments.** Select the same environment as the Customer Insights - Journeys app. To determine which environment to correct, compare the URL in the pop-up window within Customer Voice with the URL of the Customer Insights - Journeys app. Ask your instructor if you are unsure which environment to select. When the correct environment is selected, **Select and close.**
 
 8. Click **Create**.
 
@@ -309,15 +309,15 @@ This lab comprises of seven exercises:
 
 	- Click out of the question to save.
 
-19. Your survey is automatically saved and is now available for selection in Dynamics 365 Marketing areas such as emails and journeys.
+19. Your survey is automatically saved and is now available for selection in Dynamics 365 Customer Insights - Journeys areas such as emails and journeys.
 
 20. Click **All Projects** on the left menu.
 
 21. Locate the **Periodic customer feedback** project. Click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename to **Post Event Surveys**. Click **Rename**.
 
-# Exercise 4: Create the marketing emails
+# Exercise 4: Create the emails
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Create event email #1.
 
@@ -331,7 +331,7 @@ This lab comprises of seven exercises:
 
 	- **Subject:** You’re invited!
 
-	- Click **Save and Close**. A pop up will appear that says Your changes were saved. Click View record to open the new email. Otherwise navigate to the Marketing emails list and open **Business Appreciation Event Invite**.
+	- Click **Save and Close**. A pop up will appear that says Your changes were saved. Click View record to open the new email. Otherwise navigate to the emails list and open **Business Appreciation Event Invite**.
 
 	- Change the image to: coho-vineyard
 
@@ -459,7 +459,7 @@ This lab comprises of seven exercises:
 
 We will create two journeys - the first will include the invitation and confirmation emails. The second will include the post-event email with the link to the survey. 
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to **Journeys** under the **Engagement** group.
 
@@ -571,7 +571,7 @@ We will create two journeys - the first will include the invitation and confirma
 
 The day of the event, a representative from Contoso Insurance would check in attendees as they arrive to the event. There are two ways to check-in attendees – manually or by scanning a QR code. For this exercise, you will be checking the attendees in manually.
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
 2. Navigate to the **Event Planning** work area.
 
