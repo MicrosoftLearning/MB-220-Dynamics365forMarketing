@@ -35,28 +35,27 @@ This lab compromises of two exercises:
 
 2.  Navigate to **Forms** under the **Channels** group.
 
-3.  Select **+ New** to create a new form. Name the form **Cross Sell Campaign Form** and select **Lead** as the target audience. Click **Create.**
+3.  Select **+ New** to create a new form. Name the form **Cross Sell Campaign Form** and select **Contact** as the target audience. Click **Create.**
 
 4.  The form designer will open, and available fields will appear in the right menu.
 - Drag the **First Name** field onto the form. (You can use the search box to search for the field instead of scrolling.)
  - Return to **Fields**. Next, drag **Last Name** below First Name.
  - Return to **Fields.** Drag **Email** below Last Name.
- - Below Email, add three more fields: **Company Name, Job Title,** and **Industry (option set)**.
-
-5. Select the **Industry** field on the form. In the Placeholder text field, enter "Select industry...".
 
 10. Switch to the **Elements** section. Drag the **Submit** button below Email.
 	- Change the font size from 16px to 20px.
 	- Change Rounded corners to 6px.
 	- Change Border to dotted.
 
-13. Make the following updates to the First Name, Last Name, Email, Company Name, and Job Title fields:
+13. Make the following updates to the First Name, Last Name, and Email fields:
 	- Remove the Placeholder text.
 	- Set **Required** to Yes.
 
-15. Preview the form by selecting the **Preview and test** tab at the top of the form designer.
+14. Drag the **Remember me** field below the Email and above the Submit button.
 
-16. **Save** the record and select **Check content** in the toolbar. Correct any errors if needed. 
+16. Preview the form by selecting the **Preview and test** tab at the top of the form designer.
+
+17. **Save** the record and select **Check content** in the toolbar. Correct any errors if needed. 
 
 12. Select **Publish**. Do not navigate away from the screen.
 
@@ -74,13 +73,11 @@ A pop-up window will appear with two options for publishing your form. In this e
 	- Under First Name, enter **John.**
 	- Under Last Name, enter **Doe.**
 	- Under Email, enter **johndoe@alpineskihouse.com.**
-	- Under **Company**, enter **Alpine Ski House.**
-	- Under **Job Title,** enter **Account Manager.**
-	- Under **Industry,** select **Entertainment Retail.**
+	- Under **Remember me,** select Allow.
 
 5. Select **Submit.**
 
 6. You can now close the tab.
 7. Back in the **Real-time marketing** section, navigate to **Forms** in the **Channels** section.
 8. Select the **Cross-Sell Campaign Form**. Navigate to the **Submissions** tab.
-9. You should now see **John Doe** as a submission. Select John Doe to navigate to the new **Lead** record.
+9. You should now see **John Doe** as a submission. Select John Doe to navigate to the new **Contact** record.
