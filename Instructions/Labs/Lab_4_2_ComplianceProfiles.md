@@ -1,13 +1,13 @@
 ---
 lab:
     title: 'Lab 4.2: Create a compliance profile'
-    module: 'Module 4: Manage segments'
+    module: 'Module 4: Manage segments and consent'
 ---
 
 
 # Module 4: Manage segments and consent
 
-## Lab 4.2: Manage consent
+## Lab 4.2: Create a compliance profile
 
 # Lab Overview
 
