@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 5.1: Create an email'
-    module: 'Module 5: Manage emails'
+    title: 'Lab 6.1: Create an email'
+    module: 'Module 6: Manage emails and journeys in real-time marketing'
 ---
 
-# Module 5: Manage emails
+# Module 6: Manage emails and journeys in real-time marketing
 
-## Practice Lab 5.1: Create an email
+## Practice Lab 6.1: Create an email
 
 # Lab Overview
 
