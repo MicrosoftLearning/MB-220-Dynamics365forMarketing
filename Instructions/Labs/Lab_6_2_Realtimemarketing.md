@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 6.1: Create a journey'
+    title: 'Lab 6.2: Create a journey'
     module: 'Module 6: Manage emails and journeys in real-time marketing'
 ---
 
