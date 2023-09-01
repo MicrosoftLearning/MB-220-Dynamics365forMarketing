@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 9.1: Access insights in Dynamics 365 Marketing'
-    module: 'Module 9: Review insights in Dynamics 365 Marketing'
+    title: 'Lab 9.1: Access insights in Dynamics 365 Customer Insights - Journeys'
+    module: 'Module 9: Review insights in Dynamics 365 Customer Insights - Journeys'
 ---
 
-# Module 9: Analyze insights with Dynamics 365 Marketing
+# Module 9: Analyze insights with Dynamics 365 Customer Insights - Journeys
 
-## Lab 9.1: Review insights in Dynamics 365 Marketing
+## Lab 9.1: Review insights in Dynamics 365 Customer Insights - Journeys
 
  
 
@@ -20,96 +20,29 @@ Dynamics 365 provides a variety of built-in analytics throughout the application
 
 This lab compromises of one exercise:
 
-1. In exercise one, you will view analytics within Dynamics 365 Marketing and Customer Voice.
+1. In exercise one, you will view analytics within Dynamics 365 Customer Insights - Journeys and Customer Voice.
 
 ## What you’ll need:
 
-- A computer or VM with a Dynamics 365 Marketing environment
+- A computer or VM with a Dynamics 365 Customer Insights - Journeys environment
 
  
 
 # Exercise 1: View analytics
 
-1. Log into Dynamics 365 Marketing.
+1. Log into Dynamics 365 Customer Insights - Journeys.
 
-2. Navigate to **Customer journeys** under the **Marketing execution** group.
+2. Navigate to **Journeys** under the **Channels** group.
 
-3. Select the **Cross Sell Campaign Journey**. 
+3. Select the **Business Appreciation Event Invites** journey. 
 
-	- Navigate to the **Insights** tab. Review the Overview and Incomplete journeys tabs.
+	- View the analytics tab. This will show how many journeys were processed.
 
-	- Navigate back the **Designer** tab.
+	- Navigate back the **Designer** tab. Select an email tile. The Analytics tab will now show the delivery funnel. Select **Delivery and interaction details** at the bottom of the pane to view delivery details for each contact.
 
-	- Review the segment insights.
-
-		1. Click on the **audience tile**. 
-
-			1. Review the KPIs on the right. 
-
-        2. Click on the **segment name** on the Audience tile.
-        
-        	1. Navigate to the **Insights** tab and evaluate the results. 
-        
-        	2. When finished, close the pop-up box. 
-
-    - Review the email insights.
-    
-    	1. Click on the **first email tile**. 
-    
-    		1. Review the KPIs on the right. 
-    
-        2. Under the heading **Send an Email**, click the hyperlink to open the email in a pop-up window. 
-        
-        	1. Navigate to the **Insights** tab.
-        
-        	2. By default, this view will show insights for this email across all customer journeys this email is being used in for the past month. To show insights for a specific journey or a specific date range, use the **Customer journey** and **From / To date selectors** to narrow down the results.
-        
-    	3. Click through the insights categories on the left (e.g., Delivery, Links, Interactions, etc.)
-    
-    	4. When finished, close the pop-up box. 
-
-    - Click on any other tiles and review the insights.
-
-4. Navigate to **Marketing pages** under the Internet marketing group.
-
-	- Open **Cross Sell Campaign** **Page.** 
-
-	- Navigate to the **Insights** tab.
-
-	- Click through the insights categories on the left (e.g., Submissions, Visits, etc.)
-
-5. Navigate to **Marketing forms** under the Internet marketing group.
-
-	- Open **Cross Sell Campaign** **Form.** 
-
-	- Navigate to the **Insights** tab.
-
-	- Click through the insights categories on the left (e.g., Submissions, Visits, etc.)
-
-6. Navigate to **Contacts** under the Customers group.
-
-	- Open your contact record.
-
-	- Navigate to the **Insights** tab.
-
-	- Click through the insights categories on the left (e.g., Email interactions, Web interactions, Event interactions, Marketing form interactions, etc.)
-
-7. Navigate to **Leads** under the Lead management group.
-
-	- Open your lead record.
-
-	- Navigate to the **Insights** tab.
-
-	- Click through the insights categories on the left (e.g., Email interactions, Web interactions, Event interactions, Marketing form interactions, etc.)
-
-	- Navigate to the **Lead scores** tab.
-
-	- Review the scores received from the Demographic and Behavioral models.
+4. Navigate to **Analytics** under the **Engagement** group. Explore the **Journeys** tab, including the engagement successes and issues. Then select the **Channels** tab. Here, you can view your channel open and click through rates.
 
 8. Navigate to **Customer Voice.**
 
-	- Click on **All projects** on the left.
+	- Select **Business Appreciation Event Survey** from the **Reports** group. Examine your survey responses.
 
-	- Select **Customer Appreciation Event Survey**. When the survey opens, expand the **Reports** menu on the left. Click **Satisfaction Metrics** for a dashboard view of the survey results.
-
-	- Click on the name of your survey to view the responses to each question.

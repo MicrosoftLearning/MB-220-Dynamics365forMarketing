@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 4.1: Work with segments'
-    module: 'Module 4: Manage segments and subscription centers'
+    title: 'Lab 4.1: Create a segment'
+    module: 'Module 4: Manage segments and consent'
 ---
 
-# Module 4: Manage segments and subscription centers
+# Module 4: Manage segments and consent
 
 ## Practice Lab 4.1: Work with segments
 
@@ -14,116 +14,94 @@ lab:
 
 The first step in setting up the Cross Sell Campaign will be to create the segments for the journey.
 
-The Marketing Coordinator will start by creating a segment for all current, business contacts. The marketing team is also aware that their competitors will occasionally fill out forms on the Contoso Insurance website, so they want to make sure to exclude competitor contacts from all marketing campaigns. 
-
+The Marketing Coordinator will start by creating a segment for all current business contacts. The marketing team is also aware that their competitors will occasionally fill out forms on the Contoso Insurance website, so they want to make sure to exclude competitor contacts from all marketing campaigns. 
 
 ## Lab Overview
 
 This lab compromises of three exercises:
 
-1. In exercise one, you will create a dynamic segment for all competitors from Humongous Insurance. 
+1. In exercise one, you will create a segment for all competitors from Humongous Insurance. 
 
-2. In exercise two, you will create a dynamic segment for all active, business contacts and exclude competitor contacts.
+2. In exercise two, you will create a segment for all active business contacts and exclude competitor contacts.
 
-3. In exercise three, you will create your own contact record to be able to participate in the customer journey.
+3. In exercise three, you will create your own contact record to be able to participate in the journey.
 
 
 ## What you’ll need:
 
-- A computer with a Dynamics 365 Marketing environment
+- A computer with a Dynamics 365 Customer Insights - Journeys environment
 
+# Exercise 1: Create a segment
 
-# Exercise 1: Create a dynamic segment
+1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
 
-1.  Log into Dynamics 365 Marketing. Change to the **Outbound marketing** area, in the **Change area** drop-down menu.
+2.  Navigate to **Segments** under the **Audience** group. 
 
-2.  Navigate to **Segments** under the **Customers** group. 
+3.  Select **+New Segment**.
 
-3.  Select **+New** and choose **+New Dynamic Segment.**
+4.  In the **Name the segment** box, enter "HUmongous Insurance." Select **Contact** as the target audience.
 
-4.  When prompted to select a Segment Template, select **Skip**.
+7.  Let's use Copilot to build our new segment. In the Query Assist text box, type "Contacts with account Humongous Insurance."
 
-5.  In the **Name** segment located in the middle of the screen, enter `Humongous Insurance`
+8.  In the Query Assist pane, the Result will appear. Double check that the Result reads "Account is Humonogus Insurance." Since this looks like a result that will satisfy our segment requirements, select **Use.**
 
-6.  On the right, next to Undo/Redo, make sure **Natural view** is selected.
+9.  Copilot builds your condition in the segment designer. The Group 1 section will read "Account **Is** Humongous Insurance."
 
-7.  Select **Add query block** (If a pop-up appears, close it.) 
+10.  We want to add another condition to the segment. We will build this condition ourselves. Select **+Add new** to add a new group and select **Attribute group.**
 
-8.  In the first field, the entity **Contact** should be selected. If it is not, change the query entity to **Contact**. 
+11. Change the operator from **and also** to **or.** 
 
-	- Create the following condition: Company Name **is** Humongous Insurance.
-
-9.  Select **+ Add** then choose **Add condition to Contact**. 
-
-	- Select **Or** for the operator.
+	- In the Attribute pane, start typing **Email**. Expand **Contact**. Click the plus button next to the field and add it to Group 2.
 
 	- Create the following condition: Email **contains** humongousinsurance.
 
-10. Select **+ Add** then choose **Add condition to Contact**. 
+12. Select **Save**.
 
-	- Select **And** for the operator.
+13. Select **Ready to use** in the toolbar.
 
-	- Create the following condition: Status **is** Active.
-
-11. Select **Save** and then select **check for errors** in the toolbar. Correct any if needed. 
-
-12. Select **Go live** in the toolbar. 
-
-13. Select the **Members** tab. 
+14. Select the **Members and Insights** tab. 
 
 	- Verify you see contacts with a Humongous Insurance email or Humongous company name. 
 
 	- Note: You may need to refresh or wait a few minutes before the contacts appear. 
 
 
-# Exercise 2: Create a dynamic segment with an exclusion segment
+# Exercise 2: Create a segment with exclusion
 
-1.  Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** section.
 
-2.  Navigate to **Segments** under the **Customers** group. 
+2.  Navigate to **Segments** under the **Audience** group. 
 
-3.  Select **+ New** and choose **+ New Dynamic Segment.**
+3.  Select **+ New Segment**.
 
-4.  When prompted to select a Segment Template, select **Skip**.
+4.  Name the segment `Business Customers`. Keep **Contact** selected as target audience.
 
-5.  Name the segment `Business Customers`
+6.  Let's use Copilot to create our segment again. In the Query Assist text box, type "Contact who description contains business."
 
-6.  Select **Add query block** (If a pop-up appears, close it.) 
+7.  Click **Create.**
 
-7.  In the first field, the entity **Contact** should be selected. If it is not, change the query entity to **Contact**. 
+8.  Review the Result. It should say "Description contains business." Select **Use.**
 
-	- Create the following condition: Status **is** Active.
+9.  In the Elements pane, select the **Segments** tab. You should see the Humongous Insurance segment you created in Exercise 1. (If your segment is not in the pane, your segment may still be building.)
 
-8.  Select **+ Add** and select **Add condition to Contact**. 
+10.  Select the plus sign next to the Humongous Insurance segment. It will create a new Group 2.
 
-	- Select **And** for the operator.
+11. Change the operator to **but not.** This will create a segment that includes all contacts with "Business" in their Description *except* those from your competitor, Humoongous Insurance.
 
-	- Create the following condition: Description **contains** Business.
+12. Select **Save** and then select **Ready for use.**
 
-9.  Below the conditions you just created, click **Add segment block**. 
+12. Wait for your segment to build.
 
-	- Change the operator to **but not**. 
-
-	- Start typing **Hum** and select the **Humongous Insurance** record.
-
-10. Select **Save** and then select **check for errors** in the toolbar. Correct any if needed.
-
-11. Select **Go live** in the toolbar. 
-
-12. Select the **Members** tab. 
-
-	- Verify you do not see any contacts with a Humongous Insurance email. 
-
-    **Note:** You may need to refresh or wait a few minutes before the contacts appear. 
+13. Select the **Members and insights** tab. Verify you do not see any contacts with a Humongous Insurance email. 
 
 
 # Exercise 3: Create a contact
 
-To participate in the journey, you will need to set yourself up as a contact. Because the segment previously created is dynamic, once you create the contact record and fill out the description field, it should automatically appear in the segment.
+To participate in the journey, you will need to set yourself up as a contact. 
 
-1.  Log into Dynamics 365 Marketing.
+1.  Log into Dynamics 365 Customer Insights - Journeys and ensure you are in the **Real-time marketing** section.
 
-2.  Navigate to **Contacts** under the **Customers** group. 
+2.  Navigate to **Contacts** under the **Audience** group. 
 
 3.  Select **+New**.
 
@@ -131,13 +109,13 @@ To participate in the journey, you will need to set yourself up as a contact. Be
 
 5.  In the **Last Name** field, enter a generic last name.
 
-6.  In the **Job Title** field, enter Finance Director or CFO. 
+6.  In the **Job Title** field, enter Finance Director.
 
 7.  In the **Email** field, enter your email.
 
-8.  In the **Address: City** field, enter `Seattle`
+8.  In the **Address 1: City** field, enter `Seattle`
 
-9.  In the **Address: State/Province** field, enter `Washington`. Select **Done**. 
+9.  In the **Address: State/Province** field, enter `Washington`. 
 
 10. Navigate to the **Details** tab. In the **Personal Notes** field, enter Business.
 
