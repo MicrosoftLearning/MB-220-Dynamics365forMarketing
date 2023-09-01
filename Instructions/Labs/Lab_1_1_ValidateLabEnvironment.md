@@ -27,7 +27,7 @@ minutes before the virtual machine has network connectivity to begin the labs.
 
 ### Task 1 – Provision Dynamics 365 Customer Insights - Journeys Trial
 
-1.  In a new browser tab, navigate to `[https://dynamics.microsoft.com/ai/customer-insights](https://dynamics.microsoft.com/ai/customer-insights/)` and select **Try for free**. 
+1.  In a new browser tab, navigate to [https://dynamics.microsoft.com/ai/customer-insights](https://dynamics.microsoft.com/ai/customer-insights/) and select **Try for free**. 
 
 2.  Enter the email address provided by the Authorized Lab Host and select **Start your free trial**. 
 
