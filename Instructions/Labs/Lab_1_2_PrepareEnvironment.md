@@ -15,7 +15,7 @@ lab:
 Contoso Insurance is a company that sells insurance to both residential and business customers. 
 During their annual review, the sales & marketing teams observe a year over year decrease in the number of services sold to each business customer. The marketing team decides to put together a cross sell campaign to encourage current business customers to purchase additional services. 
 
-They plan to send a series of emails with a call to action for the customer to fill out a marketing form that will result in a phone call from a sale rep. They plan to run this campaign for 2 months.
+They plan to send a series of emails with a call to action for the customer to fill out a marketing form that will result in a phone call from a sales rep. They plan to run this campaign for 2 months.
 
 For this campaign, the Marketing Coordinator will need to:
 
