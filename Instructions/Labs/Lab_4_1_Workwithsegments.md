@@ -39,7 +39,7 @@ This lab compromises of three exercises:
 
 3.  Select **+New Segment**.
 
-4.  In the **Name the segment** box, enter "HUmongous Insurance." Select **Contact** as the target audience.
+4.  In the **Name the segment** box, enter "Humongous Insurance." Select **Contact** as the target audience.
 
 7.  Let's use Copilot to build our new segment. In the Query Assist text box, type "Contacts with account Humongous Insurance."
 
