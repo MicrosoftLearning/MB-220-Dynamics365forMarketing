@@ -592,7 +592,7 @@ The day of the event, a representative from Contoso Insurance would check in att
 1. Navigate to your email account. 
 
 2. Locate the email from **Contoso Insurance** with a subject line of **Thanks for attending our Business Appreciation Event!**
-3. 
-4. Open the email. Click the button.
+ 
+3. Open the email. Click the button.
 
 5. Fill out the survey.
