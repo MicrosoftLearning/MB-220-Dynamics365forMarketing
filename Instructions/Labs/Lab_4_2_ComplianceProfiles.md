@@ -25,7 +25,7 @@ This lab compromises of one exercise:
 
 - A computer with a Dynamics 365 Customer Insights - Journeys environment
 
-## Exercise 1: Create subscription lists
+## Exercise 1: Create a compliance profile
 
 1.  Log into Dynamics 365 Customer Insights - Journeys. Change the area to the **Settings** area.
 
