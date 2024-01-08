@@ -35,10 +35,13 @@ minutes before the virtual machine has network connectivity to begin the labs.
 
 4.  Enter a phone number, or `0123456789` if you do not have one. Select **Submit**. 
 
-5.  Select **Launch trial**.
+5.  Wait for the Trial to provision and select **Launch Trial**.
 
-6.  You should be directed to the **Dynamics 365 Customer Insights - Journeys** model-driven application. 
+6.  Select **Start Customer Insights - Journeys**.
 
+7.  You should be directed to the **Dynamics 365 Customer Insights - Journeys** model-driven application. 
+
+8.  Select **I agree** from the notification bar.
 
 ### Task 2 – Set up Customer Voice
 
@@ -59,5 +62,7 @@ minutes before the virtual machine has network connectivity to begin the labs.
 
 2.  Under **Integrations**, enable **Customer Voice integration** and select **I agree**. 
 
-3.  Select **Save**. 
+3.  Select **Save**.
+
+4.  Select **OK**.
 
