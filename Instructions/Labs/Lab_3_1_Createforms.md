@@ -31,53 +31,58 @@ This lab compromises of two exercises:
 
 # Exercise 1: Create a form
 
-1.  Log into Dynamics 365 Customer Insights - Journeys. Change the work area to **Real-time marketing** if you are not already in that area.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Change the work area to **Real-time journeys** if you are not already in that area.
 
 2.  Navigate to **Forms** under the **Channels** group.
 
-3.  Select **+ New** to create a new form. Name the form **Cross Sell Campaign Form** and select **Contact** as the target audience. Click **Create.**
+3.  Select **+ New** to create a new form. Name the form `Cross Sell Campaign Form` and select **Contact** as the target audience. Select **Create**.
 
-4.  The form designer will open, and available fields will appear in the right menu.
-- Drag the **First Name** field onto the form. (You can use the search box to search for the field instead of scrolling.)
- - Return to **Fields**. Next, drag **Last Name** below First Name.
- - Return to **Fields.** Drag **Email** below Last Name.
+4.  Select **Skip**.
 
-10. Switch to the **Elements** section. Drag the **Submit** button below Email.
-	- Change the font size from 16px to 20px.
-	- Change Rounded corners to 6px.
-	- Change Border to dotted.
+5.  The form designer will open, and available fields will appear in the right menu.
 
-13. Make the following updates to the First Name, Last Name, and Email fields:
-	- Remove the Placeholder text.
-	- Set **Required** to Yes.
+    - Drag the **First Name** field onto the form. (You can use the search box to find the field instead of scrolling.)
+    - Return to **Fields** on the right side tabs. Next, drag **Last Name** below First Name.
+    - Return to **Fields.** Drag **Email** below Last Name.
 
-14. Drag the **Remember me** field below the Email and above the Submit button.
+6.  Switch to the **Elements** section. Drag the **Submit** button below Email.
+    - Change the **Font** size from 16px to 20px.
+    - Change **Rounded corners** to 6px.
+    - Change **Border** to Dotted.
 
-16. Preview the form by selecting the **Preview and test** tab at the top of the form designer.
+7.  Make the following updates to the **First Name**, **Last Name**, and **Email** fields:
+    - Remove the **Placeholder** text.
+    - Set **Required** to Yes.
 
-17. **Save** the record and select **Check content** in the toolbar. Correct any errors if needed. 
+8.  Preview the form by selecting the **Preview and test** tab at the top of the form designer.
 
-12. Select **Publish**. Do not navigate away from the screen.
+9.  **Save** the record and select **Check content** in the toolbar. Correct any errors if needed. 
+
+10. Select **Publish**. Do not navigate away from the screen.
+
 
 # Exercise 2: Host the form
 
 A pop-up window will appear with two options for publishing your form. In this exercise, we will publish the form as a standalone page.
 
-1. Select **Create** under Create new standalone page.
+1.  Select **Create**, under **Standalone page** > **Create new standalone page**.
 
-2. The creation process may take a second.
+2.  **Wait** for the creation process.
 
-3. When your page is published, a URL will appear. Select **Open in new tab.**
+3.  When the page is published, a URL will appear. Select **Open in new tab**.
 
-4. Fill out the form for a new lead.
-	- Under First Name, enter **John.**
-	- Under Last Name, enter **Doe.**
-	- Under Email, enter **johndoe@alpineskihouse.com.**
-	- Under **Remember me,** select Allow.
+4.  Fill out the form to create a new contact.
+    - Under First Name, enter `John`
+    - Under Last Name, enter `Doe`
+    - Under Email, enter `johndoe@alpineskihouse.com`
 
-5. Select **Submit.**
+5.  Select **Submit**.
 
-6. You can now close the tab.
-7. Back in the **Real-time marketing** section, navigate to **Forms** in the **Channels** section.
-8. Select the **Cross-Sell Campaign Form**. Navigate to the **Submissions** tab.
-9. You should now see **John Doe** as a submission. Select John Doe to navigate to the new **Contact** record.
+6.  **Close** the tab.
+
+7.  Back in the **Real-time marketing** app, select **Done**. Navigate to **Forms**, under the **Channels** group.
+
+8.  Open the **Cross Sell Campaign Form** record. Navigate to the **Submissions** tab.
+
+9.  Verify **John Doe** exists as a Submission. Select **John Doe** to open the new **Contact** record. 
+
