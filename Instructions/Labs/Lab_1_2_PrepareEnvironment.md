@@ -55,28 +55,23 @@ This lab compromises of two exercises:
 
 # Exercise 1: Upload marketing assets
 
-1. Download the image files (.png files) from the resource documents. Extract the files to a folder on your desktop. 
+1.  Download the image files (.png files) from the resource documents. Extract the files to a folder on your desktop. 
 
-2. Log into Dynamics 365 Customer Insights - Journeys with your **admin** credentials. 
+2.  Log into Dynamics 365 Customer Insights - Journeys with your **admin** credentials. 
 
-3. By default, you should be in the **Real-time marketing** area. Confirm that you are in **Real-time marketing** by opening the Area selector in the bottom left of the screen.
+3.  By default, you should be in the **Real-time journeys** area. Confirm that you are in the **Real-time journeys** area by opening the **Area selector** in the bottom left of the screen.
 
-4. In the left menu, navigate to the **Assets** section. Select **Library.** Select the **+ New** button to open the upload files window. 
+4.  In the left menu, navigate to the **Assets** section. Select **Library.** Select the **+ New** button to open the upload files window. 
 
-5. Select **+ Add files**, locate the 12 .png files on your local computer, and select them. 
+5.  Select **+ Add files**, locate the 12 .png files on your local computer, and select them. 
 
-6. While the upload window is open, add **tags** to the images. 
+6.  While the upload window is open, add a `logo` **tag** to contosologo.png
 
-	- contosologo.png – Add tag **logo**
-	- twitter.png - Add tag **social**
-	- facebook.png - Add tag **social**
-	- linkedin.png - Add tag **social**
+7.  Select **Upload**. Ensure 12 images files uploaded - a green checkmark with **Done** will appear for each file. Select **Done**.
 
-7. When you’re done adding tags, select **Upload.** Ensure 12 images files uploaded - a green checkmark with **Done** will appear underneath the file name. Select **Done**. 
+8.  Using the Filter search box, enter `con` By default, this filter searches by the file name. Verify the Contoso Insurance logo appears in the search results. 
 
-8. Using the Filter search box, enter **con**. By default, this filter searches by the file name. Ensure the Contoso Insurance logo appears in the search results.
-
-10. These files will now be available for users to incorporate into their marketing operations. 
+These files will now be available for users to incorporate into their marketing operations. 
 
 
 # Exercise 2: Update existing contacts
@@ -85,17 +80,17 @@ In an upcoming lab, students will build segments for a marketing campaign and an
 
 1.  Log into Dynamics 365 Customer Insights - Journeys with your **admin** credentials.
 
-2.  Navigate to the **Contacts** option under the **Audience** group.
+2.  From the left navigation, select **Contacts**, under the **Audience** group.
 
 3.  Open the contact **Alva Tharaldsen**. 
 
-	- Under **Company**, select **Bellows College.** You will then navigate to the Bellows College account record.
+	- Under **Account Name**, select **Bellows College.** You will then navigate to the Bellows College account record.
 
-	- Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Select all contacts in the list by selecting the check mark next to **Full name** at the top of the subgrid. 
+	- Scroll down to the **Contacts** subgrid. All Contacts associated with Bellows College are listed here. Select all contacts in the list using the three dots menu and **Select**. Check all the contacts in the list. 
 
-	- Select **Edit.**
+	- On the **Contacts** subgrid three dots menu, select **Edit**.
  
-	- On the **Details** tab, locate the **Personal Notes** field. Enter "Business" in the field. Select **Save**.  
+	- On the **Details** tab, locate the **Personal Notes** field. Enter `Business` in the field. Select **Save**.  
 
 	- Select one of the contacts. Navigate to the **Details** tab. Verify “Business” appears in the **Personal Notes** field. 
 
@@ -170,9 +165,9 @@ In an upcoming lab, students will build segments for a marketing campaign and an
 
 3.  Select **+New**.
 
-	- **Name:** Follow up with customer.
+	- **Name:** `Follow up with customer`
 
-	- **Subject**: Customer requested coverage review.
+	- **Subject**: `Customer requested coverage review`
 
 	- **Schedule type:** Delay (in days).
 
@@ -186,21 +181,24 @@ In an upcoming lab, students will build segments for a marketing campaign and an
 
 1.  Log into Dynamics 365 Customer Insights - Journeys. Change areas to the **Settings** area.
 
-2.  Navigate to **Brand profiles** under the Customer engagement group.
+2.  Navigate to **Brand profiles**, under the **Customer engagement** group.
 
-3.  Select the **Default brand profile.** Navigate to the **Senders** tab. You should see the Default sender record in the subgrid. Select the record to open it.
+3.  Open the **Default brand profile** record. Navigate to the **Senders** tab. You should see the **Default sender record** in the subgrid. Select the record to open it.
 
-4.  In the **From email**, change everything before the @ symbol to contosoinsurance. Change the **From name** to Contoso Insurance.
+4.  In the **From email**, change everything before the @ symbol to `contosoinsurance`
+
+5.  Change the **From name** to `Contoso Insurance`
    
-5.  Select **Save and close.** You will return to the Brand profile record.
+6.  Select **Save and close.** You will return to the Brand profile record.
 
-6. Select the **Social links** tab. Fill in the following:
+7. Select the **Social links** tab. Fill in the following:
 
-	- **LinkedIn URL**: [https://www.linkedin.com/company/contoso12345/about/](https://www.linkedin.com/company/contoso12345/about/)
+	- **LinkedIn URL**: `https://www.linkedin.com/company/contoso12345/about/`
 
-	- **Twitter URL**: [https://twitter.com/ContosoInc](https://twitter.com/ContosoInc)
+	- **Twitter URL**: `https://twitter.com/ContosoInc`
 
-	- **Facebook URL**: [https://www.facebook.com/Contoso-102137176602590/](https://www.facebook.com/Contoso-102137176602590/)
+	- **Facebook URL**: `https://www.facebook.com/Contoso-102137176602590/`
 
-9.  Select **Save and close.**
+8.  Select **Save & Close**.
+
 
