@@ -33,27 +33,27 @@ This lab compromises of three exercises:
 
 # Exercise 1: Create a segment
 
-1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time journeys** area.
 
-2.  Navigate to **Segments** under the **Audience** group. 
+2.  Navigate to **Segments**, under the **Audience** group. 
 
 3.  Select **+New Segment**.
 
-4.  In the **Name the segment** box, enter "Humongous Insurance." Select **Contact** as the target audience.
+4.  In the **Name the segment** box, enter `Humongous Insurance` Select **Contact** as the target audience.
 
-7.  Let's use Copilot to build our new segment. In the Query Assist text box, type "Contacts with account Humongous Insurance."
+7.  Let's use **Copilot** to build the new segment. In **Query Assist**, enter `Contacts with account "Humongous Insurance"` and select **Create**.
 
-8.  In the Query Assist pane, the Result will appear. Double check that the Result reads "Account is Humonogus Insurance." Since this looks like a result that will satisfy our segment requirements, select **Use.**
+8.  In the **Query Assist** pane, the **Result** will appear. Verify the Result reads **Account  Is  Humongous Insurance**. Since this looks like a result that will satisfy our segment requirements, select **Use**.
 
-9.  Copilot builds your condition in the segment designer. The Group 1 section will read "Account **Is** Humongous Insurance."
+9.  Copilot builds the condition in the **Segment Designer** pane. The **Group 1** condition will read "Account **Is** Humongous Insurance".
 
-10.  We want to add another condition to the segment. We will build this condition ourselves. Select **+Add new** to add a new group and select **Attribute group.**
+10. We want to add another condition to the segment. We will build this condition ourselves. Select **+Add new** to add a new group and select **Attribute group**.
 
-11. Change the operator from **and also** to **or.** 
+11. Change the operator from **and also** to **or**. 
 
-	- In the Attribute pane, start typing **Email**. Expand **Contact**. Click the plus button next to the field and add it to Group 2.
+    - In the Attribute pane, start typing **Email**. Expand **Contact**. Select the plus button next to the field and add it to **Group 2**.
 
-	- Create the following condition: Email **contains** humongousinsurance.
+    - Create the following condition: Email **contains** `humongousinsurance`
 
 12. Select **Save**.
 
