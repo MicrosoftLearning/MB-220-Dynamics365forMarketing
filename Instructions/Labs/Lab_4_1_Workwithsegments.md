@@ -41,11 +41,11 @@ This lab compromises of three exercises:
 
 4.  In the **Name the segment** box, enter `Humongous Insurance` Select **Contact** as the target audience.
 
-7.  Let's use **Copilot** to build the new segment. In **Query Assist**, enter `Contacts with account Humongous Insurance` and select **Create**.
+7.  Let's use **Copilot** to build the new segment. In **Query Assist**, enter `Contacts with account "Humongous Insurance"` and select **Create**.
 
-8.  In the **Query Assist** pane, the **Result** will appear. Double check that the Result reads **Account is Humonogus Insurance**. Since this looks like a result that will satisfy our segment requirements, select **Use**.
+8.  In the **Query Assist** pane, the **Result** will appear. Verify the Result reads **Account  Is  Humongous Insurance**. Since this looks like a result that will satisfy our segment requirements, select **Use**.
 
-9.  Copilot builds your condition in the segment designer. The Group 1 section will read "Account **Is** Humongous Insurance".
+9.  Copilot builds the condition in the **Segment Designer** pane. The **Group 1** condition will read "Account **Is** Humongous Insurance".
 
 10. We want to add another condition to the segment. We will build this condition ourselves. Select **+Add new** to add a new group and select **Attribute group**.
 
