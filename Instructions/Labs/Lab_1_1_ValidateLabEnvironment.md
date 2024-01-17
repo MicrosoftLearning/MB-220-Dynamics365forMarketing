@@ -25,25 +25,28 @@ minutes before the virtual machine has network connectivity to begin the labs.
 ## Exercise 1 - Access the Dynamics 365 application
 ---------------------------------------------------
 
-### Task 1 – Provision Dynamics 365 Customer Insights - Journeys Trial
+### Task 1 - Provision Dynamics 365 Customer Insights - Journeys Trial
 
-1.  In a new browser tab, navigate to [https://dynamics.microsoft.com/ai/customer-insights](https://dynamics.microsoft.com/ai/customer-insights/) and select **Try for free**. 
+1.  In a new browser tab, navigate to `https://dynamics.microsoft.com/ai/customer-insights` 
 
-2.  Enter the email address provided by the Authorized Lab Host and select **Start your free trial**. 
+2.  Select **Try for free**. 
 
-3.  Enter your password. 
+3.  Enter the email address provided by the Authorized Lab Host and select **Start your free trial**. 
 
-4.  Enter a phone number, or `0123456789` if you do not have one. Select **Submit**. 
+4.  Enter your password. 
 
-5.  Wait for the Trial to provision and select **Launch Trial**.
+5.  Enter a phone number, or `0123456789` if you do not have one. Select **Submit**. 
 
-6.  Select **Start Customer Insights - Journeys**.
+6.  Wait for the Trial to provision and select **Launch Trial**.
 
-7.  You should be directed to the **Dynamics 365 Customer Insights - Journeys** model-driven application. 
+7.  Select **Start Customer Insights - Journeys**.
 
-8.  Select **I agree** from the notification bar.
+8.  You should be directed to the **Dynamics 365 Customer Insights - Journeys** model-driven application. 
 
-### Task 2 – Set up Customer Voice
+9.  Select **I agree** from the notification bar.
+
+
+### Task 2 - Set up Customer Voice
 
 1.  In a new browser tab, navigate to `https://aka.ms/TryCustomerVoice` 
 
