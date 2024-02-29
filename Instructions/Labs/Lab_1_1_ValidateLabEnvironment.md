@@ -46,20 +46,7 @@ minutes before the virtual machine has network connectivity to begin the labs.
 9.  Select **I agree** from the notification bar.
 
 
-### Task 2 - Set up Customer Voice
-
-1.  In a new browser tab, navigate to `https://aka.ms/TryCustomerVoice` 
-
-2.  Select **Continue** or if you're not already signed in, enter the email address provided by the Authorized Lab Host. 
-
-3.  Select **Get Started**. 
-
-4.  Finally, select **Skip & go to Dynamics 365 Customer Voice**. 
-
-5.  If you receive an error, wait a moment for the trial provisioning to finish and **Refresh** the page. 
-
-
-### Task 3 - Configuration
+### Task 2 - Configuration
 
 1.  In Dynamics 365 Customer Insights - Journeys, change to the **Settings** area, select **Feature switches** under Overview. 
 
