@@ -44,15 +44,3 @@ minutes before the virtual machine has network connectivity to begin the labs.
 8.  You should be directed to the **Dynamics 365 Customer Insights - Journeys** model-driven application. 
 
 9.  Select **I agree** from the notification bar.
-
-
-### Task 2 - Configuration
-
-1.  In Dynamics 365 Customer Insights - Journeys, change to the **Settings** area, select **Feature switches** under Overview. 
-
-2.  Under **Integrations**, enable **Customer Voice integration** and select **I agree**. 
-
-3.  Select **Save**.
-
-4.  Select **OK**.
-
