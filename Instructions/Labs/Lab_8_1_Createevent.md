@@ -94,21 +94,19 @@ This lab comprises of seven exercises:
 
 	- Click **Save and Close**.
 
-6. Update the event website.
+6. Add a description to the event.
 
-	- Navigate to the **Website and form** tab.
+	- Navigate to the **Additional information** tab.
 
-	- Click the magnifying glass in the **Event image** field. Locate and select the coho-vineyard image then click **Select**.
+	- In the **Details** text box, enter the following: 
 
-	- Change **Enable CAPTCHA** to No.
+8. **Save** the event record.
 
-7. **Save** the event record.
+9. Click **Go Live** in the command bar.
 
-8. Click **Go Live** in the command bar.
+10. After the event finishes going live, open the **Event URL**.
 
-9. After the event finishes going live, open the **Event URL**.
-
-10. Review the details of the event.
+11. Review the details of the event.
 
 ## Exercise 2: Create the segments
 
