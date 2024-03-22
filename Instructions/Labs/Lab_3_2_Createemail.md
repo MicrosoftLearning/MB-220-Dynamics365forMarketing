@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 6.1: Create an email'
-    module: 'Module 6: Manage emails and journeys in real-time marketing'
+    title: 'Lab 3.2: Create an email'
+    module: 'Module 3: Create emails, forms, text messages, and push notifications'
 ---
 
-# Module 6: Manage emails and journeys in real-time marketing
+# Module 3: Create emails, forms, text messages, and push notifications
 
-## Practice Lab 6.1: Create an email
+## Practice Lab 3.2: Create an email
 
 # Lab Overview
 
