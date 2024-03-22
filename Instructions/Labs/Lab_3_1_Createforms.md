@@ -63,9 +63,9 @@ This lab compromises of two exercises:
 
 # Exercise 2: Host the form
 
-A pop-up window will appear with two options for publishing your form. In this exercise, we will publish the form as a standalone page.
+In this exercise, we will publish the form as a standalone page.
 
-1.  Select **Create**, under **Standalone page** > **Create new standalone page**.
+1.  At the top of the screen, select **Publish options.** Select **Create** under **Standalone page**.
 
 2.  **Wait** for the creation process.
 
