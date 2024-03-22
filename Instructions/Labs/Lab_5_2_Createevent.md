@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 8.1: Create an event and a post-event survey'
-    module: 'Module 8: Create surveys with Dynamics 365 Customer Voice'
+    title: 'Lab 5.2: Create an event and an event journey'
+    module: 'Module 5: Manage events'
 ---
 
-# Module 8: Create surveys with Dynamics 365 Customer Voice
+# Module 5: Manage events
 
-## Practice Lab 8.1: Create an event and a post-event survey
+## Practice Lab 5.2: Create an event and an event journey
 
 # Lab Overview
 
