@@ -16,7 +16,7 @@ Contoso Insurance wants to host a Business Appreciation Event as a thank you to 
 
 The event will take place next month at the Coho Winery in Seattle.
 
-They plan to send an invitation email, a confirmation email for those that register, and a follow up email with a link to a survey to those that attend the event.
+They plan to send an invitation email, a confirmation email for those that register, and a follow up email thanking those that attended the event.
 
 For this event, the Marketing Coordinator will need to:
 
