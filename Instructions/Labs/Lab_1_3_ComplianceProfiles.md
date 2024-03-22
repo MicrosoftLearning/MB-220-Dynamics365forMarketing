@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Lab 4.2: Create a compliance profile'
-    module: 'Module 4: Manage segments and consent'
+    title: 'Lab 1.3: Create a compliance profile'
+    module: 'Configure Dynamics 365 Customer Insights - Journeys'
 ---
 
 
-# Module 4: Manage segments and consent
+# Module 1: Configure Dynamics 365 Customer Insights - Journeys
 
-## Lab 4.2: Create a compliance profile
+## Lab 1.3: Create a compliance profile
 
 # Lab Overview
 
