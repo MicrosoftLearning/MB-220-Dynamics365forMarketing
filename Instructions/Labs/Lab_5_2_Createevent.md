@@ -22,9 +22,7 @@ For this event, the Marketing Coordinator will need to:
 
 - Create two segments – one for the invitees and one for the event attendees.
 
-- Use Customer Voice to create a survey to gather feedback about the event.
-
-- Create three emails – an invitation, a confirmation, and a post-event follow up email with a link to a survey.
+- Create three emails – an invitation, a confirmation, and a post-event follow up email.
 
 - Create a journey that will automate the delivery of the event content.
 
@@ -36,17 +34,13 @@ This lab comprises of seven exercises:
 
 - In the second exercise, you will create the segments needed to invite contacts to the event and follow up with attendees after the event.
 
-- In the third exercise, you will create a survey that will be sent to those that attended the event.
+- In the third exercise, you will create the emails needed for the event.
 
-- In the fourth exercise, you will create the emails needed for the event.
+- In the fourth exercise, you will create the journey to send the event communications.
 
-- In the fifth exercise, you will create the journey to send the event communications.
+- In the fifth exercise, you will register for the event.
 
-- In the sixth exercise, you will register for the event.
-
-- In the seventh exercise, you will check-in event attendees.
-
-- In the eighth exercise, you will fill out a survey.
+- In the sixth exercise, you will check-in event attendees.
 
 ## What You’ll Need
 
@@ -98,15 +92,16 @@ This lab comprises of seven exercises:
 
 	- Navigate to the **Additional information** tab.
 
-	- In the **Details** text box, enter the following: 
+	- In the **Description** text box, enter the following:
+	`We look forward to welcoming you to the beautiful Coho Winery to show our appreciation for your business.`
 
 8. **Save** the event record.
 
 9. Click **Go Live** in the command bar.
 
-10. After the event finishes going live, open the **Event URL**.
+10. After the event finishes going live, open the **Event URL** in a new tab.
 
-11. Review the details of the event.
+11. Review the website.
 
 ## Exercise 2: Create the segments
 
@@ -161,159 +156,7 @@ This lab comprises of seven exercises:
 
 	- Click **Save**. Then select **Ready to use.**
 
- 
-# Exercise 3: Create the survey
-
-1. Open a new tab in your browser.
-
-2. Log into Customer Voice by navigating to https://customervoice.microsoft.com/.
-
-3. Customer Voice is composed of projects and surveys. All surveys must reside under one project.
-
-4. Each user will see a personal dashboard specific to the user. No one else has access to your project/surveys.
-
-5. Click **+ New project** to begin.
-
-6. From the project template gallery, select the **Periodic customer feedback** template. Click **Next** on the bottom left of your screen. 
-
-7. Click **See all environments.** Select the same environment as the Customer Insights - Journeys app. To determine which environment to correct, compare the URL in the pop-up window within Customer Voice with the URL of the Customer Insights - Journeys app. Ask your instructor if you are unsure which environment to select. When the correct environment is selected, **Select and close.**
-
-8. Click **Create**.
-
-9. On left side you will see the name of the Project (Periodic customer feedback), the **Surveys** area, which shows all the surveys for that project, including the new one you just created, and the **Reports** area, which shows all the reports for the surveys within that project.
-
-	- In the **Surveys** section, click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename **to Business Appreciation Event Survey**. Click **Rename**.
-
-	- This is the name you will search for when linking your survey to other marketing content for the event.
-
-10. Click into the header of the survey. Change headline to **Contoso Insurance Business Appreciation Event Feedback.** Highlight the text then change the size to **26px** and the color to **white**. Click out of the header.
-
-11. Hover over the header. A menu will appear on the left of the header with options. Click **Theme color.** Type in this hexadecimal color **#0076AD.**
-
-12. Expand the **Customization** menu on the right.
-
-	1. Click **Satisfaction metrics.**
-
-		- Click **Add metric** and choose **Sentiment.**
-
-		- Click **Choose question** and select 3. What additional feedback would you like to share with us?
-
-		- Click **Save.**
-
-		- Close the Satisfaction metrics window.
-
-    2. Click **Advanced Logic**.
-    
-    	- Click **Use advanced logic.**
-    
-    	- Name the rule **Satisfaction alert.** 
-    
-    	- Click **+Add condition.** Select **Question** from the dropdown menu.
-    
-    	- Select the question: How would you rate your overall satisfaction with our company?
-    
-    	- In the operator area, from the drop down select is less than. 
-    
-    	- In the select response drop down, choose 3.
-    
-    	- Click **Save.**
-    
-    	- Close the Advanced logic window.
-    
-    3. Click **Branding**.
-    
-    	- Expand the Fonts menu.
-    
-    	- Change your **Header font** and **Body font** to Segoe UI.
-    
-    	- Close the Branding window.
-    
-    4. Click **Formatting**.
-    
-    	- Turn off **Progress bar.**
-    
-    	- Close the Formatting window.
-
-13. Choose the first question.
-
-	- Rename to: How would you rate the event?
-
-	- Change 1 Star to: Okay
-
-	- Change 5 Stars to: Great!
-
-	- Click out of the question to save.
-
-14. Delete the second question (Based on your experience with our company…)
-
-
-15. Add a new question.
-
-	- Click **+Add new.**
-
-	- Choose **Rating.**
-
-	- Question name: How would you rate the date and time of the event?
-
-	- Mark as **required.**
-
-	- Click the 3 dots to see more settings then select **Label**.
-
-	- 1 Star: Okay
-
-	- 5 Starts: Great!
-
-	- Click out of the question to save.
-
-16. Add a new question.
-
-	- Click **+Add new.**
-
-	- Choose **Rating.**
-
-	- Question name: How would you rate the location of the event?
-
-	- Mark as **required.**
-
-	- Click the 3 dots to see more settings then select **Label**.
-
-	- 1 Star: Okay
-
-	- 5 Starts: Great!
-
-	- Click out of the question to save.
-
-17. Add a new question.
-
-	- Click **+Add new.**
-
-	- Choose **Choice.**
-
-	- Question name: What did you think about the event length?
-
-	- Mark as **required.**
-
-	- Option 1: Too long
-
-	- Option 2: Too short
-
-	- Click **+ Add option.**
-
-	- Option 3: Just right
-
-	- Click out of the question to save.
-
-18. Select “What additional feedback would you like to share with us?” and move to the end of the survey by clicking the down arrow until it appears at the end.
-
-	- Click out of the question to save.
-
-19. Your survey is automatically saved and is now available for selection in Dynamics 365 Customer Insights - Journeys areas such as emails and journeys.
-
-20. Click **All Projects** on the left menu.
-
-21. Locate the **Periodic customer feedback** project. Click the vertical ellipsis next to **Periodic customer feedback** then select **Rename**. Rename to **Post Event Surveys**. Click **Rename**.
-
-# Exercise 4: Create the emails
+# Exercise 3: Create the emails
 
 1. Log into Dynamics 365 Customer Insights - Journeys.
 
@@ -429,21 +272,7 @@ This lab comprises of seven exercises:
 
             Hi {{Firstname}},            
             
-            Thanks for attending our Business Appreciation Event. We value your business and hope this event was a great way of showing our appreciation. If you don’t mind, please take a few minutes to fill out this brief survey so that we can further improve future events such as this one.            
-            
-            We look forward to continuing helping you with all your insurance needs!
-
-    - Update the button.
-    
-    	- **Link to**: URL
-  
-       - **Button text**: TAKE SURVEY
-  
-       	- Navigate to the tab with Customer Voice. Select the **Post Event Surveys** project to open the Business Appreciation Event survey. Select the **Send** tab.
-     
-       	- Select **Link**. Copy the link.
-     
-       	- Navigate back to the tab with your email. Copy the link into the URL text box. 
+            Thanks for attending our Business Appreciation Event. We value your business and hope this event was a great way of showing our appreciation. We look forward to continuing helping you with all your insurance needs!
     
     - Make any other changes as desired.
     
@@ -455,7 +284,7 @@ This lab comprises of seven exercises:
 
 # Exercise 5: Create the journey
 
-We will create two journeys - the first will include the invitation and confirmation emails. The second will include the post-event email with the link to the survey. 
+We will create two journeys - the first will include the invitation and confirmation emails. The second will include the post-event email.
 
 1. Log into Dynamics 365 Customer Insights - Journeys.
 
@@ -473,15 +302,15 @@ We will create two journeys - the first will include the invitation and confirma
 
 	- Click on the plus sign between Start and Exit arrows. Select **Send an email** from the menu.
 
-	- Click the **Send an email** tile. On the properties pane on the right, in the email field, click on the magnifying glass. Select the **Business Appreciation Event Invite**.
+	- Click the **Email** tile. On the properties pane on the right, in the email field, click on the magnifying glass. Select the **Business Appreciation Event Invite**.
 
-    - Click on the plus sign under to **Send an email.** Select **Respond to an action.**
+    - Click on the plus sign under to **Send an email.** Select **Wait for trigger.**
     
     - Click the **If/then branch** tile.
     
     	- In the **Choose a branch condition type**, select **A trigger is activated.**
     
-    	- In the **Choose a trigger** field, select **Marketing Event Registration Created**.
+    	- In the **Choose a trigger** field, select **Marketing Event Registration Created**. 
   
        	- Select **+Add condition.** Expand **Marketing event registration created** and select **Marketing Event Reference.** From the dropdown list, select the first option, **Condition on Marketing Event Reference.**
     
@@ -489,7 +318,7 @@ We will create two journeys - the first will include the invitation and confirma
 
       	- Set the time limit as **7 days.**
     
-    - In the **Yes** branch, click the plus sign. Select **Send an email**.
+    - In the **Yes** branch, click the plus sign. Select **Email**.
     
     	- In the **Email** field on the right, select **Business Appreciation Event Confirmation**.
     
@@ -585,12 +414,10 @@ The day of the event, a representative from Contoso Insurance would check in att
 
 8. Scroll down the page to the **Event Check-ins** section and verify you see the check-in record.
 
-# Exercise 8: Fill out a survey
+# Exercise 8: Open the final email
 
 1. Navigate to your email account. 
 
 2. Locate the email from **Contoso Insurance** with a subject line of **Thanks for attending our Business Appreciation Event!**
  
-3. Open the email. Click the button.
-
-5. Fill out the survey.
+3. Open the email. 
