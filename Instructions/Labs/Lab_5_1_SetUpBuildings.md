@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 7.1: Set up buildings and speakers'
-    module: 'Module 7: Manage events'
+    title: 'Lab 5.1: Set up buildings and speakers'
+    module: 'Module 5: Manage events'
 ---
 
-# Module 7: Manage events
+# Module 5: Manage events
 
-## Lab 7.1: Set up buildings and speakers
+## Lab 5.1: Set up buildings and speakers
 
 # Lab Overview
 
