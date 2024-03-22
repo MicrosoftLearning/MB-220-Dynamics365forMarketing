@@ -42,7 +42,3 @@ This lab compromises of one exercise:
 
 4. Navigate to **Analytics** under the **Engagement** group. Explore the **Journeys** tab, including the engagement successes and issues. Then select the **Channels** tab. Here, you can view your channel open and click through rates.
 
-8. Navigate to **Customer Voice.**
-
-	- Select **Business Appreciation Event Survey** from the **Reports** group. Examine your survey responses.
-
