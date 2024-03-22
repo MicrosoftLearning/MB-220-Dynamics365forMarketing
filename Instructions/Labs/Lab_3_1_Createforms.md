@@ -84,5 +84,7 @@ In this exercise, we will publish the form as a standalone page.
 
 8.  Open the **Cross Sell Campaign Form** record. Navigate to the **Submissions** tab.
 
-9.  Verify **John Doe** exists as a Submission. Select **John Doe** to open the new **Contact** record. 
+9.  Verify that the **John Doe** submission exists as a record in the Submissions subgrid. (You may need to refresh the subgrid.)
+
+10. Navigate to **Audience > Contacts.** In the search bar, start typing "John." The new contact **John Doe** should appear as a new contact thanks to their form submission.
 
