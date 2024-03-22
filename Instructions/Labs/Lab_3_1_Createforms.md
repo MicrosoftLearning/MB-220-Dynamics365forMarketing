@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 3.1: Create a form'
-    module: 'Module 3: Manage forms'
+    module: 'Module 3: Create emails, forms, text messages, and push notifications'
 ---
 
-# Module 3: Manage forms
+# Module 3: Create emails, forms, text messages, and push notifications
 
 ## Practice Lab 3.1 - Create a form
 
