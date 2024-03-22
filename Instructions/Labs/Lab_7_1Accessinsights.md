@@ -4,9 +4,9 @@ lab:
     module: 'Module 7: Review insights in Dynamics 365 Customer Insights - Journeys'
 ---
 
-# Module 9: Analyze insights with Dynamics 365 Customer Insights - Journeys
+# Module 7: Analyze insights with Dynamics 365 Customer Insights - Journeys
 
-## Lab 9.1: Review insights in Dynamics 365 Customer Insights - Journeys
+## Lab 7.1: Review insights in Dynamics 365 Customer Insights - Journeys
 
  
 
