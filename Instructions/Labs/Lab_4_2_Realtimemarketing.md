@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 6.2: Create a journey'
-    module: 'Module 6: Manage emails and journeys'
+    title: 'Lab 4.2: Create a journey'
+    module: 'Module 4: Create segments and journeys'
 ---
 
-# Module 6: Manage emails and journeys in real-time marketing
+# Module 4: Create segments and journeys
 
-## Practice Lab 6.1 – Create a journey
+## Practice Lab 4.2 – Create a journey
 
 # Lab Overview
 

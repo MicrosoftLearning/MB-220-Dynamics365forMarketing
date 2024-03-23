@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 3.1: Create a form'
-    module: 'Module 3: Manage forms'
+    module: 'Module 3: Create emails, forms, text messages, and push notifications'
 ---
 
-# Module 3: Manage forms
+# Module 3: Create emails, forms, text messages, and push notifications
 
 ## Practice Lab 3.1 - Create a form
 
@@ -63,9 +63,9 @@ This lab compromises of two exercises:
 
 # Exercise 2: Host the form
 
-A pop-up window will appear with two options for publishing your form. In this exercise, we will publish the form as a standalone page.
+In this exercise, we will publish the form as a standalone page.
 
-1.  Select **Create**, under **Standalone page** > **Create new standalone page**.
+1.  At the top of the screen, select **Publish options.** Select **Create** under **Standalone page**.
 
 2.  **Wait** for the creation process.
 
@@ -84,5 +84,7 @@ A pop-up window will appear with two options for publishing your form. In this e
 
 8.  Open the **Cross Sell Campaign Form** record. Navigate to the **Submissions** tab.
 
-9.  Verify **John Doe** exists as a Submission. Select **John Doe** to open the new **Contact** record. 
+9.  Verify that the **John Doe** submission exists as a record in the Submissions subgrid. (You may need to refresh the subgrid.)
+
+10. Navigate to **Audience > Contacts.** In the search bar, start typing "John." The new contact **John Doe** should appear as a new contact thanks to their form submission.
 

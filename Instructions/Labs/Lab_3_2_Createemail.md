@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 6.1: Create an email'
-    module: 'Module 6: Manage emails and journeys in real-time marketing'
+    title: 'Lab 3.2: Create an email'
+    module: 'Module 3: Create emails, forms, text messages, and push notifications'
 ---
 
-# Module 6: Manage emails and journeys in real-time marketing
+# Module 3: Create emails, forms, text messages, and push notifications
 
-## Practice Lab 6.1: Create an email
+## Practice Lab 3.2: Create an email
 
 # Lab Overview
 
@@ -44,9 +44,9 @@ This lab compromises of one exercise:
 
 	- Type the following in the **Subject**: “Ensure all aspects of your business are covered”.
 
-	- Change the **From name** to Contoso Insurance.
+	- Make sure that the **From name** says Contoso Insurance.
 
-7. In the **Toolbox**, switch to the **General styles** tab.
+7. In the **Toolbox**, switch to the **Theme** tab.
 
 	- Note: The details in this section affect the entire email. If you add new text elements to the email, it will default to the font, size and color listed here. You can then updated those elements as needed.
 
@@ -158,22 +158,22 @@ This lab compromises of one exercise:
 
 20. Select **Preview and test**.
 
-	- In the Preview personalization pane, enter the first name of the contact you created. Select the contact to watch the personalization change.
+	- Click **Edit sample data.** In the Preview personalization pane, enter the first name of the contact you created. Select the contact to watch the personalization change.
 
 	- Preview the email on all screen sizes.
 
-21. Click **Ready to send.** Click the notification bar to view the errors. 3 errors should be thrown:
-	- From email
-	- Reply to email
+21. Click **Ready to send.** Click the notification bar to view the errors. 2 errors should be thrown:
+	- Compliance profile
 	- Purpose
 
 22. Let's fix these errors and get the email ready for sending.
     - Return to the Design tab.
-    - Expand the **Brand profile** section and select the **Default brand profile.**
-    - From email will be filled with a default sender email for your organization's domain. 
-    - Select the **Email header** section from the right pane. Under **Compliance profile,** select **Contoso Americas.** The Purpose should automatically update to **Commercial.**
+    - Select the **Settings** section.
+    - Expand **Compliance.**
+    - Select the **Contoso Americas** compliance profile.
+    - Make sure **Commercial** is selected for Purpose.
 
-24. Click the arrow next to **Check content**. Choose both **Accessibility checker** and **Spam checker** to see if there are any other issues within the email. Mitigate any other issues as you see fit. 
+24. Click the arrow next to **Check content**. Run the **Accessibility checker**  to see if there are any other issues within the email. Mitigate any other issues as you see fit. 
 
 25. On the toolbar, click **Ready to send.**.
 

@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 4.1: Create a segment'
-    module: 'Module 4: Manage segments and consent'
+    module: 'Module 4: Create segments and journeys'
 ---
 
-# Module 4: Manage segments and consent
+# Module 4: Create segments and journeys
 
 ## Practice Lab 4.1: Work with segments
 

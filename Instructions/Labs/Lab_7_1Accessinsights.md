@@ -1,12 +1,12 @@
 ---
 lab:
-    title: 'Lab 9.1: Access insights in Dynamics 365 Customer Insights - Journeys'
-    module: 'Module 9: Review insights in Dynamics 365 Customer Insights - Journeys'
+    title: 'Lab 7.1: Access insights in Dynamics 365 Customer Insights - Journeys'
+    module: 'Module 7: Review insights in Dynamics 365 Customer Insights - Journeys'
 ---
 
-# Module 9: Analyze insights with Dynamics 365 Customer Insights - Journeys
+# Module 7: Analyze insights with Dynamics 365 Customer Insights - Journeys
 
-## Lab 9.1: Review insights in Dynamics 365 Customer Insights - Journeys
+## Lab 7.1: Review insights in Dynamics 365 Customer Insights - Journeys
 
  
 
@@ -41,8 +41,4 @@ This lab compromises of one exercise:
 	- Navigate back the **Designer** tab. Select an email tile. The Analytics tab will now show the delivery funnel. Select **Delivery and interaction details** at the bottom of the pane to view delivery details for each contact.
 
 4. Navigate to **Analytics** under the **Engagement** group. Explore the **Journeys** tab, including the engagement successes and issues. Then select the **Channels** tab. Here, you can view your channel open and click through rates.
-
-8. Navigate to **Customer Voice.**
-
-	- Select **Business Appreciation Event Survey** from the **Reports** group. Examine your survey responses.
 
