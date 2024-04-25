@@ -14,7 +14,7 @@ lab:
 
 The first step in setting up the Cross Sell Campaign will be to create the segments for the journey.
 
-The Marketing Coordinator will start by creating a segment for all current business contacts. The marketing team is also aware that their competitors will occasionally fill out forms on the Contoso Insurance website, so they want to make sure to exclude competitor contacts from all marketing campaigns. 
+The Marketing Coordinator will start by creating a segment for all current business contacts.
 
 ## Lab Overview
 
@@ -22,7 +22,7 @@ This lab compromises of three exercises:
 
 1. In exercise one, you will create a segment for all competitors from Humongous Insurance. 
 
-2. In exercise two, you will create a segment for all active business contacts and exclude competitor contacts.
+2. In exercise two, you will create a segment for all active business contacts.
 
 3. In exercise three, you will create your own contact record to be able to participate in the journey.
 
@@ -66,7 +66,7 @@ This lab compromises of three exercises:
 	- Note: You may need to refresh or wait a few minutes before the contacts appear. 
 
 
-# Exercise 2: Create a segment with exclusion
+# Exercise 2: Create another segment
 
 1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** section.
 
@@ -82,17 +82,11 @@ This lab compromises of three exercises:
 
 8.  Review the Result. It should say "Description contains business." Select **Use.**
 
-9.  In the Elements pane, select the **Segments** tab. You should see the Humongous Insurance segment you created in Exercise 1. (If your segment is not in the pane, your segment may still be building.)
+9. Select **Save** and then select **Ready for use.**
 
-10.  Select the plus sign next to the Humongous Insurance segment. It will create a new Group 2.
+10. Wait for your segment to build.
 
-11. Change the operator to **but not.** This will create a segment that includes all contacts with "Business" in their Description *except* those from your competitor, Humoongous Insurance.
-
-12. Select **Save** and then select **Ready for use.**
-
-12. Wait for your segment to build.
-
-13. Select the **Members and insights** tab. Verify you do not see any contacts with a Humongous Insurance email. 
+11. Select the **Members and insights** tab to view your segment members.
 
 
 # Exercise 3: Create a contact
