@@ -35,19 +35,21 @@ This lab compromises of three exercises:
 
 1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time journeys** area.
 
-2.  Navigate to **Segments**, under the **Audience** group. 
+1.  Navigate to **Segments**, under the **Audience** group. 
 
-3.  Select **+New Segment**.
+1.  Select **+New Segment**.
 
-4.  In the **Name the segment** box, enter `Humongous Insurance` Select **Contact** as the target audience.
+1.  In the **Name the segment** box, enter `Humongous Insurance` Select **Contact** as the target audience. Select **Create.**
 
-7.  Let's use **Copilot** to build the new segment. In **Query Assist**, enter `Contacts with account "Humongous Insurance"` and select **Create**.
+1. Select **Add a new group** in the segment designer. First, we will choose an **Attribute block.**
 
-8.  In the **Query Assist** pane, the **Result** will appear. Verify the Result reads **Account  Is  Humongous Insurance**. Since this looks like a result that will satisfy our segment requirements, select **Use**.
+1. From the **Attributes** pane, expand **Contact** and select **Account.** Add item to the existing group.
 
-9.  Copilot builds the condition in the **Segment Designer** pane. The **Group 1** condition will read "Account **Is** Humongous Insurance".
+1. In the lookup in Group 1, select **Humongous Insurance.**
+   
+1. The **Group 1** condition will read "Account **Is** Humongous Insurance".
 
-10. We want to add another condition to the segment. We will build this condition ourselves. Select **+Add new** to add a new group and select **Attribute group**.
+10. We want to add another condition to the segment. Select **+Add new** to add a new group and select **Attribute group**.
 
 11. Change the operator from **and also** to **or**. 
 
@@ -76,17 +78,15 @@ This lab compromises of three exercises:
 
 4.  Name the segment `Business Customers`. Keep **Contact** selected as target audience.
 
-6.  Let's use Copilot to create our segment again. In the Query Assist text box, type "Contact who description contains business."
+5. Add a new group and select **Create attribute group.** In the Attributes pane, expand **Contact** and add **Description** to Group 1.
 
-7.  Click **Create.**
+6. In the segment designer, change the qualifier to **Contains**. For the value, enter "Business."
 
-8.  Review the Result. It should say "Description contains business." Select **Use.**
+7. Select **Save** and then select **Ready for use.**
 
-9. Select **Save** and then select **Ready for use.**
+8. Wait for your segment to build.
 
-10. Wait for your segment to build.
-
-11. Select the **Members and insights** tab to view your segment members.
+9. Select the **Members and insights** tab to view your segment members.
 
 
 # Exercise 3: Create a contact
