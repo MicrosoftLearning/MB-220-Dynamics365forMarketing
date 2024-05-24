@@ -119,14 +119,14 @@ This lab comprises of seven exercises:
 
 	- Name the segment **Business Appreciation Event Invitees**. Keep target audience as **Contact.** Select **Create.**
 
-	- Let's try using Query Assist to use natural language to build our segment. Click the **Query Assist** tab on the right pane. In the text box, use natural language to describe a segment with the following conditions:
+	- Let's create a segment with the following specifications:
 
-		- The contact's City is Bellevue, Redmond, or Seattle.
+		- The contact's City is Bellevue, Redmond, or Seattle, **and**
    		- The contact does not work for Humongous Insurance.
 	
- 	- The Result should look like: **Address 1: City** is in Seattle, Redmond, Bellevue and **Account** is not **Humongous Insurance.**
+ 	- Let's start with Group 1. Your first group should look like Address 1: City **is in** Seattle, Redmond, Bellevue.
 	
- 	- This will work, but let's use the segment we created in a previous lab, which will capture contacts who not only have our competitor listed as their Account, but also those who have a competitor's email address. Delete the second group by using the trash can symbol.
+ 	- For the second group, let's use the segment we created in a previous lab, which will capture contacts who not only have our competitor listed as their Account, but also those who have a competitor's email address. 
 
 	- Select **+ Add new** to add a new group and select **Existing segment**.
 
@@ -152,9 +152,21 @@ This lab comprises of seven exercises:
 
 	- Name the segment **Business Appreciation Event Attendees**. Keep **Contact** as the target audience. Click **Create.**
 
-	- In the Natural Query Assist, type "Contacts who attended the Contoso Insurance Business Appreciation Event." The result should include "Event (Event Registration) is Contoso Insurance Business Appreciation Event."
+	- In the segment designer, add an **Attribute Group.**
 
-	- Click **Save**. Then select **Ready to use.**
+	- Let's use the search box to find the right attribute. Type "event" into the search box. Expand **Event Registration**. From the expanded options, select the **Event** attribute.
+
+	- Since we will be using an attribute that is not on the Contact table, we need to dictate the correct path. Select **Event Registration > Contact** and select **Next.**
+
+	- Select **Contact** from the dropdown menu. The Summary below the dropdown should read **Event Registration > Contact via *Contact.***
+
+	- Select **Select path.**
+
+	- Leave the modifier as **Is.**
+
+	- In the Event lookup, select the Contoso Business Appreciation Event.
+
+	- Select **Save**. Then select **Ready to use.**
 
 # Exercise 3: Create the emails
 
