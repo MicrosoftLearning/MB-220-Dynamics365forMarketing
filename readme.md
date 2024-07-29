@@ -1,3 +1,5 @@
+**This course will be retiring on  **2024/11/29**.  Once course is retired, all GitHub repos will be removed. Thank you.**
+
 # MB-220 Dynamics 365 Customer Insights - Journeys
 
 - **[Download Latest Student Handbook and AllFiles Content](https://learningdownloadcenter.microsoft.com/)**
